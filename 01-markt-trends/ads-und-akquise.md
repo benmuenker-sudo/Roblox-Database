@@ -91,6 +91,8 @@ Quelle: [Thumbnails](https://create.roblox.com/docs/production/publishing/thumbn
 - Wiederverwenden bestehender Thumbnails/Icons „shouldn't negatively affect discoverability“ ✅ ([Discovery FAQ](https://create.roblox.com/docs/discovery-faq)).
 - Roadmap Ende 2026: „deceptive game copy takedown“ gegen Spiele, die Titel oder Thumbnail anderer imitieren ✅ ([Creator Roadmap Fall 2026](https://devforum.roblox.com/t/creator-roadmap-2026-fall-update/4880208)).
 
+Gestaltungsregeln für Thumbnails und Icons im Detail: `04-ui-ux/thumbnails-und-icons.md`.
+
 ### 6. Schaufenster: Icons ✅
 Quelle: [Icons](https://create.roblox.com/docs/production/publishing/experience-icons)
 - Vorlage **512×512**, quadratisch, mindestens 512×512; wird bis auf **150×150** verkleinert.
@@ -135,6 +137,8 @@ Quelle: [Experience notifications](https://create.roblox.com/docs/production/pro
 - **Korrektur:** Today's Picks ist redaktionell, nicht engagementgetrieben.
 
 ### 11. Einnahmeseite: Werbung im eigenen Spiel
+Weitere Einnahmequellen und Auszahlungen: `07-monetarisierung/einnahmequellen-und-auszahlungen.md`.
+
 **Rewarded Video** ✅ ([Rewarded video ads](https://create.roblox.com/docs/production/promotion/rewarded-video-ads))
 
 | Zeitpunkt | Status | Quelle |

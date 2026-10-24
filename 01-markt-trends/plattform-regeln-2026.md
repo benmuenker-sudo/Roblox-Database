@@ -144,6 +144,8 @@ Quelle: [Paid random items policy guidelines](https://create.roblox.com/docs/pro
 - **Rights Manager:** zentrale Entfernungsanträge; ein „Claim“ ist keine DMCA-Mitteilung; unbestrittene Inhalte werden aus Marketplace/Creator Store entfernt ✅ ([IP Platform Terms](https://en.help.roblox.com/hc/en-us/articles/21857240911380-IP-Platform-Terms-of-Use)). Beschwerden 2025 über monatelange Bearbeitung und falsche Takedowns 🟠.
 
 ### 11. Monetarisierung gegenüber Minderjährigen (Kontext)
+Ausführlich zu fairer Gestaltung und Recht: `07-monetarisierung/ethik-und-recht.md`; Zufallsmechaniken: `03-mechaniken-retention/gacha-und-luck.md`.
+
 - University of Sydney (2026): irreführende Kaufgestaltung in 14 von 15 populären Spielen; Monash: 58 % sahen 10+ Dark Patterns in 12 Monaten 🟡 ([ACS Information Age](https://ia.acs.org.au/article/2026/roblox-sucking-up-money-from-young-players--study.html); [Sydney-Bericht](https://ses.library.usyd.edu.au/bitstream/handle/2123/35033/Misleading%20and%20Deceptive%20Monetisation%20in%20Roblox%20-%20Final.pdf?sequence=3&isAllowed=y)).
 - Mai 2026: Beschwerde von Interessengruppen gegen künstlich verknappte Items, Lootboxen und die Robux-Schicht (ob bei der FTC, ist zwischen Quellen strittig) 🟡 ([Fortune](https://fortune.com/2026/05/20/exclusive-advocacy-groups-file-complaint-roblox-manipulative-design/)).
 - Klage nach Texas Deceptive Trade Practices Act läuft; Vergleiche mit Alabama, Nevada, West Virginia im April 2026 ✅ ([10-Q Q2 2026](https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051082/rblx-20260630.htm)).

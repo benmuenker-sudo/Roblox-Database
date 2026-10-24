@@ -132,6 +132,8 @@ Quelle: [Discovery](https://create.roblox.com/docs/discovery); [Discovery FAQ](h
 - 🧠 Charts scheinen kurzfristige Wachstumsgeschwindigkeit zu belohnen, RFY dagegen 28-Tage-Retention. Ein viraler Spike kann also Charts gewinnen, ohne RFY zu gewinnen (siehe Steal An Egg).
 
 ### 9. Analytics-Werkzeuge für Discovery ✅
+Ausführlich: `03-mechaniken-retention/analytics-und-experimente.md`; Thumbnail-/Icon-Gestaltung: `04-ui-ux/thumbnails-und-icons.md`; Werbung: `ads-und-akquise.md`.
+
 - **Home recommendation signals** (PTR, Bounce mit Benchmark) im Creator Hub ([Discovery](https://create.roblox.com/docs/discovery)).
 - **Retention nach Akquisequelle** auf Overview- und Retention-Seite ([DevForum 4010157](https://devforum.roblox.com/t/analytics-view-retention-by-acquisition-source-and-select-your-benchmark-set/4010157)).
 - **Benchmarks:** 50.–90. Perzentil ähnlicher Spiele, ab 100 DAU; Beispiel D1-Band **12,11–18,73 %** (Korrektur: nicht 12,4–24,1 %) ([Analytics dashboard](https://create.roblox.com/docs/production/analytics/analytics-dashboard)).

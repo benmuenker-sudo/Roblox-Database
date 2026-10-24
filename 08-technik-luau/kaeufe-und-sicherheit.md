@@ -670,7 +670,7 @@ Grundsätze: **Der Server entscheidet** (nie auf Basis von Client-Erkennung bann
 - **Honeypots**: ein RemoteEvent, das kein legitimer Client nutzt; jeder Aufruf ist verdächtig. Variante: Remotes mit fester Richtung, Aufruf in falscher Richtung = Flag ✅.
 - **Konsequenz-Leiter**: stilles Loggen → leise Abschwächung (Requests verwerfen, Werte klemmen, Zustand korrigieren) → temporäre Einschränkungen (Handel, Ranglisten, Matchmaking) → sichtbare Strafen (Kick, Sperre, Bann) ✅.
 - Sichtbare Strafen **verzögern**, damit Exploiter nicht lernen, was sie verraten hat; Erkennungsregeln versionieren ✅.
-- Für Wiederholungstäter `Players:BanAsync()` statt nur Kicks (unterbindet Rejoin, wirkt universumweit, optional gegen Alt-Accounts) ✅ ([Players](https://create.roblox.com/docs/reference/engine/classes/Players)).
+- Für Wiederholungstäter `Players:BanAsync()` statt nur Kicks: unterbindet den Rejoin, gilt wahlweise für das ganze Universum oder nur den Place, mit Dauer, Begründung und optional gegen vermutete Alt-Accounts; aktiviert über `Players.BanningEnabled` ✅ ([Players](https://create.roblox.com/docs/reference/engine/classes/Players)).
 
 ### 18. Defensives Design ✅
 Quelle: [Defensive design tactics](https://create.roblox.com/docs/scripting/security/defensive-design)

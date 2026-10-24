@@ -173,7 +173,7 @@ Quellen: [Wikipedia Grow a Garden](https://en.wikipedia.org/wiki/Grow_a_Garden);
 - Meinungsstück (Jan 2026): Roblox-Entwickler „burn themselves out crunching to add new updates weekly“ 🟠 ([Slyther Games](https://www.slythergames.com/2026/01/09/i-wish-roblox-developers-focused-on-depth-over-constant-updates/)).
 
 ## Beispiele aus echten Spielen
-Siehe Fallstudien oben. Kurzform:
+Siehe Fallstudien oben; Retention- und Live-Ops-Details der Studios in `03-mechaniken-retention/fallstudien.md` und `03-mechaniken-retention/live-ops-events.md`. Kurzform:
 - **Gewinnt Spitzen:** Steal-/Raid-Loop + Admin-Event am Samstag (GAG, SaB, Steal An Egg).
 - **Hält länger:** Koop mit Ziel (99 Nights), Kompetition (Rivals), Tausch-Ökonomie mit saisonalen Boxen (MM2), Content-wenn-fertig mit limitierten Events (PS99).
 

@@ -114,7 +114,7 @@ Quelle: [PocketGamer.biz](https://www.pocketgamer.biz/roblox-revenue-rises-36-yy
 - **DevEx-Kurse:** Standard **0,0038 $/Robux** (114 $ für 30.000 Earned Robux) seit 05.09.2025, vorher 0,0035 $; Altguthaben wird zuerst zum alten Kurs ausgezahlt; US-18+-Kurs 0,0054 $ seit 08.06.2026 ✅ ([Developer Exchange](https://create.roblox.com/docs/production/monetization/developer-exchange)).
 - **Faustregel:** 1,503 Mrd. $ DevEx bei 6,8 Mrd. $ Bookings ≈ **22 % jedes Spieler-Dollars** kommen als Bargeld bei Creators an 🧠 (gerechnet aus ✅-Werten).
 - Ab 31.10.2026: 0–30 % US-Quellensteuer auf DevEx aus US-Verkäufen je nach Steuerangaben ✅ ([Tax information](https://create.roblox.com/docs/production/monetization/tax-information)).
-- Mehr zu Monetarisierung: `07-monetarisierung/monetarisierung.md`.
+- Mehr zu Monetarisierung: `07-monetarisierung/monetarisierung.md` und `07-monetarisierung/einnahmequellen-und-auszahlungen.md`.
 
 ### 8. Ausblick (🧠, aus offiziellen Aussagen abgeleitet)
 - **Kurzfristig:** Q3 2026 wird voraussichtlich das erste Quartal mit Buchungsrückgang; ob Steal An Egg das abfedert, gilt als offene Frage 🟡 ([Yahoo Finance/TIKR](https://finance.yahoo.com/markets/stocks/articles/roblox-stock-down-37-2026-041623422.html)).
