@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><marker id="pfeil1b2440" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1b2440"/></marker><marker id="pfeil7428d1" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#7428d1"/></marker><marker id="pfeil1f6fd1" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1f6fd1"/></marker><marker id="pfeil1e9e55" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1e9e55"/></marker></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Der Core Loop und seine drei Zeitebenen</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Aktion → Feedback → Belohnung → Verbesserung → neue Möglichkeit · dazu Mikro-, Meso- und Makro-Loop</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Jede Runde fühlt sich anders an; alle drei Ebenen nötig  ·  core-loop-diagramm.png</text>
+<circle cx="440" cy="488" r="270" fill="none" stroke="#c9d3ee" stroke-width="26"/>
+<path d="M554.1,243.3 A270.0,270.0 0 0 1 637.5,303.9" fill="none" stroke="#1b2440" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<path d="M708.0,520.9 A270.0,270.0 0 0 1 676.1,618.9" fill="none" stroke="#1b2440" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<path d="M491.5,753.0 A270.0,270.0 0 0 1 388.5,753.0" fill="none" stroke="#1b2440" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<path d="M203.9,618.9 A270.0,270.0 0 0 1 172.0,520.9" fill="none" stroke="#1b2440" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<path d="M242.5,303.9 A270.0,270.0 0 0 1 325.9,243.3" fill="none" stroke="#1b2440" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<rect x="301.07" y="185" width="277.86" height="76" rx="29.23" fill="#1f6fd1" stroke="#1b2440" stroke-width="3"/>
+<rect x="301.07" y="180" width="277.86" height="76" rx="29.23" fill="#3d9bff" stroke="#1b2440" stroke-width="3"/>
+<rect x="309.07" y="184" width="261.86" height="22.8" rx="8" fill="#ffffff" opacity="0.25"/>
+<text x="335.07" y="230.24" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">👆</text>
+<text x="361.07" y="216" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4.2" paint-order="stroke" stroke-linejoin="round">Aktion</text>
+<text x="361.07" y="238" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start" stroke="#1f6fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">klicken, pflanzen, kämpfen</text>
+<rect x="589.79" y="371.57" width="213.98" height="76" rx="29.23" fill="#139595" stroke="#1b2440" stroke-width="3"/>
+<rect x="589.79" y="366.57" width="213.98" height="76" rx="29.23" fill="#22c7c7" stroke="#1b2440" stroke-width="3"/>
+<rect x="597.79" y="370.57" width="197.98" height="22.8" rx="8" fill="#ffffff" opacity="0.25"/>
+<text x="623.79" y="416.81" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">✨</text>
+<text x="649.79" y="402.57" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4.2" paint-order="stroke" stroke-linejoin="round">Feedback</text>
+<text x="649.79" y="424.57" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start" stroke="#139595" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ton, Partikel, Zahl</text>
+<rect x="480.51" y="673.43" width="236.39" height="76" rx="29.23" fill="#d99a0b" stroke="#1b2440" stroke-width="3"/>
+<rect x="480.51" y="668.43" width="236.39" height="76" rx="29.23" fill="#ffc93c" stroke="#1b2440" stroke-width="3"/>
+<rect x="488.51" y="672.43" width="220.39" height="22.8" rx="8" fill="#ffffff" opacity="0.25"/>
+<text x="514.51" y="718.67" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">💰</text>
+<text x="540.51" y="704.43" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4.2" paint-order="stroke" stroke-linejoin="round">Belohnung</text>
+<text x="540.51" y="726.43" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start" stroke="#d99a0b" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Währung, Item, Fund</text>
+<rect x="154.52" y="673.43" width="253.55" height="76" rx="29.23" fill="#7428d1" stroke="#1b2440" stroke-width="3"/>
+<rect x="154.52" y="668.43" width="253.55" height="76" rx="29.23" fill="#a24dff" stroke="#1b2440" stroke-width="3"/>
+<rect x="162.52" y="672.43" width="237.55" height="22.8" rx="8" fill="#ffffff" opacity="0.25"/>
+<text x="188.52" y="718.67" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">⬆️</text>
+<text x="214.52" y="704.43" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4.2" paint-order="stroke" stroke-linejoin="round">Verbesserung</text>
+<text x="214.52" y="726.43" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start" stroke="#7428d1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Upgrade, Kauf</text>
+<rect x="35.52" y="371.57" width="295.39" height="76" rx="29.23" fill="#1e9e55" stroke="#1b2440" stroke-width="3"/>
+<rect x="35.52" y="366.57" width="295.39" height="76" rx="29.23" fill="#2ecc71" stroke="#1b2440" stroke-width="3"/>
+<rect x="43.52" y="370.57" width="279.39" height="22.8" rx="8" fill="#ffffff" opacity="0.25"/>
+<text x="69.52" y="416.81" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">🔓</text>
+<text x="95.52" y="402.57" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4.2" paint-order="stroke" stroke-linejoin="round">Neue Möglichkeit</text>
+<text x="95.52" y="424.57" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start" stroke="#1e9e55" stroke-width="3" paint-order="stroke" stroke-linejoin="round">schneller, größer, neu</text>
+<text x="440" y="470" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="46" font-weight="700" text-anchor="middle">CORE</text>
+<text x="440" y="518" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="46" font-weight="700" text-anchor="middle">LOOP</text>
+<text x="440" y="554" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Erste Aktion &lt; 10 s</text>
+<text x="440" y="576" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Erste Belohnung &lt; 30 s</text>
+<circle cx="1196" cy="462" r="300" fill="#a24dff" stroke="#1b2440" stroke-width="3" fill-opacity="0.22"/>
+<circle cx="1196" cy="462" r="300" fill="none" stroke="#a24dff" stroke-width="5"/>
+<circle cx="1196" cy="462" r="200" fill="#3d9bff" stroke="#1b2440" stroke-width="3" fill-opacity="0.22"/>
+<circle cx="1196" cy="462" r="200" fill="none" stroke="#3d9bff" stroke-width="5"/>
+<circle cx="1196" cy="462" r="102" fill="#2ecc71" stroke="#1b2440" stroke-width="3" fill-opacity="0.22"/>
+<circle cx="1196" cy="462" r="102" fill="none" stroke="#2ecc71" stroke-width="5"/>
+<path d="M1346.0,202.2 A300.0,300.0 0 0 1 1485.8,384.4" fill="none" stroke="#7428d1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil7428d1)"/>
+<path d="M1046.0,721.8 A300.0,300.0 0 0 1 906.2,539.6" fill="none" stroke="#7428d1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil7428d1)"/>
+<path d="M1296.0,288.8 A200.0,200.0 0 0 1 1389.2,410.2" fill="none" stroke="#1f6fd1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1f6fd1)"/>
+<path d="M1096.0,635.2 A200.0,200.0 0 0 1 1002.8,513.8" fill="none" stroke="#1f6fd1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1f6fd1)"/>
+<path d="M1247.0,373.7 A102.0,102.0 0 0 1 1294.5,435.6" fill="none" stroke="#1e9e55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1e9e55)"/>
+<path d="M1145.0,550.3 A102.0,102.0 0 0 1 1097.5,488.4" fill="none" stroke="#1e9e55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1e9e55)"/>
+<text x="1196" y="210" fill="#7428d1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle">MAKRO · Tage – Wochen</text>
+<text x="1196" y="234" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="middle">Rebirth, Saison, Sammelbuch</text>
+<text x="1196" y="306" fill="#1f6fd1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="middle">MESO · 3 – 15 min</text>
+<text x="1196" y="329" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="middle">Welle, Auftrag</text>
+<text x="1196" y="448" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="24" font-weight="700" text-anchor="middle">MIKRO</text>
+<text x="1196" y="476" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="middle">2 – 30 s</text>
+<text x="1196" y="502" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Ernten, Schlagen</text>
+<text x="1196" y="630" fill="#1f6fd1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Zweck: Sitzungsziele</text>
+<text x="1196" y="724" fill="#7428d1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Zweck: Rückkehr-Gründe</text>
+<text x="1196" y="526" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12.5" font-weight="400" text-anchor="middle">sofortige Befriedigung</text>
+<rect x="866" y="790" width="694" height="50" rx="14" fill="#fff8dc" stroke="#d99a0b" stroke-width="2.5"/>
+<text x="884" y="821" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Nur Mikro → nach 10 Min leer. Nur Makro → anfangs zäh. Alle drei bauen!</text>
+</svg>

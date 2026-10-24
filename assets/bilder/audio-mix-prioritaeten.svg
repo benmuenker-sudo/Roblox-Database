@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><marker id="pfeil1b2440" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1b2440"/></marker></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Audio-Mix: Prioritäten und SoundGroups</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Welche Klänge sich durchsetzen dürfen – und wie man das in Roblox mit SoundGroups organisiert</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Warnung &gt; Belohnung &gt; UI &gt; SFX &gt; Musik &gt; Ambiente  ·  audio-mix-prioritaeten.png</text>
+<rect x="40" y="122" width="760" height="712" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="164" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start">Mix-Pyramide</text>
+<text x="64" y="190" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Oben: selten, setzt sich durch. Unten: immer da, aber leise.</text>
+<polygon points="330,218 410,218 449,306 291,306" fill="#ff4d5e" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="264" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Warnung</text>
+<text x="370" y="286" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#c9303f" stroke-width="3" paint-order="stroke" stroke-linejoin="round">1. Priorität</text>
+<text x="483" y="272.08" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="28" text-anchor="middle">🚨</text>
+<text x="507" y="268" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Gefahr, Nacht beginnt, Boss</text>
+<polygon points="284,314 456,314 495,402 245,402" fill="#ffc93c" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="360" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Belohnung</text>
+<text x="370" y="382" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#d99a0b" stroke-width="3" paint-order="stroke" stroke-linejoin="round">2. Priorität</text>
+<text x="529" y="368.08" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="28" text-anchor="middle">🏆</text>
+<text x="553" y="364" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">seltener Drop, Level-Up, Kauf</text>
+<polygon points="238,410 502,410 541,498 199,498" fill="#3d9bff" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="456" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">UI</text>
+<text x="370" y="478" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#1f6fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">3. Priorität</text>
+<text x="575" y="464.08" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="28" text-anchor="middle">🖱️</text>
+<text x="599" y="460" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Klick, Öffnen, Fehler</text>
+<polygon points="192,506 548,506 587,594 153,594" fill="#22c7c7" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="552" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">SFX</text>
+<text x="370" y="576" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#139595" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">4. · Schritte, Treffer, Ernte</text>
+<text x="223" y="558.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">💥</text>
+<polygon points="146,602 594,602 633,690 107,690" fill="#a24dff" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="648" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Musik</text>
+<text x="370" y="672" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#7428d1" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">5. · Zonen-Thema, Menü-Loop</text>
+<text x="177" y="654.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🎵</text>
+<polygon points="100,698 640,698 679,786 61,786" fill="#2ecc71" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<text x="370" y="744" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Ambiente</text>
+<text x="370" y="768" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1e9e55" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">6. · Wind, Wasser, Vögel</text>
+<text x="131" y="750.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌿</text>
+<line x1="80" y1="774" x2="80" y2="228" stroke="#1b2440" stroke-width="4" stroke-linecap="round" marker-end="url(#pfeil1b2440)"/>
+<text x="70" y="506" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" transform="rotate(-90 66 506)">Priorität / darf unterbrechen</text>
+<rect x="824" y="122" width="736" height="470" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="848" y="164" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start">SoundGroup-Baum (Startwerte zum Testen)</text>
+<rect x="848" y="188" width="260" height="58" rx="12" fill="#6f7a90" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="848" y="188" width="8" height="58" rx="4" fill="#6f7a90"/>
+<text x="866" y="214" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">SoundService</text>
+<text x="866" y="236" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Musik/UI ohne Raumposition</text>
+<rect x="1154" y="188" width="382" height="58" rx="12" fill="#4a5578" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1154" y="188" width="8" height="58" rx="4" fill="#4a5578"/>
+<text x="1172" y="214" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">SoundGroup „Master“</text>
+<text x="1172" y="236" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">+ CompressorSoundEffect (keine Übersteuerung)</text>
+<line x1="1108" y1="217" x2="1154" y2="217" stroke="#1b2440" stroke-width="3" stroke-linecap="round"/>
+<path d="M1184,246 V300 H1224" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1224" y="272" width="170" height="56" rx="12" fill="#a24dff" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1224" y="272" width="8" height="56" rx="4" fill="#a24dff"/>
+<text x="1242" y="298" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">Musik</text>
+<text x="1242" y="320" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 0,4</text>
+<path d="M1184,246 V372 H1224" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1224" y="344" width="170" height="56" rx="12" fill="#2ecc71" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1224" y="344" width="8" height="56" rx="4" fill="#2ecc71"/>
+<text x="1242" y="370" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">Ambiente</text>
+<text x="1242" y="392" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 0,3</text>
+<path d="M1184,246 V444 H1224" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1224" y="416" width="170" height="56" rx="12" fill="#3d9bff" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1224" y="416" width="8" height="56" rx="4" fill="#3d9bff"/>
+<text x="1242" y="442" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">UI</text>
+<text x="1242" y="464" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 0,6</text>
+<path d="M1184,246 V516 H1224" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1224" y="488" width="170" height="56" rx="12" fill="#22c7c7" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1224" y="488" width="8" height="56" rx="4" fill="#22c7c7"/>
+<text x="1242" y="514" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">SFX</text>
+<text x="1242" y="536" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 0,8</text>
+<path d="M1394,516 H1408" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1408,446 V538" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1408" y1="446" x2="1420" y2="446" stroke="#1b2440" stroke-width="3" stroke-linecap="round"/>
+<rect x="1420" y="420" width="122" height="52" rx="12" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1420" y="420" width="8" height="52" rx="4" fill="#d99a0b"/>
+<text x="1438" y="446" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">Belohnung</text>
+<text x="1438" y="468" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 1,0</text>
+<line x1="1408" y1="518" x2="1420" y2="518" stroke="#1b2440" stroke-width="3" stroke-linecap="round"/>
+<rect x="1420" y="492" width="122" height="52" rx="12" fill="#ff4d5e" stroke="#1b2440" stroke-width="2.5" fill-opacity="0.18"/>
+<rect x="1420" y="492" width="8" height="52" rx="4" fill="#ff4d5e"/>
+<text x="1438" y="518" fill="#1b2440" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">Warnung</text>
+<text x="1438" y="540" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Volume 1,0</text>
+<text x="848" y="312" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Sound als Kind eines Parts</text>
+<text x="848" y="334" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">= 3D-Raumklang (Wasserfall,</text>
+<text x="848" y="354" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Lagerfeuer). Sound.SoundGroup</text>
+<text x="848" y="374" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">trotzdem zuweisen.</text>
+<rect x="848" y="408" width="330" height="150" rx="16" fill="#1b2440" stroke="#1b2440" stroke-width="3"/>
+<text x="868" y="444" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">⚙️ Einstellungen</text>
+<text x="868" y="484" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start">Musik</text>
+<rect x="964" y="470" width="190" height="18" rx="9" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="966" y="472" width="74.4" height="14" rx="7" fill="#3d9bff"/>
+<rect x="970" y="474" width="71.2" height="4.2" rx="2.1" fill="#ffffff" opacity="0.35"/>
+<text x="868" y="514" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start">Effekte</text>
+<rect x="964" y="500" width="190" height="18" rx="9" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="966" y="502" width="148.8" height="14" rx="7" fill="#3d9bff"/>
+<rect x="970" y="504" width="142.4" height="4.2" rx="2.1" fill="#ffffff" opacity="0.35"/>
+<text x="868" y="544" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start">Ambiente</text>
+<rect x="964" y="530" width="190" height="18" rx="9" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="966" y="532" width="55.8" height="14" rx="7" fill="#3d9bff"/>
+<rect x="970" y="534" width="53.4" height="4.2" rx="2.1" fill="#ffffff" opacity="0.35"/>
+<text x="848" y="582" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="start">Spieler regeln Gruppen getrennt (Musik aus, Effekte an).</text>
+<rect x="824" y="612" width="736" height="222" rx="22" fill="#fff8dc" stroke="#d99a0b" stroke-width="4" filter="url(#schatten)"/>
+<text x="848" y="648" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="start">Mix-Regeln</text>
+<text x="850" y="679" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="868" y="677.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">Ducking: Musik bei Fanfare kurz leiser (Volume per Tween senken, dann zurück).</text>
+<text x="850" y="707.46" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="868" y="705.96" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">Cooldown pro Sound-Typ; gleichzeitige Sounds begrenzen, ähnliche</text>
+<text x="868" y="726.42" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">zusammenfassen.</text>
+<text x="850" y="756.38" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="868" y="754.88" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">Alle Dateien ähnlich laut anlegen (normalisieren), Feinmix über Gruppen.</text>
+<text x="850" y="784.84" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="868" y="783.34" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">Auf Handy-Lautsprecher UND Kopfhörern testen.</text>
+</svg>

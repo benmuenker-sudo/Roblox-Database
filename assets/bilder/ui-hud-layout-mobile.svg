@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><clipPath id="bildschirm"><rect x="84" y="152" width="1032" height="512" rx="40"/></clipPath><linearGradient id="verlauf3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fc8ff"/><stop offset="1" stop-color="#cdefff"/></linearGradient><linearGradient id="verlauf4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ad35f"/><stop offset="1" stop-color="#43ad45"/></linearGradient><radialGradient id="radial5" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2ecc71" stop-opacity="0.85"/><stop offset="0.5" stop-color="#2ecc71" stop-opacity="0.75"/><stop offset="0.6" stop-color="#ffd23c" stop-opacity="0.7"/><stop offset="0.85" stop-color="#ffd23c" stop-opacity="0.4"/><stop offset="1" stop-color="#ffd23c" stop-opacity="0"/></radialGradient><radialGradient id="radial6" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2ecc71" stop-opacity="0.85"/><stop offset="0.5" stop-color="#2ecc71" stop-opacity="0.75"/><stop offset="0.6" stop-color="#ffd23c" stop-opacity="0.7"/><stop offset="0.85" stop-color="#ffd23c" stop-opacity="0.4"/><stop offset="1" stop-color="#ffd23c" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">HUD-Layout auf dem Handy (Querformat)</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Safe Area, Roblox-Top-Bar, Daumen-Zonen und wo welche HUD-Elemente hingehören</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Wichtiges in grüne Zonen, nichts unter Notch/Top-Bar  ·  ui-hud-layout-mobile.png</text>
+<rect x="60" y="128" width="1080" height="560" rx="64" fill="#121a30" stroke="#060a16" stroke-width="4" filter="url(#schatten)"/>
+<g clip-path="url(#bildschirm)">
+<rect x="84" y="152" width="1032" height="512" rx="0" fill="url(#verlauf3)"/>
+<circle cx="208.8" cy="219.44" r="22" fill="#ffffff" opacity="0.85"/>
+<circle cx="238.8" cy="213.44" r="30" fill="#ffffff" opacity="0.85"/>
+<circle cx="270.8" cy="221.44" r="20" fill="#ffffff" opacity="0.85"/>
+<circle cx="612.6" cy="200.76" r="28.6" fill="#ffffff" opacity="0.85"/>
+<circle cx="651.6" cy="192.96" r="39" fill="#ffffff" opacity="0.85"/>
+<circle cx="693.2" cy="203.36" r="26" fill="#ffffff" opacity="0.85"/>
+<circle cx="903.24" cy="249.56" r="19.8" fill="#ffffff" opacity="0.85"/>
+<circle cx="930.24" cy="244.16" r="27" fill="#ffffff" opacity="0.85"/>
+<circle cx="959.04" cy="251.36" r="18" fill="#ffffff" opacity="0.85"/>
+<path d="M84,377.04 Q290.4,305.6 548.4,367.04 T1116,341.44 L1116,387.04 L84,387.04 Z" fill="#58b860" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="367.04" width="1032" height="296.96" rx="0" fill="url(#verlauf4)"/>
+<rect x="833.6" y="400" width="20.8" height="52" rx="5.2" fill="#8a5a2b" stroke="#1b2440" stroke-width="2"/>
+<circle cx="844" cy="367.5" r="46.8" fill="#2b8a36" stroke="#1b2440" stroke-width="2"/>
+<circle cx="833.6" cy="358.4" r="33.8" fill="#3fae47"/>
+<circle cx="824.5" cy="348" r="11.7" fill="#ffffff" opacity="0.25"/>
+<rect x="376" y="402" width="16" height="40" rx="4" fill="#8a5a2b" stroke="#1b2440" stroke-width="2"/>
+<circle cx="384" cy="377" r="36" fill="#2b8a36" stroke="#1b2440" stroke-width="2"/>
+<circle cx="376" cy="370" r="26" fill="#3fae47"/>
+<circle cx="369" cy="362" r="9" fill="#ffffff" opacity="0.25"/>
+<ellipse cx="600" cy="552" rx="48" ry="13.5" fill="#000" opacity="0.18"/>
+<rect x="570" y="492" width="28.5" height="60" rx="6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="601.5" y="492" width="28.5" height="60" rx="6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="541.5" y="432" width="27" height="60" rx="6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="631.5" y="432" width="27" height="60" rx="6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="570" y="432" width="60" height="61.5" rx="6" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="579" y="388.5" width="42" height="42" rx="10.5" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="591.75" cy="406.5" r="3.3" fill="#1b2440"/>
+<circle cx="608.25" cy="406.5" r="3.3" fill="#1b2440"/>
+<path d="M591,417 Q600,423 609,417" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="152" width="1032" height="512" rx="0" fill="#ff4d5e" opacity="0.26"/>
+<ellipse cx="84" cy="664" rx="540" ry="470" fill="url(#radial5)"/>
+<ellipse cx="1116" cy="664" rx="540" ry="470" fill="url(#radial6)"/>
+<rect x="84" y="152" width="56" height="512" rx="0" fill="url(#schraffur)"/>
+<rect x="1060" y="152" width="56" height="512" rx="0" fill="url(#schraffur)"/>
+<rect x="84" y="642" width="1032" height="22" rx="0" fill="url(#schraffur)"/>
+<rect x="140" y="152" width="920" height="64" rx="0" fill="url(#schraffurGrau)"/>
+<rect x="154" y="162" width="44" height="44" rx="12" fill="#1b2440" opacity="0.75"/>
+<rect x="166" y="173" width="20" height="4" rx="2" fill="#ffffff"/>
+<rect x="166" y="182" width="20" height="4" rx="2" fill="#ffffff"/>
+<rect x="166" y="191" width="20" height="4" rx="2" fill="#ffffff"/>
+<rect x="210" y="162" width="44" height="44" rx="12" fill="#1b2440" opacity="0.75"/>
+<text x="232" y="192.64" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="24" text-anchor="middle">💬</text>
+<rect x="1002" y="162" width="44" height="44" rx="12" fill="#1b2440" opacity="0.75"/>
+<text x="1024" y="191" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="26" font-weight="700" text-anchor="middle">⋯</text>
+<rect x="330.02" y="168" width="539.97" height="34" rx="17" fill="#1b2440" stroke="#ffffff" stroke-width="2" opacity="0.85"/>
+<text x="600" y="191" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Roblox-Top-Bar (Core-UI): hier keine eigenen Buttons</text>
+<rect x="154" y="234" width="160" height="44" rx="22" fill="#1b2440" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+<circle cx="178" cy="258" r="16" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="178" cy="256" r="16" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="178" cy="256" r="10.88" fill="none" stroke="#e8a817" stroke-width="1.92"/>
+<polygon points="178,249.28 179.78,253.55 184.39,253.92 180.88,256.93 181.95,261.44 178,259.02 174.05,261.44 175.12,256.93 171.61,253.92 176.22,253.55" fill="#e8a817" stroke-linejoin="round" />
+<text x="206" y="265" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="24" font-weight="700" text-anchor="start">1,2K</text>
+<rect x="154" y="288" width="160" height="44" rx="22" fill="#1b2440" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+<polygon points="162,305.2 170,296.4 186,296.4 194,305.2 178,326" fill="#5fd3ff" stroke="#1b2440" stroke-width="2.5" stroke-linejoin="round" />
+<polygon points="162,305.2 194,305.2 178,326" fill="#1f8fc7" opacity="0.45" stroke-linejoin="round" />
+<polygon points="170,296.4 176.4,305.2 166,305.2" fill="#ffffff" opacity="0.5" stroke-linejoin="round" />
+<text x="206" y="319" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="24" font-weight="700" text-anchor="start">35</text>
+<rect x="846" y="234" width="200" height="44" rx="22" fill="#1b2440" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+<text x="864" y="264" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="start">Lv 12</text>
+<rect x="936" y="247" width="98" height="18" rx="9" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="938" y="249" width="61.1" height="14" rx="7" fill="#3d9bff"/>
+<rect x="942" y="251" width="55.9" height="4.2" rx="2.1" fill="#ffffff" opacity="0.35"/>
+<rect x="430" y="234" width="340" height="50" rx="25" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="460" y="268.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🎯</text>
+<text x="482" y="266" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="start">Ziel: 50 Äpfel</text>
+<rect x="650" y="249" width="100" height="20" rx="10" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="652" y="251" width="61.44" height="16" rx="8" fill="#2ecc71"/>
+<rect x="656" y="253" width="56.32" height="4.8" rx="2.4" fill="#ffffff" opacity="0.35"/>
+<text x="700" y="263.68" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="2.89" paint-order="stroke" stroke-linejoin="round">32/50</text>
+<rect x="156" y="357" width="60" height="60" rx="16" fill="#b8c3da" stroke="#1b2440" stroke-width="3"/>
+<rect x="156" y="352" width="60" height="60" rx="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<rect x="162" y="356" width="48" height="22.8" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="186" y="394.53" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34.8" text-anchor="middle">🛒</text>
+<circle cx="212" cy="356" r="12" fill="#ff4d5e" stroke="#ffffff" stroke-width="3"/>
+<text x="212" y="361.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.8" font-weight="700" text-anchor="middle">!</text>
+<rect x="156" y="431" width="60" height="60" rx="16" fill="#b8c3da" stroke="#1b2440" stroke-width="3"/>
+<rect x="156" y="426" width="60" height="60" rx="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<rect x="162" y="430" width="48" height="22.8" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="186" y="468.53" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34.8" text-anchor="middle">🎒</text>
+<circle cx="212" cy="430" r="12" fill="#ff4d5e" stroke="#ffffff" stroke-width="3"/>
+<text x="212" y="435.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.8" font-weight="700" text-anchor="middle">3</text>
+<rect x="156" y="505" width="60" height="60" rx="16" fill="#b8c3da" stroke="#1b2440" stroke-width="3"/>
+<rect x="156" y="500" width="60" height="60" rx="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<rect x="162" y="504" width="48" height="22.8" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="186" y="542.53" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34.8" text-anchor="middle">📜</text>
+<circle cx="334" cy="544" r="74" fill="#ffffff" stroke="#ffffff" stroke-width="4" opacity="0.35"/>
+<circle cx="346" cy="534" r="32" fill="#ffffff" stroke="#1b2440" stroke-width="3" opacity="0.85"/>
+<circle cx="976" cy="547" r="54" fill="#b8c3da" stroke="#1b2440" stroke-width="3"/>
+<circle cx="976" cy="542" r="54" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<ellipse cx="976" cy="517.7" rx="33.48" ry="16.2" fill="#ffffff" opacity="0.3"/>
+<text x="976" y="562.41" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="56.7" text-anchor="middle">⬆️</text>
+<circle cx="854" cy="571" r="42" fill="#1e9e55" stroke="#1b2440" stroke-width="3"/>
+<circle cx="854" cy="566" r="42" fill="#2ecc71" stroke="#1b2440" stroke-width="3"/>
+<ellipse cx="854" cy="547.1" rx="26.04" ry="12.6" fill="#ffffff" opacity="0.3"/>
+<text x="854" y="581.88" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="44.1" text-anchor="middle">✋</text>
+<circle cx="956" cy="425" r="36" fill="#d99a0b" stroke="#1b2440" stroke-width="3"/>
+<circle cx="956" cy="420" r="36" fill="#ffc93c" stroke="#1b2440" stroke-width="3"/>
+<ellipse cx="956" cy="403.8" rx="22.32" ry="10.8" fill="#ffffff" opacity="0.3"/>
+<text x="956" y="433.61" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="37.8" text-anchor="middle">💰</text>
+<rect x="414" y="327" width="380" height="120" rx="20" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.9" stroke-dasharray="10 8"/>
+<text x="604" y="382" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Mitte frei lassen</text>
+<text x="604" y="412" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">(nur kurz Popups)</text>
+</g>
+<rect x="82" y="330" width="32" height="156" rx="16" fill="#121a30"/>
+<circle cx="98" cy="408" r="6" fill="#2a3557"/>
+<rect x="520" y="650" width="160" height="6" rx="3" fill="#ffffff" opacity="0.75"/>
+<circle cx="112" cy="292" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="112" y="298.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">1</text>
+<circle cx="270" cy="184" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="270" y="190.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">2</text>
+<circle cx="334" cy="256" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="334" y="262.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">3</text>
+<circle cx="780" cy="259" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="780" y="265.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">4</text>
+<circle cx="244" cy="382" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="244" y="388.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">5</text>
+<circle cx="429" cy="472" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="429" y="478.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">6</text>
+<circle cx="1046" cy="482" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1046" y="488.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">7</text>
+<circle cx="604" cy="307" r="17" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="604" y="313.46" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17.85" font-weight="700" text-anchor="middle">8</text>
+<text x="60" y="734" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">Daumen-Zonen (Querformat, beide Hände):</text>
+<rect x="60" y="752" width="34" height="26" rx="7" fill="#2ecc71" stroke="#1b2440" stroke-width="2" opacity="0.85"/>
+<text x="104" y="772" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="400" text-anchor="start">leicht erreichbar → Aktionen</text>
+<rect x="379.69" y="752" width="34" height="26" rx="7" fill="#ffd23c" stroke="#1b2440" stroke-width="2" opacity="0.85"/>
+<text x="423.69" y="772" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="400" text-anchor="start">erreichbar → Menüs</text>
+<rect x="627.55" y="752" width="34" height="26" rx="7" fill="#ff4d5e" stroke="#1b2440" stroke-width="2" opacity="0.85"/>
+<text x="671.55" y="772" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="400" text-anchor="start">schwer erreichbar → nur Anzeigen</text>
+<rect x="60" y="794" width="34" height="26" rx="7" fill="url(#schraffur)" stroke="#1b2440" stroke-width="2"/>
+<text x="104" y="814" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="400" text-anchor="start">Safe Area: Notch, Rundungen, Home-Indikator (ScreenInsets)</text>
+<rect x="640" y="794" width="34" height="26" rx="7" fill="url(#schraffurGrau)" stroke="#1b2440" stroke-width="2"/>
+<text x="684" y="814" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="400" text-anchor="start">Roblox-Top-Bar / Core-UI</text>
+<rect x="1172" y="128" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="128" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="151" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="156.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">1</text>
+<text x="1216" y="159.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Safe Area</text>
+<text x="1186" y="184.75" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Notch und Ränder: nichts Wichtiges hier.</text>
+<rect x="1172" y="211.3" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="211.3" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="234.3" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="239.62" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">2</text>
+<text x="1216" y="242.4" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Roblox-Top-Bar</text>
+<text x="1186" y="268.05" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Frei lassen (Standard: CoreUISafeInsets).</text>
+<rect x="1172" y="294.6" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="294.6" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="317.6" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="322.92" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">3</text>
+<text x="1216" y="325.7" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Währung oben links</text>
+<text x="1186" y="351.35" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Icon + kurze Zahl (1,2K). Max. 1–2 Werte.</text>
+<rect x="1172" y="377.9" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="377.9" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="400.9" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="406.22" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">4</text>
+<text x="1216" y="409" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Ziel oben Mitte</text>
+<text x="1186" y="434.65" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Nur Anzeige, nichts zum Antippen.</text>
+<rect x="1172" y="461.2" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="461.2" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="484.2" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="489.52" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">5</text>
+<text x="1216" y="492.3" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Seitenmenü am Rand</text>
+<text x="1186" y="517.95" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Icon-Spalte, roter Punkt bei Neuem.</text>
+<rect x="1172" y="544.5" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="544.5" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="567.5" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="572.82" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">6</text>
+<text x="1216" y="575.6" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Joystick unten links</text>
+<text x="1186" y="601.25" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Roblox-Steuerung nie überdecken.</text>
+<rect x="1172" y="627.8" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="627.8" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="650.8" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="656.12" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">7</text>
+<text x="1216" y="658.9" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Aktionen unten rechts</text>
+<text x="1186" y="684.55" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Groß, im grünen Daumenbereich.</text>
+<rect x="1172" y="711.1" width="392" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1172" y="711.1" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1198" cy="734.1" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1198" y="739.42" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">8</text>
+<text x="1216" y="742.2" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Mitte frei</text>
+<text x="1186" y="767.85" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Sicht aufs Spiel; Popups nur kurz.</text>
+</svg>

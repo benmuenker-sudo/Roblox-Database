@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><clipPath id="kachel3"><rect x="58.0" y="182" width="457.3333333333333" height="220" rx="16"/></clipPath><radialGradient id="radial4" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff3b0" stop-opacity="0.95"/><stop offset="0.5" stop-color="#ffd23c" stop-opacity="0.4"/><stop offset="1" stop-color="#ffd23c" stop-opacity="0"/></radialGradient><marker id="pfeilffd23c" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#ffd23c"/></marker><clipPath id="kachel5"><rect x="571.3333333333333" y="182" width="457.3333333333333" height="220" rx="16"/></clipPath><radialGradient id="radial6" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff9a1f" stop-opacity="0.6"/><stop offset="1" stop-color="#ff9a1f" stop-opacity="0"/></radialGradient><clipPath id="kachel7"><rect x="1084.6666666666665" y="182" width="457.3333333333333" height="220" rx="16"/></clipPath><linearGradient id="verlauf8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd6ff"/><stop offset="0.4" stop-color="#d6f2ff"/><stop offset="0.41" stop-color="#7fd36b"/><stop offset="1" stop-color="#4fae47"/></linearGradient><clipPath id="kachel9"><rect x="58.0" y="546" width="457.3333333333333" height="220" rx="16"/></clipPath><linearGradient id="verlauf10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb37a"/><stop offset="1" stop-color="#ffe1b8"/></linearGradient><clipPath id="kachel11"><rect x="571.3333333333333" y="546" width="457.3333333333333" height="220" rx="16"/></clipPath><marker id="pfeil1b2440" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1b2440"/></marker><clipPath id="kachel12"><rect x="1084.6666666666665" y="546" width="457.3333333333333" height="220" rx="16"/></clipPath></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Wegführung ohne Text</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Sechs Werkzeuge, mit denen eine Map den Spieler lenkt: Licht, Farbe, Linien, Höhe, Engpass/Weite, Spuren</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Licht, Farbe, Linien und Höhe lenken Blick und Schritte  ·  map-wegfuehrung.png</text>
+<rect x="40" y="122" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="70" cy="152" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="70" y="158.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">1</text>
+<text x="96" y="160" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Licht</text>
+<g clip-path="url(#kachel3)">
+<rect x="58" y="182" width="457.33" height="220" rx="0" fill="#1a2238"/>
+<rect x="58" y="314" width="457.33" height="88" rx="0" fill="#253150"/>
+<circle cx="387.28" cy="292" r="120" fill="url(#radial4)"/>
+<rect x="357.28" y="274.4" width="60" height="70" rx="10" fill="#8a5a2b" stroke="#1b2440" stroke-width="3"/>
+<text x="387.28" y="318.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🎁</text>
+<rect x="88" y="242" width="40" height="90" rx="6" fill="#2e3a5c"/>
+<rect x="148" y="272" width="40" height="90" rx="6" fill="#2e3a5c"/>
+<rect x="208" y="242" width="40" height="90" rx="6" fill="#2e3a5c"/>
+<rect x="268" y="272" width="40" height="90" rx="6" fill="#2e3a5c"/>
+<ellipse cx="148" cy="384" rx="22.4" ry="6.3" fill="#000" opacity="0.18"/>
+<rect x="134" y="356" width="13.3" height="28" rx="2.8" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="148.7" y="356" width="13.3" height="28" rx="2.8" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="120.7" y="328" width="12.6" height="28" rx="2.8" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="162.7" y="328" width="12.6" height="28" rx="2.8" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="134" y="328" width="28" height="28.7" rx="2.8" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="138.2" y="307.7" width="19.6" height="19.6" rx="4.9" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="144.15" cy="316.1" r="1.54" fill="#1b2440"/>
+<circle cx="151.85" cy="316.1" r="1.54" fill="#1b2440"/>
+<path d="M143.8,321 Q148,323.8 152.2,321" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M188,342 Q251.94,293.4 331.47,304.52" fill="none" stroke="#ffd23c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeilffd23c)" stroke-dasharray="8 6"/>
+</g>
+<rect x="58" y="182" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="62" y="442" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Helle Bereiche ziehen den Blick.</text>
+<rect x="553.33" y="122" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="583.33" cy="152" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="583.33" y="158.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">2</text>
+<text x="609.33" y="160" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Farbe</text>
+<g clip-path="url(#kachel5)">
+<rect x="571.33" y="182" width="457.33" height="220" rx="0" fill="#b9c7dd"/>
+<rect x="571.33" y="340.4" width="457.33" height="61.6" rx="0" fill="#93a6c4"/>
+<rect x="591.33" y="250.4" width="60" height="90" rx="6" fill="#7d93b8" stroke="#5d7298" stroke-width="2"/>
+<rect x="661.33" y="220.4" width="60" height="120" rx="6" fill="#7d93b8" stroke="#5d7298" stroke-width="2"/>
+<rect x="871.33" y="230.4" width="60" height="110" rx="6" fill="#7d93b8" stroke="#5d7298" stroke-width="2"/>
+<rect x="941.33" y="260.4" width="60" height="80" rx="6" fill="#7d93b8" stroke="#5d7298" stroke-width="2"/>
+<circle cx="800" cy="280.4" r="95" fill="url(#radial6)"/>
+<rect x="750" y="248.4" width="100" height="92" rx="10" fill="#ffc93c" stroke="#1b2440" stroke-width="3"/>
+<polygon points="738,252.4 800,204.4 862,252.4" fill="#ff9a1f" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<rect x="784" y="294.4" width="32" height="46" rx="6" fill="#8a5a2b" stroke="#1b2440" stroke-width="2"/>
+<rect x="743.69" y="362" width="112.62" height="26" rx="13" fill="#d4730a" opacity="0.92"/>
+<text x="800" y="380.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Ziel = warm</text>
+</g>
+<rect x="571.33" y="182" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="575.33" y="442" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Warm (Gold/Orange) = Ziel, kalt = Hintergrund.</text>
+<rect x="1066.67" y="122" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="1096.67" cy="152" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1096.67" y="158.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">3</text>
+<text x="1122.67" y="160" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Linien</text>
+<g clip-path="url(#kachel7)">
+<rect x="1084.67" y="182" width="457.33" height="220" rx="0" fill="url(#verlauf8)"/>
+<polygon points="1199,402 1362.21,270 1374.21,270 1427.67,402" fill="#e9d29a" stroke-linejoin="round" />
+<rect x="1154.43" y="364" width="9.12" height="38" rx="2" fill="#8a5a2b"/>
+<rect x="1463.12" y="364" width="9.12" height="38" rx="2" fill="#8a5a2b"/>
+<line x1="1166.99" y1="392" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1199.3" y="342.58" width="7.34" height="30.57" rx="2" fill="#8a5a2b"/>
+<rect x="1444.02" y="342.58" width="7.34" height="30.57" rx="2" fill="#8a5a2b"/>
+<line x1="1210.97" y1="363.15" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1239.89" y="323.2" width="5.72" height="23.85" rx="2" fill="#8a5a2b"/>
+<rect x="1426.74" y="323.2" width="5.72" height="23.85" rx="2" fill="#8a5a2b"/>
+<line x1="1250.76" y1="337.05" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1275.88" y="306.03" width="4.29" height="17.89" rx="2" fill="#8a5a2b"/>
+<rect x="1411.43" y="306.03" width="4.29" height="17.89" rx="2" fill="#8a5a2b"/>
+<line x1="1286.02" y1="313.92" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1306.81" y="291.26" width="3.06" height="12.76" rx="2" fill="#8a5a2b"/>
+<rect x="1398.26" y="291.26" width="3.06" height="12.76" rx="2" fill="#8a5a2b"/>
+<line x1="1316.34" y1="294.03" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1332.07" y="279.2" width="2.06" height="8.58" rx="2" fill="#8a5a2b"/>
+<rect x="1387.51" y="279.2" width="2.06" height="8.58" rx="2" fill="#8a5a2b"/>
+<line x1="1341.1" y1="277.79" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<rect x="1350.61" y="270.36" width="1.32" height="5.51" rx="2" fill="#8a5a2b"/>
+<rect x="1379.62" y="270.36" width="1.32" height="5.51" rx="2" fill="#8a5a2b"/>
+<line x1="1359.27" y1="265.87" x2="1368.21" y2="270" stroke="#8a5a2b" stroke-width="0" stroke-linecap="round"/>
+<line x1="1166.99" y1="378" x2="1360.21" y2="274" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="1459.68" y1="378" x2="1376.21" y2="274" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/>
+<text x="1368.21" y="266.24" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">🏰</text>
+</g>
+<rect x="1084.67" y="182" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="1088.67" y="442" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Wege, Zäune, Flüsse zeigen die Richtung.</text>
+<rect x="40" y="486" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="70" cy="516" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="70" y="522.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">4</text>
+<text x="96" y="524" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Höhe / Landmarke</text>
+<g clip-path="url(#kachel9)">
+<rect x="58" y="546" width="457.33" height="220" rx="0" fill="url(#verlauf10)"/>
+<rect x="58" y="717.6" width="457.33" height="48.4" rx="0" fill="#6a8f5a"/>
+<rect x="68" y="687.6" width="40" height="30" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="116" y="650.6" width="40" height="67" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="164" y="653.6" width="40" height="64" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="212" y="656.6" width="40" height="61" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="260" y="659.6" width="40" height="58" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="308" y="662.6" width="40" height="55" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="356" y="665.6" width="40" height="52" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="404" y="668.6" width="40" height="49" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<rect x="452" y="671.6" width="40" height="46" rx="4" fill="#5a6d8a" stroke="#3d4d68" stroke-width="2"/>
+<polygon points="342.99,717.6 354.99,586 382.99,586 394.99,717.6" fill="#ffffff" stroke="#1b2440" stroke-width="3" stroke-linejoin="round" />
+<rect x="348.99" y="616" width="40" height="12" rx="2" fill="#ff4d5e"/>
+<rect x="350.99" y="656" width="36" height="12" rx="2" fill="#ff4d5e"/>
+<rect x="352.99" y="696" width="32" height="12" rx="2" fill="#ff4d5e"/>
+<rect x="348.99" y="568" width="40" height="22" rx="6" fill="#ffc93c" stroke="#1b2440" stroke-width="3"/>
+<polygon points="368.99,578 208.99,546 208.99,610" fill="#fff3b0" opacity="0.55" stroke-linejoin="round" />
+<polygon points="368.99,578 528.99,546 528.99,610" fill="#fff3b0" opacity="0.55" stroke-linejoin="round" />
+<rect x="229.24" y="656" width="105.75" height="26" rx="13" fill="#1b2440" opacity="0.92"/>
+<text x="282.11" y="674.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Landmarke</text>
+</g>
+<rect x="58" y="546" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="62" y="806" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Hohe Objekte = Orientierung von überall.</text>
+<rect x="553.33" y="486" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="583.33" cy="516" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="583.33" y="522.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">5</text>
+<text x="609.33" y="524" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Engpass ↔ Weite</text>
+<g clip-path="url(#kachel11)">
+<rect x="571.33" y="546" width="457.33" height="220" rx="0" fill="#c9a26b"/>
+<rect x="571.33" y="634" width="192.08" height="44" rx="0" fill="#e9d29a"/>
+<rect x="571.33" y="546" width="192.08" height="88" rx="0" fill="#8a6a3e"/>
+<rect x="571.33" y="678" width="192.08" height="88" rx="0" fill="#8a6a3e"/>
+<ellipse cx="900.61" cy="656" rx="137.2" ry="96.8" fill="#9be08a" stroke="#5aa64b" stroke-width="3"/>
+<text x="891.47" y="636.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌳</text>
+<text x="937.2" y="696.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">⛲</text>
+<ellipse cx="631.33" cy="670" rx="16" ry="4.5" fill="#000" opacity="0.18"/>
+<rect x="621.33" y="650" width="9.5" height="20" rx="2" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="631.83" y="650" width="9.5" height="20" rx="2" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="611.83" y="630" width="9" height="20" rx="2" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="641.83" y="630" width="9" height="20" rx="2" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="621.33" y="630" width="20" height="20.5" rx="2" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="624.33" y="615.5" width="14" height="14" rx="3.5" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="628.58" cy="621.5" r="1.1" fill="#1b2440"/>
+<circle cx="634.08" cy="621.5" r="1.1" fill="#1b2440"/>
+<path d="M628.33,625 Q631.33,627 634.33,625" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M671.33,656 Q732.67,656 794,656" fill="none" stroke="#1b2440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1b2440)"/>
+<rect x="593.17" y="566" width="148.41" height="26" rx="13" fill="#c9303f" opacity="0.92"/>
+<text x="667.37" y="584.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">eng → Spannung</text>
+<rect x="828.5" y="726" width="144.22" height="26" rx="13" fill="#1e9e55" opacity="0.92"/>
+<text x="900.61" y="744.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">weit → Erholung</text>
+</g>
+<rect x="571.33" y="546" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="575.33" y="806" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Eng = Spannung, weit = Erholung (Rhythmus).</text>
+<rect x="1066.67" y="486" width="493.33" height="346" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<circle cx="1096.67" cy="516" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1096.67" y="522.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">6</text>
+<text x="1122.67" y="524" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Spuren</text>
+<g clip-path="url(#kachel12)">
+<rect x="1084.67" y="546" width="457.33" height="220" rx="0" fill="#7fd36b"/>
+<path d="M1124,746 Q1164,626 1290,636 Q1427,646 1481,586" fill="none" stroke="#e9d29a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1154.67" cy="718" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1154.67" cy="716" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1154.67" cy="716" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1154.67,711.8 1155.78,714.47 1158.66,714.7 1156.46,716.58 1157.14,719.4 1154.67,717.89 1152.2,719.4 1152.87,716.58 1150.67,714.7 1153.56,714.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1164.67" cy="673" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1164.67" cy="671" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1164.67" cy="671" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1164.67,666.8 1165.78,669.47 1168.66,669.7 1166.46,671.58 1167.14,674.4 1164.67,672.89 1162.2,674.4 1162.87,671.58 1160.67,669.7 1163.56,669.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1182.67" cy="686" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1182.67" cy="684" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1182.67" cy="684" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1182.67,679.8 1183.78,682.47 1186.66,682.7 1184.46,684.58 1185.14,687.4 1182.67,685.89 1180.2,687.4 1180.87,684.58 1178.67,682.7 1181.56,682.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1214.67" cy="660" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1214.67" cy="658" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1214.67" cy="658" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1214.67,653.8 1215.78,656.47 1218.66,656.7 1216.46,658.58 1217.14,661.4 1214.67,659.89 1212.2,661.4 1212.87,658.58 1210.67,656.7 1213.56,656.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1256.67" cy="645" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1256.67" cy="643" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1256.67" cy="643" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1256.67,638.8 1257.78,641.47 1260.66,641.7 1258.46,643.58 1259.14,646.4 1256.67,644.89 1254.2,646.4 1254.87,643.58 1252.67,641.7 1255.56,641.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1299.67" cy="640" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1299.67" cy="638" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1299.67" cy="638" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1299.67,633.8 1300.78,636.47 1303.66,636.7 1301.46,638.58 1302.14,641.4 1299.67,639.89 1297.2,641.4 1297.87,638.58 1295.67,636.7 1298.56,636.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1342.67" cy="642" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1342.67" cy="640" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1342.67" cy="640" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1342.67,635.8 1343.78,638.47 1346.66,638.7 1344.46,640.58 1345.14,643.4 1342.67,641.89 1340.2,643.4 1340.87,640.58 1338.67,638.7 1341.56,638.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1384.67" cy="640" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1384.67" cy="638" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1384.67" cy="638" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1384.67,633.8 1385.78,636.47 1388.66,636.7 1386.46,638.58 1387.14,641.4 1384.67,639.89 1382.2,641.4 1382.87,638.58 1380.67,636.7 1383.56,636.47" fill="#e8a817" stroke-linejoin="round" />
+<circle cx="1424.67" cy="628" r="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1424.67" cy="626" r="10" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="1424.67" cy="626" r="6.8" fill="none" stroke="#e8a817" stroke-width="1.5"/>
+<polygon points="1424.67,621.8 1425.78,624.47 1428.66,624.7 1426.46,626.58 1427.14,629.4 1424.67,627.89 1422.2,629.4 1422.87,626.58 1420.67,624.7 1423.56,624.47" fill="#e8a817" stroke-linejoin="round" />
+<text x="1486" y="600.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🏁</text>
+<ellipse cx="1124.67" cy="760" rx="16" ry="4.5" fill="#000" opacity="0.18"/>
+<rect x="1114.67" y="740" width="9.5" height="20" rx="2" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="1125.17" y="740" width="9.5" height="20" rx="2" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="1105.17" y="720" width="9" height="20" rx="2" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="1135.17" y="720" width="9" height="20" rx="2" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="1114.67" y="720" width="20" height="20.5" rx="2" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="1117.67" y="705.5" width="14" height="14" rx="3.5" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="1121.92" cy="711.5" r="1.1" fill="#1b2440"/>
+<circle cx="1127.42" cy="711.5" r="1.1" fill="#1b2440"/>
+<path d="M1121.67,715 Q1124.67,717 1127.67,715" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1336.23" y="726" width="185.77" height="25" rx="12.5" fill="#1b2440" opacity="0.92"/>
+<text x="1429.12" y="743.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">später weniger Spuren</text>
+</g>
+<rect x="1084.67" y="546" width="457.33" height="220" rx="16" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="1088.67" y="806" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.5" font-weight="700" text-anchor="start">Münz-Spur/Pfeile im Tutorial, später abbauen.</text>
+</svg>

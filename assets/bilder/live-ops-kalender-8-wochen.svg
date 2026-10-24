@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Live-Ops: 8-Wochen-Rhythmus</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Vorlage aus live-ops-events.md – Updates, Events, Saison und Pflege im Wechsel, darunter die Wirkung auf Spielerzahlen</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Rhythmus festlegen, Systemtiefe statt nur Events  ·  live-ops-kalender-8-wochen.png</text>
+<rect x="40" y="122" width="1520" height="446" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<rect x="254" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="331.88" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 1</text>
+<rect x="417.75" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="495.62" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 2</text>
+<line x1="413.75" y1="182" x2="413.75" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="581.5" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="659.38" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 3</text>
+<line x1="577.5" y1="182" x2="577.5" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="745.25" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="823.12" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 4</text>
+<line x1="741.25" y1="182" x2="741.25" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="909" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="986.88" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 5</text>
+<line x1="905" y1="182" x2="905" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="1072.75" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="1150.62" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 6</text>
+<line x1="1068.75" y1="182" x2="1068.75" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="1236.5" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="1314.38" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 7</text>
+<line x1="1232.5" y1="182" x2="1232.5" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="1400.25" y="132" width="155.75" height="44" rx="12" fill="#eef2fa"/>
+<text x="1478.12" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Woche 8</text>
+<line x1="1396.25" y1="182" x2="1396.25" y2="558" stroke="#e3e8f3" stroke-width="2" stroke-linecap="round"/>
+<rect x="54" y="198" width="12" height="38" rx="6" fill="#a24dff"/>
+<text x="76" y="224" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Großes Update</text>
+<rect x="54" y="260" width="12" height="38" rx="6" fill="#3d9bff"/>
+<text x="76" y="286" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Content-Update</text>
+<line x1="50" y1="248" x2="1550" y2="248" stroke="#eef1f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="54" y="322" width="12" height="38" rx="6" fill="#ff9a1f"/>
+<text x="76" y="348" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Event</text>
+<line x1="50" y1="310" x2="1550" y2="310" stroke="#eef1f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="54" y="384" width="12" height="38" rx="6" fill="#d99a0b"/>
+<text x="76" y="410" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Mini-Events</text>
+<line x1="50" y1="372" x2="1550" y2="372" stroke="#eef1f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="54" y="446" width="12" height="38" rx="6" fill="#ff3d7f"/>
+<text x="76" y="472" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Saison</text>
+<line x1="50" y1="434" x2="1550" y2="434" stroke="#eef1f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="54" y="508" width="12" height="38" rx="6" fill="#6f7a90"/>
+<text x="76" y="534" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Pflege</text>
+<line x1="50" y1="496" x2="1550" y2="496" stroke="#eef1f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="256" y="324" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="256" y="320" width="151.75" height="42" rx="14" fill="#ff9a1f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="278" y="348.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🚀</text>
+<text x="296" y="346" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Launch-Event</text>
+<rect x="419.75" y="386" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="419.75" y="382" width="151.75" height="42" rx="14" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<text x="441.75" y="410.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">⚡</text>
+<text x="459.75" y="408" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Mini-Events</text>
+<rect x="419.75" y="510" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="419.75" y="506" width="151.75" height="42" rx="14" fill="#6f7a90" stroke="#1b2440" stroke-width="2.5"/>
+<text x="441.75" y="534.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">⚖️</text>
+<text x="459.75" y="532" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Balancing</text>
+<rect x="583.5" y="262" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="583.5" y="258" width="151.75" height="42" rx="14" fill="#3d9bff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="605.5" y="286.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🎒</text>
+<text x="623.5" y="284" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Item-Set</text>
+<rect x="747.25" y="200" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="747.25" y="196" width="151.75" height="42" rx="14" fill="#a24dff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="769.25" y="224.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🗺️</text>
+<text x="787.25" y="222" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Neue Zone</text>
+<rect x="747.25" y="324" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="747.25" y="320" width="151.75" height="42" rx="14" fill="#ff9a1f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="769.25" y="348.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🎉</text>
+<text x="787.25" y="346" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Event-Woche</text>
+<rect x="911" y="324" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="911" y="320" width="151.75" height="42" rx="14" fill="#ff9a1f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="933" y="348.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🤝</text>
+<text x="951" y="346" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Community-Ziel</text>
+<rect x="1074.75" y="448" width="479.25" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="1074.75" y="444" width="479.25" height="42" rx="14" fill="#ff3d7f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1096.75" y="472.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🏅</text>
+<text x="1114.75" y="470" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Saison 1 · Pass, Rangliste</text>
+<rect x="1238.5" y="386" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="1238.5" y="382" width="151.75" height="42" rx="14" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1260.5" y="410.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">⚡</text>
+<text x="1278.5" y="408" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Mini-Events</text>
+<rect x="1238.5" y="510" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="1238.5" y="506" width="151.75" height="42" rx="14" fill="#6f7a90" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1260.5" y="534.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🛠️</text>
+<text x="1278.5" y="532" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Bugfix-Welle</text>
+<rect x="1402.25" y="200" width="151.75" height="42" rx="14" fill="#1b2440" opacity="0.25"/>
+<rect x="1402.25" y="196" width="151.75" height="42" rx="14" fill="#a24dff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1424.25" y="224.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🆕</text>
+<text x="1442.25" y="222" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Großes Update</text>
+<rect x="1433.59" y="480" width="121.83" height="24" rx="12" fill="#c81e5a" opacity="0.92"/>
+<text x="1494.5" y="496.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Zwischenbilanz</text>
+<rect x="40" y="584" width="1000" height="228" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="616" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">Spieler (illustrativ): Spitzen bei Updates, Basis durch Systemtiefe</text>
+<path d="M90.0,740.7 L95.8,740.6 L101.6,702.2 L107.4,696.2 L113.2,691.3 L119.1,688.1 L124.9,686.9 L130.7,687.8 L136.5,690.8 L142.3,695.4 L148.1,701.2 L153.9,707.5 L159.8,713.8 L165.6,719.6 L171.4,724.7 L177.2,728.8 L183.0,731.9 L188.8,734.2 L194.6,735.8 L200.4,736.8 L206.2,737.4 L212.1,737.7 L217.9,737.8 L223.7,737.8 L229.5,737.8 L235.3,737.7 L241.1,737.6 L246.9,737.5 L252.8,737.4 L258.6,737.3 L264.4,737.2 L270.2,737.0 L276.0,736.9 L281.8,736.8 L287.6,736.7 L293.4,736.6 L299.2,736.5 L305.1,736.3 L310.9,736.2 L316.7,736.1 L322.5,736.0 L328.3,735.9 L334.1,735.7 L339.9,735.6 L345.8,735.5 L351.6,735.4 L357.4,735.3 L363.2,735.2 L369.0,735.0 L374.8,734.9 L380.6,734.8 L386.4,734.7 L392.2,734.6 L398.1,734.4 L403.9,734.3 L409.7,734.2 L415.5,734.1 L421.3,734.0 L427.1,733.9 L432.9,733.7 L438.8,733.6 L444.6,733.5 L450.4,701.0 L456.2,695.9 L462.0,691.8 L467.8,689.1 L473.6,688.1 L479.4,688.9 L485.2,691.4 L491.1,695.2 L496.9,700.1 L502.7,705.4 L508.5,710.7 L514.3,715.6 L520.1,719.8 L525.9,723.3 L531.8,725.9 L537.6,727.8 L543.4,729.1 L549.2,730.0 L555.0,730.4 L560.8,730.7 L566.6,730.8 L572.4,730.8 L578.2,730.7 L584.1,730.6 L589.9,730.5 L595.7,730.4 L601.5,730.3 L607.3,730.2 L613.1,730.1 L618.9,730.0 L624.8,729.8 L630.6,729.7 L636.4,729.6 L642.2,729.5 L648.0,729.4 L653.8,729.3 L659.6,729.1 L665.4,729.0 L671.2,716.1 L677.1,714.1 L682.9,712.4 L688.7,711.2 L694.5,710.7 L700.3,711.0 L706.1,711.9 L711.9,713.3 L717.8,696.5 L723.6,695.6 L729.4,695.3 L735.2,695.7 L741.0,696.7 L746.8,698.5 L752.6,701.0 L758.4,704.0 L764.2,707.3 L770.1,710.7 L775.9,714.0 L781.7,716.9 L787.5,719.4 L793.3,721.4 L799.1,722.9 L804.9,724.0 L810.8,724.7 L816.6,725.1 L822.4,725.4 L828.2,725.5 L834.0,725.5 L839.8,725.4 L845.6,725.3 L851.4,725.2 L857.2,725.1 L863.1,725.0 L868.9,724.9 L874.7,724.8 L880.5,724.7 L886.3,724.5 L892.1,724.4 L897.9,724.3 L903.8,724.2 L909.6,724.1 L915.4,688.2 L921.2,682.6 L927.0,678.0 L932.8,675.0 L938.6,673.9 L944.4,674.8 L950.2,677.6 L956.1,681.9 L961.9,687.2 L967.7,693.1 L973.5,699.0 L979.3,704.4 L985.1,709.1 L990.9,712.9 L996.8,715.9 L1002.6,718.0 L1008.4,719.4 L1014.2,720.4 L1020.0,720.9 L1020.0,782.0 L90.0,782.0 Z" fill="#3d9bff" opacity="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.0,740.7 L95.8,740.6 L101.6,702.2 L107.4,696.2 L113.2,691.3 L119.1,688.1 L124.9,686.9 L130.7,687.8 L136.5,690.8 L142.3,695.4 L148.1,701.2 L153.9,707.5 L159.8,713.8 L165.6,719.6 L171.4,724.7 L177.2,728.8 L183.0,731.9 L188.8,734.2 L194.6,735.8 L200.4,736.8 L206.2,737.4 L212.1,737.7 L217.9,737.8 L223.7,737.8 L229.5,737.8 L235.3,737.7 L241.1,737.6 L246.9,737.5 L252.8,737.4 L258.6,737.3 L264.4,737.2 L270.2,737.0 L276.0,736.9 L281.8,736.8 L287.6,736.7 L293.4,736.6 L299.2,736.5 L305.1,736.3 L310.9,736.2 L316.7,736.1 L322.5,736.0 L328.3,735.9 L334.1,735.7 L339.9,735.6 L345.8,735.5 L351.6,735.4 L357.4,735.3 L363.2,735.2 L369.0,735.0 L374.8,734.9 L380.6,734.8 L386.4,734.7 L392.2,734.6 L398.1,734.4 L403.9,734.3 L409.7,734.2 L415.5,734.1 L421.3,734.0 L427.1,733.9 L432.9,733.7 L438.8,733.6 L444.6,733.5 L450.4,701.0 L456.2,695.9 L462.0,691.8 L467.8,689.1 L473.6,688.1 L479.4,688.9 L485.2,691.4 L491.1,695.2 L496.9,700.1 L502.7,705.4 L508.5,710.7 L514.3,715.6 L520.1,719.8 L525.9,723.3 L531.8,725.9 L537.6,727.8 L543.4,729.1 L549.2,730.0 L555.0,730.4 L560.8,730.7 L566.6,730.8 L572.4,730.8 L578.2,730.7 L584.1,730.6 L589.9,730.5 L595.7,730.4 L601.5,730.3 L607.3,730.2 L613.1,730.1 L618.9,730.0 L624.8,729.8 L630.6,729.7 L636.4,729.6 L642.2,729.5 L648.0,729.4 L653.8,729.3 L659.6,729.1 L665.4,729.0 L671.2,716.1 L677.1,714.1 L682.9,712.4 L688.7,711.2 L694.5,710.7 L700.3,711.0 L706.1,711.9 L711.9,713.3 L717.8,696.5 L723.6,695.6 L729.4,695.3 L735.2,695.7 L741.0,696.7 L746.8,698.5 L752.6,701.0 L758.4,704.0 L764.2,707.3 L770.1,710.7 L775.9,714.0 L781.7,716.9 L787.5,719.4 L793.3,721.4 L799.1,722.9 L804.9,724.0 L810.8,724.7 L816.6,725.1 L822.4,725.4 L828.2,725.5 L834.0,725.5 L839.8,725.4 L845.6,725.3 L851.4,725.2 L857.2,725.1 L863.1,725.0 L868.9,724.9 L874.7,724.8 L880.5,724.7 L886.3,724.5 L892.1,724.4 L897.9,724.3 L903.8,724.2 L909.6,724.1 L915.4,688.2 L921.2,682.6 L927.0,678.0 L932.8,675.0 L938.6,673.9 L944.4,674.8 L950.2,677.6 L956.1,681.9 L961.9,687.2 L967.7,693.1 L973.5,699.0 L979.3,704.4 L985.1,709.1 L990.9,712.9 L996.8,715.9 L1002.6,718.0 L1008.4,719.4 L1014.2,720.4 L1020.0,720.9" fill="none" stroke="#1f6fd1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.0,740.7 L1020.0,721.8" fill="none" stroke="#1e9e55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
+<rect x="850.22" y="731.82" width="165.78" height="24" rx="12" fill="#1e9e55" opacity="0.92"/>
+<text x="933.11" y="748.14" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Basis (Meta-Systeme)</text>
+<line x1="90" y1="782" x2="1020" y2="782" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="1060" y="584" width="500" height="228" rx="22" fill="#fff8dc" stroke="#d99a0b" stroke-width="3"/>
+<text x="1082" y="618" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">Gute Events</text>
+<text x="1086" y="646" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="646" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Ein Thema, ein klares Ziel</text>
+<text x="1086" y="676" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="676" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Ehrliche Dauer, kein Fake-Druck</text>
+<text x="1086" y="706" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="706" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Für alle erreichbar, nicht nur Käufer</text>
+<text x="1086" y="736" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="736" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Nachlauf: Titel/Item bleibt</text>
+<text x="1086" y="766" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="766" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Pipeline 2–3 Updates voraus, Rollback-Plan</text>
+<text x="1086" y="796" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">•</text>
+<text x="1102" y="796" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Kennzahlen vorher/nachher: CCU, D1/D7, Spielzeit</text>
+</svg>

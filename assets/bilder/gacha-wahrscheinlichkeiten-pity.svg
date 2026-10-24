@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Gacha: Wahrscheinlichkeiten und Pity-System</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Beispiel-Chancen aus gacha-und-luck.md (Startpunkt, kein Standard) und ein sichtbarer Pity-Zähler</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Chancen anzeigen, Pity sichtbar, Server lost aus  ·  gacha-wahrscheinlichkeiten-pity.png</text>
+<rect x="40" y="122" width="860" height="712" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="164" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start">Chance pro Ei (Beispiel)</text>
+<text x="64" y="190" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Balkenlänge linear – darum sind die seltenen Stufen winzig. Genau das macht sie wertvoll.</text>
+<text x="64" y="248" fill="#6f7a90" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">● Gewöhnlich</text>
+<text x="64" y="270" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Alltag</text>
+<rect x="250" y="226" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="226" width="420" height="40" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2.5"/>
+<text x="658" y="253" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="end" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">60 %</text>
+<text x="876" y="253" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 1,7</text>
+<text x="64" y="320" fill="#239a3c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">▲ Ungewöhnlich</text>
+<text x="64" y="342" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Freude</text>
+<rect x="250" y="298" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="298" width="175" height="40" rx="12" fill="#3ccf5a" stroke="#1b2440" stroke-width="2.5"/>
+<text x="437" y="325" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">25 %</text>
+<text x="876" y="325" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 4</text>
+<text x="64" y="392" fill="#1f5fd1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">◆ Selten</text>
+<text x="64" y="414" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Highlight</text>
+<rect x="250" y="370" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="370" width="70" height="40" rx="12" fill="#3d8bff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="332" y="397" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">10 %</text>
+<text x="876" y="397" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 10</text>
+<text x="64" y="464" fill="#7428d1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">★ Episch</text>
+<text x="64" y="486" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Aufregung</text>
+<rect x="250" y="442" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="442" width="28" height="40" rx="12" fill="#a24dff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="290" y="469" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">4 %</text>
+<text x="876" y="469" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 25</text>
+<text x="64" y="536" fill="#d4730a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">♛ Legendär</text>
+<text x="64" y="558" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Geschichte</text>
+<rect x="250" y="514" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="514" width="8" height="40" rx="12" fill="#ffa21f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="270" y="541" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">0,9 %</text>
+<text x="876" y="541" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 111</text>
+<text x="64" y="608" fill="#c81e5a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">✦ Mythisch</text>
+<text x="64" y="630" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">Server-Meldung</text>
+<rect x="250" y="586" width="420" height="40" rx="12" fill="#eef2fa"/>
+<rect x="250" y="586" width="8" height="40" rx="12" fill="#ff3d7f" stroke="#1b2440" stroke-width="2.5"/>
+<text x="270" y="613" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">0,1 %</text>
+<text x="876" y="613" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="end">1 von 1.000</text>
+<rect x="60" y="662" width="820" height="150" rx="14" fill="#f6f8fd" stroke="#c9d3ee" stroke-width="2"/>
+<text x="80" y="692" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">🔍 Lupe: 0–5 % vergrößert</text>
+<text x="80" y="728" fill="#7428d1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">★ Episch</text>
+<rect x="240" y="712" width="448" height="22" rx="8" fill="#a24dff" stroke="#1b2440" stroke-width="2"/>
+<text x="698" y="729" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">4 %</text>
+<text x="80" y="760" fill="#d4730a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">♛ Legendär</text>
+<rect x="240" y="744" width="100.8" height="22" rx="8" fill="#ffa21f" stroke="#1b2440" stroke-width="2"/>
+<text x="350.8" y="761" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">0,9 %</text>
+<text x="80" y="792" fill="#c81e5a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">✦ Mythisch</text>
+<rect x="240" y="776" width="11.2" height="22" rx="8" fill="#ff3d7f" stroke="#1b2440" stroke-width="2"/>
+<text x="261.2" y="793" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">0,1 %</text>
+<rect x="924" y="122" width="636" height="712" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="948" y="164" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start">Pity: garantierter Treffer</text>
+<text x="948" y="190" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Frust-Schutz nach X Versuchen ohne Treffer – Zähler sichtbar.</text>
+<rect x="947" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="972" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1007" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1032" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1067" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1092" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1127" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1152" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1187" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1212" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1247" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1272" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1307" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1332" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1367" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1392" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1427" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1452" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1487" y="218" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1512" y="251" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="947" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="972" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1007" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1032" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1067" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1092" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1127" y="278" width="50" height="50" rx="12" fill="#3ccf5a" stroke="#1b2440" stroke-width="2"/>
+<text x="1152" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#239a3c" stroke-width="3" paint-order="stroke" stroke-linejoin="round">▲</text>
+<rect x="1187" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1212" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1247" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1272" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1307" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1332" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1367" y="278" width="50" height="50" rx="12" fill="#3d8bff" stroke="#1b2440" stroke-width="2"/>
+<text x="1392" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1f5fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">◆</text>
+<rect x="1427" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1452" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1487" y="278" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1512" y="311" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="947" y="338" width="50" height="50" rx="12" fill="#3d8bff" stroke="#1b2440" stroke-width="2"/>
+<text x="972" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1f5fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">◆</text>
+<rect x="1007" y="338" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1032" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1067" y="338" width="50" height="50" rx="12" fill="#3ccf5a" stroke="#1b2440" stroke-width="2"/>
+<text x="1092" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#239a3c" stroke-width="3" paint-order="stroke" stroke-linejoin="round">▲</text>
+<rect x="1127" y="338" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1152" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1187" y="338" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1212" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1247" y="338" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1272" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1307" y="338" width="50" height="50" rx="12" fill="#9aa5b8" stroke="#1b2440" stroke-width="2"/>
+<text x="1332" y="371" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">●</text>
+<rect x="1367" y="338" width="50" height="50" rx="12" fill="#eef2fa" stroke="#aab5cc" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="1392" y="372.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle" opacity="0.6">🥚</text>
+<rect x="1427" y="338" width="50" height="50" rx="12" fill="#eef2fa" stroke="#aab5cc" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="1452" y="372.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle" opacity="0.6">🥚</text>
+<rect x="1483" y="334" width="58" height="58" rx="14" fill="#a24dff" opacity="0.45" filter="url(#glow)"/>
+<rect x="1487" y="338" width="50" height="50" rx="12" fill="#a24dff" stroke="#1b2440" stroke-width="3"/>
+<text x="1512" y="372" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="26" font-weight="700" text-anchor="middle">★</text>
+<text x="948" y="424" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">27 Würfe ohne Episch+ … Wurf 30 ist garantiert Episch.</text>
+<rect x="948" y="462" width="588" height="196" rx="20" fill="#1b2440" stroke="#1b2440" stroke-width="3"/>
+<text x="1004" y="549.04" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="64" text-anchor="middle">🥚</text>
+<text x="1054" y="512" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Wald-Ei</text>
+<text x="1054" y="538" fill="#9fc7ff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Chancen ansehen ⓘ</text>
+<rect x="1330" y="495" width="180" height="56" rx="16" fill="#1e9e55" stroke="#1b2440" stroke-width="3"/>
+<rect x="1330" y="490" width="180" height="56" rx="16" fill="#2ecc71" stroke="#1b2440" stroke-width="3"/>
+<rect x="1336" y="494" width="168" height="21.28" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="1420" y="525.92" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4.4" paint-order="stroke" stroke-linejoin="round">Öffnen</text>
+<text x="972" y="588" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Episch-Garantie</text>
+<rect x="1150" y="570" width="360" height="24" rx="12" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="1152" y="572" width="320.4" height="20" rx="10" fill="#a24dff"/>
+<rect x="1156" y="574" width="313.2" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
+<text x="1330" y="587.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3.11" paint-order="stroke" stroke-linejoin="round">27 / 30</text>
+<text x="972" y="630" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Legendär-Garantie</text>
+<rect x="1150" y="612" width="360" height="24" rx="12" fill="#24304f" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="1152" y="614" width="227.84" height="20" rx="10" fill="#ff9a1f"/>
+<rect x="1156" y="616" width="222.72" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
+<text x="1330" y="629.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3.11" paint-order="stroke" stroke-linejoin="round">64 / 100</text>
+<rect x="948" y="682" width="588" height="132" rx="14" fill="#fff8dc" stroke="#d99a0b" stroke-width="2.5"/>
+<text x="966" y="712" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">•  Server entscheidet den Zufall, nie der Client.</text>
+<text x="966" y="740" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">•  Luck-Boosts begrenzen (Obergrenze), auch verdienbar.</text>
+<text x="966" y="768" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">•  Bezahlter Zufall: Roblox-Regeln zur Offenlegung prüfen.</text>
+<text x="966" y="796" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="400" text-anchor="start">•  Seltenes auch ohne Geld erreichbar.</text>
+</svg>

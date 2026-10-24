@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><marker id="pfeil1f6fd1" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1f6fd1"/></marker><marker id="pfeil7428d1" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#7428d1"/></marker><marker id="pfeil1e9e55" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#1e9e55"/></marker><marker id="pfeilff4d5e" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#ff4d5e"/></marker></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Client-Server-Architektur in Roblox</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Der Server ist die Wahrheit, der Client sendet nur Wünsche – Beispiel: ein Kauf mit Münzen</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Nie dem Client vertrauen, alles mit Wert am Server  ·  client-server-architektur.png</text>
+<rect x="40" y="122" width="440" height="520" rx="24" fill="#3d9bff" stroke="#1b2440" stroke-width="4" fill-opacity="0.12" filter="url(#schatten)"/>
+<rect x="40" y="122" width="440" height="64" rx="24" fill="#3d9bff" stroke="#1b2440" stroke-width="4"/>
+<text x="76" y="164.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">📱</text>
+<text x="102" y="152" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Client</text>
+<text x="102" y="174" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Gerät des Spielers</text>
+<rect x="530" y="122" width="440" height="520" rx="24" fill="#a24dff" stroke="#1b2440" stroke-width="4" fill-opacity="0.12" filter="url(#schatten)"/>
+<rect x="530" y="122" width="440" height="64" rx="24" fill="#a24dff" stroke="#1b2440" stroke-width="4"/>
+<text x="566" y="164.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🔁</text>
+<text x="592" y="152" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">ReplicatedStorage</text>
+<text x="592" y="174" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">für beide sichtbar</text>
+<rect x="1020" y="122" width="540" height="520" rx="24" fill="#ff4d5e" stroke="#1b2440" stroke-width="4" fill-opacity="0.12" filter="url(#schatten)"/>
+<rect x="1020" y="122" width="540" height="64" rx="24" fill="#ff4d5e" stroke="#1b2440" stroke-width="4"/>
+<text x="1056" y="164.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🖥️</text>
+<text x="1082" y="152" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Server</text>
+<text x="1082" y="174" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Roblox-Server, die Wahrheit</text>
+<rect x="64" y="210" width="392" height="100" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="80" y="238" fill="#1f6fd1" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">LocalScript</text>
+<text x="80" y="258.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">in StarterPlayerScripts: Eingabe, UI-Logik, Effekte,</text>
+<text x="80" y="277.64" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Sounds</text>
+<rect x="64" y="330" width="392" height="90" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="80" y="358" fill="#1f6fd1" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">PlayerGui → ScreenGui</text>
+<text x="80" y="378.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">HUD, Shop-Fenster (nur Anzeige)</text>
+<rect x="64" y="440" width="392" height="110" rx="14" fill="#ffe8ea" stroke="#ff4d5e" stroke-width="3"/>
+<text x="96" y="490.24" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="34" text-anchor="middle">🕵️</text>
+<text x="126" y="470" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">Nicht vertrauenswürdig!</text>
+<text x="126" y="492.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Exploiter können LocalScripts ändern und</text>
+<text x="126" y="511.64" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Remotes beliebig feuern.</text>
+<rect x="554" y="210" width="392" height="110" rx="14" fill="#ffffff" stroke="#7428d1" stroke-width="3"/>
+<text x="570" y="238" fill="#7428d1" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">ModuleScript</text>
+<text x="570" y="258.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Konfiguration: Preise, Chancen, Item-Daten</text>
+<text x="570" y="277.64" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">(Balancing ohne Code-Umbau)</text>
+<rect x="554" y="340" width="392" height="84" rx="14" fill="#ffffff" stroke="#7428d1" stroke-width="3"/>
+<text x="570" y="368" fill="#7428d1" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">RemoteEvent „KaufWunsch“</text>
+<text x="570" y="388.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Brücke Client ↔ Server</text>
+<rect x="554" y="444" width="392" height="84" rx="14" fill="#ffffff" stroke="#7428d1" stroke-width="3"/>
+<text x="570" y="472" fill="#7428d1" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">RemoteFunction</text>
+<text x="570" y="492.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">sparsam (Server wartet sonst auf Client)</text>
+<rect x="1044" y="210" width="492" height="96" rx="14" fill="#ffffff" stroke="#c9303f" stroke-width="3"/>
+<text x="1060" y="238" fill="#c9303f" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">Script (ServerScriptService)</text>
+<text x="1060" y="258.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Spiellogik, Ökonomie, Zufalls-Drops, Schaden</text>
+<rect x="1044" y="322" width="492" height="132" rx="14" fill="#ffffff" stroke="#1e9e55" stroke-width="3"/>
+<text x="1060" y="350" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Prüfen bei jedem Remote-Aufruf:</text>
+<circle cx="1070" cy="384" r="10" fill="#2ecc71"/>
+<text x="1070" y="389" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">✔</text>
+<text x="1088" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Typ richtig?</text>
+<circle cx="1306" cy="384" r="10" fill="#2ecc71"/>
+<text x="1306" y="389" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">✔</text>
+<text x="1324" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Wertebereich ok?</text>
+<circle cx="1070" cy="418" r="10" fill="#2ecc71"/>
+<text x="1070" y="423" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">✔</text>
+<text x="1088" y="424" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Genug Münzen?</text>
+<circle cx="1306" cy="418" r="10" fill="#2ecc71"/>
+<text x="1306" y="423" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">✔</text>
+<text x="1324" y="424" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Cooldown / Rate-Limit?</text>
+<rect x="1044" y="470" width="236" height="150" rx="14" fill="#ffffff" stroke="#c9303f" stroke-width="3"/>
+<text x="1060" y="498" fill="#c9303f" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">DataStoreService</text>
+<text x="1060" y="518.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">UpdateAsync + pcall, Retry,</text>
+<text x="1060" y="537.64" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Session-Lock,</text>
+<text x="1060" y="556.78" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Schema-Version</text>
+<rect x="1296" y="470" width="240" height="150" rx="14" fill="#ffffff" stroke="#c9303f" stroke-width="3"/>
+<text x="1312" y="498" fill="#c9303f" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="start">MarketplaceService</text>
+<text x="1312" y="518.5" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">ProcessReceipt: erst</text>
+<text x="1312" y="537.64" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">speichern, dann</text>
+<text x="1312" y="556.78" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">PurchaseGranted</text>
+<path d="M456,255 Q521.1,297.98 550.2,370.35" fill="none" stroke="#1f6fd1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1f6fd1)"/>
+<circle cx="505" cy="300" r="16" fill="#1f6fd1" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="505" y="306.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">1</text>
+<path d="M946,375 Q975.1,302.62 1040.2,259.65" fill="none" stroke="#7428d1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil7428d1)"/>
+<circle cx="1000" cy="300" r="16" fill="#7428d1" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1000" y="306.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">2</text>
+<path d="M1160,454 Q1160,459 1160,464" fill="none" stroke="#1e9e55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1e9e55)"/>
+<path d="M1044,600 C900,640 640,640 560,580 S470,420 462,384" fill="none" stroke="#1e9e55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil1e9e55)" stroke-dasharray="10 7"/>
+<circle cx="760" cy="610" r="16" fill="#1e9e55" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="760" y="616.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">4</text>
+<path d="M300,550 Q478.73,563.16 594.47,426.32" fill="none" stroke="#ff4d5e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeilff4d5e)" stroke-dasharray="6 6"/>
+<rect x="40" y="666" width="1520" height="170" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="702" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="start">Ablauf: Kauf eines Schwerts für 500 Münzen</text>
+<circle cx="76" cy="730" r="11" fill="#1f6fd1" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="76" y="734.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.55" font-weight="700" text-anchor="middle">1</text>
+<text x="96" y="736" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Client: Spieler tippt „Kaufen“ → KaufWunsch:FireServer(„Schwert“). Sendet nur den Wunsch, keinen Preis.</text>
+<circle cx="76" cy="758" r="11" fill="#7428d1" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="76" y="762.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.55" font-weight="700" text-anchor="middle">2</text>
+<text x="96" y="764" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Server: OnServerEvent → prüft Typ, Item existiert, genug Münzen, Cooldown. Preis kommt aus dem ModuleScript.</text>
+<circle cx="76" cy="786" r="11" fill="#c9303f" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="76" y="790.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.55" font-weight="700" text-anchor="middle">3</text>
+<text x="96" y="792" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Server: Münzen abziehen, Item geben, per DataStore sichern (UpdateAsync, pcall).</text>
+<circle cx="76" cy="814" r="11" fill="#1e9e55" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="76" y="818.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.55" font-weight="700" text-anchor="middle">4</text>
+<text x="96" y="820" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Server → Client: FireClient/Attribute → HUD zählt hoch, Erfolgs-Sound. ✘ Exploit-Aufruf „gib 1.000.000“ wird abgelehnt + geloggt.</text>
+<circle cx="1180" cy="462" r="16" fill="#c9303f" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1180" y="468.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">3</text>
+</svg>

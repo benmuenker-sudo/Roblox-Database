@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><linearGradient id="verlauf3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff9a1f"/><stop offset="1" stop-color="#ff5d3d"/></linearGradient><linearGradient id="verlauf4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ff3d7f" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffa21f" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffa21f" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a24dff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a24dff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a24dff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3d8bff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3d8bff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3d8bff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf13" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3ccf5a" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf14" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3ccf5a" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf15" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3ccf5a" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf16" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf17" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf18" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf19" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf21" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9aa5b8" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf22" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3ccf5a" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf23" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3d8bff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf24" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a24dff" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf25" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffa21f" stop-opacity="0.45"/></linearGradient><linearGradient id="verlauf26" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ff3d7f" stop-opacity="0.45"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Inventar mit Seltenheitsrahmen</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Raster, Sortieren/Filtern, Platz-Anzeige, Mehrfachauswahl mit Sicherheitsabfrage – und die Farb-Konvention</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Seltenheit = Farbe + Symbol, Platz-Anzeige X/Y  ·  ui-inventar-seltenheit.png</text>
+<rect x="40" y="122" width="1010" height="712" rx="22" fill="#eef3ff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<rect x="40" y="122" width="1010" height="78" rx="22" fill="url(#verlauf3)" stroke="#1b2440" stroke-width="4"/>
+<rect x="44" y="178" width="1002" height="18" rx="0" fill="#ff5d3d" opacity="0"/>
+<text x="84" y="174.68" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="38" text-anchor="middle">🎒</text>
+<text x="116" y="174" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="36" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="6" paint-order="stroke" stroke-linejoin="round">Inventar</text>
+<rect x="966" y="135" width="64" height="60" rx="16" fill="#c9303f" stroke="#1b2440" stroke-width="3"/>
+<rect x="966" y="130" width="64" height="60" rx="16" fill="#ff4d5e" stroke="#1b2440" stroke-width="3"/>
+<rect x="972" y="134" width="52" height="22.8" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="998" y="172.24" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="34" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="6.8" paint-order="stroke" stroke-linejoin="round">✕</text>
+<rect x="750" y="140" width="190" height="42" rx="21" fill="#1b2440" stroke="#ffffff" stroke-width="3"/>
+<text x="845" y="168" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="middle">47/60 Plätze</text>
+<rect x="62" y="218" width="270" height="44" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="80" y="247" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">Sortieren: Seltenheit ▾</text>
+<rect x="348" y="220" width="64.22" height="40" rx="20" fill="#3d9bff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="380.11" y="246" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Alle</text>
+<rect x="420.22" y="220" width="65.64" height="40" rx="20" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="453.04" y="246" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Neu</text>
+<rect x="493.86" y="220" width="117.86" height="40" rx="20" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="552.79" y="246" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Haustiere</text>
+<rect x="619.72" y="220" width="130.36" height="40" rx="20" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="684.9" y="246" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Werkzeuge</text>
+<rect x="764.08" y="218" width="263.92" height="44" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="780.08" y="247" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">🔍 Suchen …</text>
+<rect x="78" y="282" width="130" height="130" rx="20" fill="#ff3d7f" opacity="0.35" filter="url(#glow)"/>
+<rect x="84" y="288" width="118" height="118" rx="16" fill="url(#verlauf4)" stroke="#ff3d7f" stroke-width="6"/>
+<rect x="84" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="143" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐉</text>
+<rect x="87" y="378" width="112" height="25" rx="10" fill="#ff3d7f"/>
+<text x="143" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#c81e5a" stroke-width="3" paint-order="stroke" stroke-linejoin="round">✦ Mythisch</text>
+<rect x="218" y="288" width="118" height="118" rx="16" fill="url(#verlauf5)" stroke="#ffa21f" stroke-width="6"/>
+<rect x="218" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="277" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🦄</text>
+<rect x="221" y="378" width="112" height="25" rx="10" fill="#ffa21f"/>
+<text x="277" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#d4730a" stroke-width="3" paint-order="stroke" stroke-linejoin="round">♛ Legendär</text>
+<text x="238" y="315.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="20" text-anchor="middle">🔒</text>
+<rect x="352" y="288" width="118" height="118" rx="16" fill="url(#verlauf6)" stroke="#ffa21f" stroke-width="6"/>
+<rect x="352" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="411" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🔥</text>
+<rect x="355" y="378" width="112" height="25" rx="10" fill="#ffa21f"/>
+<text x="411" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#d4730a" stroke-width="3" paint-order="stroke" stroke-linejoin="round">♛ Legendär</text>
+<rect x="416" y="280" width="46" height="24" rx="12" fill="#ff4d5e" opacity="0.92"/>
+<text x="439" y="296.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="12" font-weight="700" text-anchor="middle">NEU</text>
+<rect x="486" y="288" width="118" height="118" rx="16" fill="url(#verlauf7)" stroke="#a24dff" stroke-width="6"/>
+<rect x="486" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="545" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🦊</text>
+<rect x="489" y="378" width="112" height="25" rx="10" fill="#a24dff"/>
+<text x="545" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#7428d1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">★ Episch</text>
+<circle cx="590" cy="302" r="14" fill="#2ecc71" stroke="#ffffff" stroke-width="2.5"/>
+<text x="590" y="308" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">✔</text>
+<rect x="620" y="288" width="118" height="118" rx="16" fill="url(#verlauf8)" stroke="#a24dff" stroke-width="6"/>
+<rect x="620" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="679" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐙</text>
+<rect x="623" y="378" width="112" height="25" rx="10" fill="#a24dff"/>
+<text x="679" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#7428d1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">★ Episch</text>
+<rect x="754" y="288" width="118" height="118" rx="16" fill="url(#verlauf9)" stroke="#a24dff" stroke-width="6"/>
+<rect x="754" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="813" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">💎</text>
+<rect x="757" y="378" width="112" height="25" rx="10" fill="#a24dff"/>
+<text x="813" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#7428d1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">★ Episch</text>
+<rect x="888" y="288" width="118" height="118" rx="16" fill="url(#verlauf10)" stroke="#3d8bff" stroke-width="6"/>
+<rect x="888" y="288" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="947" y="358.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐢</text>
+<rect x="891" y="378" width="112" height="25" rx="10" fill="#3d8bff"/>
+<text x="947" y="396" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#1f5fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">◆ Selten</text>
+<rect x="84" y="422" width="118" height="118" rx="16" fill="url(#verlauf11)" stroke="#3d8bff" stroke-width="6"/>
+<rect x="84" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="143" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐸</text>
+<rect x="87" y="512" width="112" height="25" rx="10" fill="#3d8bff"/>
+<text x="143" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#1f5fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">◆ Selten</text>
+<rect x="218" y="422" width="118" height="118" rx="16" fill="url(#verlauf12)" stroke="#3d8bff" stroke-width="6"/>
+<rect x="218" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="277" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🍄</text>
+<rect x="221" y="512" width="112" height="25" rx="10" fill="#3d8bff"/>
+<text x="277" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#1f5fd1" stroke-width="3" paint-order="stroke" stroke-linejoin="round">◆ Selten</text>
+<rect x="352" y="422" width="118" height="118" rx="16" fill="url(#verlauf13)" stroke="#3ccf5a" stroke-width="6"/>
+<rect x="352" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="411" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐝</text>
+<rect x="355" y="512" width="112" height="25" rx="10" fill="#3ccf5a"/>
+<text x="411" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" stroke="#239a3c" stroke-width="3" paint-order="stroke" stroke-linejoin="round">▲ Ungewöhnlich</text>
+<rect x="486" y="422" width="118" height="118" rx="16" fill="url(#verlauf14)" stroke="#3ccf5a" stroke-width="6"/>
+<rect x="486" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="545" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🌵</text>
+<rect x="489" y="512" width="112" height="25" rx="10" fill="#3ccf5a"/>
+<text x="545" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" stroke="#239a3c" stroke-width="3" paint-order="stroke" stroke-linejoin="round">▲ Ungewöhnlich</text>
+<rect x="620" y="422" width="118" height="118" rx="16" fill="url(#verlauf15)" stroke="#3ccf5a" stroke-width="6"/>
+<rect x="620" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="679" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐰</text>
+<rect x="623" y="512" width="112" height="25" rx="10" fill="#3ccf5a"/>
+<text x="679" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" stroke="#239a3c" stroke-width="3" paint-order="stroke" stroke-linejoin="round">▲ Ungewöhnlich</text>
+<rect x="754" y="422" width="118" height="118" rx="16" fill="url(#verlauf16)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="754" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="813" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐟</text>
+<rect x="757" y="512" width="112" height="25" rx="10" fill="#9aa5b8"/>
+<text x="813" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">● Gewöhnlich</text>
+<rect x="750" y="418" width="126" height="126" rx="18" fill="none" stroke="#3d9bff" stroke-width="5"/>
+<rect x="762" y="430" width="26" height="26" rx="7" fill="#3d9bff" stroke="#ffffff" stroke-width="2"/>
+<text x="775" y="450" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">✔</text>
+<rect x="888" y="422" width="118" height="118" rx="16" fill="url(#verlauf17)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="888" y="422" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="947" y="492.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐌</text>
+<rect x="891" y="512" width="112" height="25" rx="10" fill="#9aa5b8"/>
+<text x="947" y="530" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">● Gewöhnlich</text>
+<rect x="884" y="418" width="126" height="126" rx="18" fill="none" stroke="#3d9bff" stroke-width="5"/>
+<rect x="896" y="430" width="26" height="26" rx="7" fill="#3d9bff" stroke="#ffffff" stroke-width="2"/>
+<text x="909" y="450" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">✔</text>
+<rect x="84" y="556" width="118" height="118" rx="16" fill="url(#verlauf18)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="84" y="556" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="143" y="626.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🥕</text>
+<rect x="87" y="646" width="112" height="25" rx="10" fill="#9aa5b8"/>
+<text x="143" y="664" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">● Gewöhnlich</text>
+<rect x="80" y="552" width="126" height="126" rx="18" fill="none" stroke="#3d9bff" stroke-width="5"/>
+<rect x="92" y="564" width="26" height="26" rx="7" fill="#3d9bff" stroke="#ffffff" stroke-width="2"/>
+<text x="105" y="584" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">✔</text>
+<rect x="218" y="556" width="118" height="118" rx="16" fill="url(#verlauf19)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="218" y="556" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="277" y="626.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🪨</text>
+<rect x="221" y="646" width="112" height="25" rx="10" fill="#9aa5b8"/>
+<text x="277" y="664" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">● Gewöhnlich</text>
+<rect x="352" y="556" width="118" height="118" rx="16" fill="url(#verlauf20)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="352" y="556" width="118" height="118" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="411" y="626.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="59" text-anchor="middle">🐭</text>
+<rect x="355" y="646" width="112" height="25" rx="10" fill="#9aa5b8"/>
+<text x="411" y="664" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle" stroke="#6f7a90" stroke-width="3" paint-order="stroke" stroke-linejoin="round">● Gewöhnlich</text>
+<rect x="486" y="556" width="118" height="118" rx="16" fill="#dfe6f5" stroke="#aab5cc" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="620" y="556" width="118" height="118" rx="16" fill="#dfe6f5" stroke="#aab5cc" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="754" y="556" width="118" height="118" rx="16" fill="#dfe6f5" stroke="#aab5cc" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="888" y="556" width="118" height="118" rx="16" fill="#dfe6f5" stroke="#aab5cc" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="62" y="716" width="966" height="96" rx="18" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="84" y="754" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="start">Mehrfachauswahl: 3 gewählt</text>
+<text x="84" y="786" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">⚠ Ab Episch: Sicherheitsabfrage vor Verkauf</text>
+<rect x="580" y="743" width="190" height="54" rx="16" fill="#1f6fd1" stroke="#1b2440" stroke-width="3"/>
+<rect x="580" y="738" width="190" height="54" rx="16" fill="#3d9bff" stroke="#1b2440" stroke-width="3"/>
+<rect x="586" y="742" width="178" height="20.52" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="675" y="772.2" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Ausrüsten</text>
+<rect x="788" y="743" width="218" height="54" rx="16" fill="#c9303f" stroke="#1b2440" stroke-width="3"/>
+<rect x="788" y="738" width="218" height="54" rx="16" fill="#ff4d5e" stroke="#1b2440" stroke-width="3"/>
+<rect x="794" y="742" width="206" height="20.52" rx="12" fill="#ffffff" opacity="0.28"/>
+<text x="897" y="772.2" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="20" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Verkaufen (3)</text>
+<circle cx="750" cy="144" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="750" y="149.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">1</text>
+<circle cx="70" cy="222" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="70" y="227.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">2</text>
+<circle cx="602" cy="322" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="602" y="327.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">3</text>
+<circle cx="466" cy="318" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="466" y="323.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">4</text>
+<circle cx="78" cy="560" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="78" y="565.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">5</text>
+<rect x="1076" y="122" width="494" height="712" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="1100" y="164" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="24" font-weight="700" text-anchor="start">Seltenheits-Konvention</text>
+<text x="1100" y="190" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Spieler kennen diese Reihenfolge aus vielen Spielen.</text>
+<rect x="1100" y="210" width="62" height="62" rx="16" fill="url(#verlauf21)" stroke="#9aa5b8" stroke-width="6"/>
+<rect x="1100" y="210" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="247.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🐟</text>
+<text x="1180" y="236" fill="#6f7a90" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">● Gewöhnlich</text>
+<text x="1180" y="260" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Common · #9AA5B8</text>
+<text x="1546" y="248" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">60 %</text>
+<rect x="1100" y="284" width="62" height="62" rx="16" fill="url(#verlauf22)" stroke="#3ccf5a" stroke-width="6"/>
+<rect x="1100" y="284" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="321.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🐝</text>
+<text x="1180" y="310" fill="#239a3c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">▲ Ungewöhnlich</text>
+<text x="1180" y="334" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Uncommon · #3CCF5A</text>
+<text x="1546" y="322" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">25 %</text>
+<rect x="1100" y="358" width="62" height="62" rx="16" fill="url(#verlauf23)" stroke="#3d8bff" stroke-width="6"/>
+<rect x="1100" y="358" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="395.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🦊</text>
+<text x="1180" y="384" fill="#1f5fd1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">◆ Selten</text>
+<text x="1180" y="408" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Rare · #3D8BFF</text>
+<text x="1546" y="396" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">10 %</text>
+<rect x="1100" y="432" width="62" height="62" rx="16" fill="url(#verlauf24)" stroke="#a24dff" stroke-width="6"/>
+<rect x="1100" y="432" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="469.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🦄</text>
+<text x="1180" y="458" fill="#7428d1" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">★ Episch</text>
+<text x="1180" y="482" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Epic · #A24DFF</text>
+<text x="1546" y="470" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">4 %</text>
+<rect x="1100" y="506" width="62" height="62" rx="16" fill="url(#verlauf25)" stroke="#ffa21f" stroke-width="6"/>
+<rect x="1100" y="506" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="543.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🔥</text>
+<text x="1180" y="532" fill="#d4730a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">♛ Legendär</text>
+<text x="1180" y="556" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Legendary · #FFA21F</text>
+<text x="1546" y="544" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">0,9 %</text>
+<rect x="1094" y="574" width="74" height="74" rx="20" fill="#ff3d7f" opacity="0.35" filter="url(#glow)"/>
+<rect x="1100" y="580" width="62" height="62" rx="16" fill="url(#verlauf26)" stroke="#ff3d7f" stroke-width="6"/>
+<rect x="1100" y="580" width="62" height="62" rx="16" fill="none" stroke="#1b2440" stroke-width="2"/>
+<text x="1131" y="617.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="31" text-anchor="middle">🐉</text>
+<text x="1180" y="606" fill="#c81e5a" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">✦ Mythisch</text>
+<text x="1180" y="630" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Mythic · #FF3D7F</text>
+<text x="1546" y="618" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">0,1 %</text>
+<rect x="1096" y="658" width="454" height="170" rx="16" fill="#fff8dc" stroke="#d99a0b" stroke-width="2.5"/>
+<text x="1112" y="688" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">Legende der Nummern</text>
+<text x="1112" y="716" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">① Platz-Anzeige 47/60  ② Sortieren + Filter-Chips</text>
+<text x="1112" y="740" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">③ Ausgerüstet-Haken  ④ NEU-Markierung</text>
+<text x="1112" y="764" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">⑤ Mehrfachauswahl (blau)  🔒 = gesperrt/Favorit</text>
+<text x="1112" y="788" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="700" text-anchor="start">Symbol + Farbe: auch farbenblind lesbar.</text>
+<text x="1112" y="812" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Chancen rechts = Beispielwerte (siehe Gacha).</text>
+</svg>

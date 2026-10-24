@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><linearGradient id="verlauf3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2ecc71"/><stop offset="0.5" stop-color="#ffc93c"/><stop offset="1" stop-color="#ff4d5e"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Monetarisierung: Produkte und Fairness</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Gamepass, Developer Product und Kosmetik im Vergleich – und wo ein Angebot auf der Skala fair ↔ Pay-to-win liegt</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Zeit, Komfort, Aussehen verkaufen – nie den Fortschritt sperren  ·  monetarisierung-produkte.png</text>
+<rect x="40" y="122" width="1520" height="454" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<rect x="226" y="132" width="434.67" height="56" rx="16" fill="#3d9bff" stroke="#1b2440" stroke-width="3"/>
+<text x="260" y="170.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🎫</text>
+<text x="286" y="169" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Gamepass</text>
+<rect x="672.67" y="132" width="434.67" height="56" rx="16" fill="#ff9a1f" stroke="#1b2440" stroke-width="3"/>
+<text x="706.67" y="170.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🧪</text>
+<text x="732.67" y="169" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Developer Product</text>
+<rect x="1119.33" y="132" width="434.67" height="56" rx="16" fill="#a24dff" stroke="#1b2440" stroke-width="3"/>
+<text x="1153.33" y="170.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">✨</text>
+<text x="1179.33" y="169" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="23" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Kosmetik</text>
+<rect x="48" y="196" width="1504" height="74" rx="10" fill="#f3f6fc"/>
+<text x="64" y="240" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Kauf</text>
+<text x="240" y="239" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Einmal, dauerhaft</text>
+<text x="686.67" y="239" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Mehrfach kaufbar</text>
+<text x="1133.33" y="239" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Einmal (als Pass/Product oder UGC)</text>
+<text x="64" y="314" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Beispiele</text>
+<text x="240" y="313" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">2× Geld, VIP, Extra-Slot, Auto-Sammeln</text>
+<text x="686.67" y="313" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Münzpakete, Zeit-Boost, Wiederbeleben</text>
+<text x="1133.33" y="313" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Skins, Spuren, Haustier-Look, Emotes</text>
+<rect x="48" y="344" width="1504" height="74" rx="10" fill="#f3f6fc"/>
+<text x="64" y="388" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Wirkung</text>
+<text x="240" y="387" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Beschleunigt dauerhaft</text>
+<text x="686.67" y="387" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Kurzfristiger Schub</text>
+<text x="1133.33" y="387" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Nur Aussehen und Status</text>
+<text x="64" y="462" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Fairness</text>
+<text x="240" y="461" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Kein Grundfortschritt hinter Pass</text>
+<text x="686.67" y="461" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Wirkung + Dauer klar, keine Druck-Popups</text>
+<text x="1133.33" y="461" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Am fairsten, Vorschau zeigen</text>
+<rect x="48" y="492" width="1504" height="74" rx="10" fill="#f3f6fc"/>
+<text x="64" y="536" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Technik</text>
+<text x="240" y="535" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">UserOwnsGamePassAsync am Server, cachen</text>
+<text x="686.67" y="535" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">ProcessReceipt: erst speichern, dann Granted</text>
+<text x="1133.33" y="535" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Vorschau im Shop, Besitz am Server</text>
+<rect x="40" y="600" width="1520" height="236" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="638" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">Skala: fair ↔ Pay-to-win</text>
+<rect x="110" y="712" width="1380" height="32" rx="16" fill="url(#verlauf3)" stroke="#1b2440" stroke-width="3"/>
+<text x="110" y="774" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">fair</text>
+<text x="1490" y="774" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end">Pay-to-win</text>
+<circle cx="179" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="179" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">✨</text>
+<line x1="179" y1="712" x2="179" y2="698" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="133.28" y="670" width="91.44" height="28" rx="14" fill="#1b2440"/>
+<text x="179" y="689" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Kosmetik</text>
+<circle cx="413.6" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="413.6" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">🎒</text>
+<line x1="413.6" y1="744" x2="413.6" y2="758" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="315.62" y="758" width="195.97" height="28" rx="14" fill="#1b2440"/>
+<text x="413.6" y="777" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Komfort (Plätze, Auto)</text>
+<circle cx="662" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="662" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">⏱️</text>
+<line x1="662" y1="712" x2="662" y2="698" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="583.09" y="670" width="157.81" height="28" rx="14" fill="#1b2440"/>
+<text x="662" y="689" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Zeit-Boost 15 Min</text>
+<circle cx="896.6" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="896.6" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">💰</text>
+<line x1="896.6" y1="744" x2="896.6" y2="758" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="829.9" y="758" width="133.41" height="28" rx="14" fill="#1b2440"/>
+<text x="896.6" y="777" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Dauer-2× Geld</text>
+<circle cx="1158.8" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="1158.8" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">⚔️</text>
+<line x1="1158.8" y1="712" x2="1158.8" y2="698" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="1064.06" y="670" width="189.48" height="28" rx="14" fill="#1b2440"/>
+<text x="1158.8" y="689" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Starke Exklusiv-Items</text>
+<circle cx="1421" cy="728" r="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="1421" y="734.48" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="18" text-anchor="middle">🚫</text>
+<line x1="1421" y1="744" x2="1421" y2="758" stroke="#1b2440" stroke-width="2" stroke-linecap="round"/>
+<rect x="1318.1" y="758" width="205.8" height="28" rx="14" fill="#1b2440"/>
+<text x="1421" y="777" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Fortschritt nur mit Kauf</text>
+<text x="800" y="826" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Boosts erhöhen die Geschwindigkeit, nicht die Obergrenze. Nicht-Zahler erreichen jedes Ziel, nur langsamer.</text>
+</svg>

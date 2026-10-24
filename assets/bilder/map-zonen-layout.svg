@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><clipPath id="karte"><rect x="40" y="122" width="1130" height="712" rx="26"/></clipPath><linearGradient id="verlauf3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5cc3ee"/><stop offset="1" stop-color="#3aa6dc"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Map-Zonen-Layout (Draufsicht)</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Hub mit Landmarke, fünf Zonen mit eigener Farbwelt, Tore mit Preisen, Wege, Sichtlinien, Teleporter und Spieler-Plots</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Nächste Zone sichtbar, Preis am Tor, jede Zone eigenes Merkmal  ·  map-zonen-layout.png</text>
+<rect x="35" y="117" width="1140" height="722" rx="30" fill="#1b2440" filter="url(#schatten)"/>
+<g clip-path="url(#karte)">
+<rect x="40" y="122" width="1130" height="712" rx="0" fill="url(#verlauf3)"/>
+<path d="M80,152 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M217,363 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M354,574 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M491,785 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M628,336 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M765,547 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M902,758 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1039,309 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126,520 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M263,731 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M400,282 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M537,493 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M674,704 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M811,255 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M948,466 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1085,677 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M172,228 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M309,439 q12,-8 24,0 q12,8 24,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1118.5,415.7 Q1151.2,488.0 1119.7,560.7 Q1088.2,633.3 1012.3,690.4 Q936.4,747.5 826.7,770.9 Q716.9,794.2 602.2,801.9 Q487.5,809.6 370.7,786.2 Q254.0,762.9 192.4,696.8 Q130.8,630.6 111.0,559.3 Q91.2,488.0 112.2,417.0 Q133.2,346.1 204.3,288.0 Q275.5,230.0 378.3,189.4 Q481.0,148.8 602.2,156.5 Q723.3,164.2 819.1,204.7 Q914.9,245.3 1000.4,294.4 Q1085.8,343.4 1118.5,415.7 Z" fill="#a8d98f" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M388.9,633.7 Q407.2,655.0 399.4,680.0 Q391.6,705.0 368.7,724.0 Q345.8,743.1 314.3,751.6 Q282.7,760.2 251.4,755.5 Q220.2,750.9 186.2,747.9 Q152.2,744.9 126.3,726.4 Q100.3,707.9 103.7,681.4 Q107.2,655.0 114.3,632.3 Q121.4,609.6 140.0,590.3 Q158.7,571.1 187.4,558.4 Q216.0,545.7 251.4,541.1 Q286.9,536.4 313.1,554.7 Q339.3,572.9 354.9,592.7 Q370.6,612.4 388.9,633.7 Z" fill="#7fd36b" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M374.2,301.7 Q382.3,330.0 372.9,357.8 Q363.6,385.6 340.3,405.9 Q317.0,426.1 285.9,432.5 Q254.8,438.8 222.5,447.8 Q190.3,456.8 155.7,447.6 Q121.2,438.5 108.5,410.2 Q95.8,381.8 89.1,355.9 Q82.3,330.0 87.8,303.6 Q93.3,277.2 111.6,253.9 Q130.0,230.7 159.0,212.9 Q188.0,195.1 222.5,204.1 Q257.0,213.1 282.6,228.0 Q308.2,243.0 337.2,258.2 Q366.1,273.4 374.2,301.7 Z" fill="#f3d58a" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M747.8,231.1 Q754.4,255.0 743.3,277.5 Q732.3,300.0 705.6,314.1 Q678.9,328.2 652.9,344.6 Q626.9,361.0 588.6,364.9 Q550.4,368.8 522.3,351.3 Q494.3,333.8 473.6,316.1 Q452.9,298.3 443.6,276.7 Q434.4,255.0 439.2,231.9 Q444.0,208.8 461.7,186.4 Q479.4,164.0 517.5,160.1 Q555.7,156.3 588.6,160.2 Q621.6,164.1 657.7,166.8 Q693.8,169.6 717.5,188.4 Q741.2,207.2 747.8,231.1 Z" fill="#d8f1ff" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1098.8,272.1 Q1103.5,300.0 1089.4,324.1 Q1075.3,348.3 1063.3,374.5 Q1051.4,400.7 1021.8,418.2 Q992.2,435.7 957.5,426.5 Q922.8,417.4 894.4,405.2 Q866.0,393.0 844.9,372.8 Q823.8,352.7 813.6,326.3 Q803.5,300.0 804.3,269.9 Q805.0,239.8 834.7,222.5 Q864.3,205.2 894.9,198.6 Q925.4,191.9 957.5,182.8 Q989.6,173.7 1021.3,185.6 Q1053.1,197.5 1073.6,220.8 Q1094.1,244.2 1098.8,272.1 Z" fill="#a8473a" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1116.0,606.4 Q1115.6,628.0 1117.8,650.2 Q1120.1,672.5 1105.2,693.8 Q1090.3,715.1 1059.2,718.7 Q1028.0,722.3 1000.2,721.5 Q972.5,720.7 947.0,712.3 Q921.4,703.8 901.8,687.7 Q882.1,671.7 868.9,649.8 Q855.6,628.0 870.7,606.8 Q885.8,585.7 907.0,572.2 Q928.2,558.8 949.2,543.0 Q970.1,527.3 1000.2,526.5 Q1030.3,525.7 1056.9,536.6 Q1083.5,547.4 1099.9,566.2 Q1116.4,584.9 1116.0,606.4 Z" fill="#c9a8ff" stroke="#1b2440" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600,640 Q500,660 420,650 Q320,640 250,640 Q235,560 240,495 Q235,400 225,330 Q320,300 405,290 Q500,260 590,255 Q690,265 775,280 Q860,290 955,300 Q975,370 980,440 Q990,540 1000,628" fill="none" stroke="#8a6a3e" stroke-width="26" opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600,640 Q500,660 420,650 Q320,640 250,640 Q235,560 240,495 Q235,400 225,330 Q320,300 405,290 Q500,260 590,255 Q690,265 775,280 Q860,290 955,300 Q975,370 980,440 Q990,540 1000,628" fill="none" stroke="#e9d29a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600,640 Q500,660 420,650 Q320,640 250,640 Q235,560 240,495 Q235,400 225,330 Q320,300 405,290 Q500,260 590,255 Q690,265 775,280 Q860,290 955,300 Q975,370 980,440 Q990,540 1000,628" fill="none" stroke="#cdb57a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 12"/>
+<text x="327.94" y="700.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🌳</text>
+<text x="205" y="719.15" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌳</text>
+<text x="172.06" y="635" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🍎</text>
+<text x="295" y="612.45" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌳</text>
+<rect x="167.27" y="543" width="165.45" height="30" rx="15" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="250" y="564" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Zone 1 · Wiese</text>
+<text x="250" y="591" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ressource: Äpfel</text>
+<text x="302.94" y="379.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🌵</text>
+<text x="180" y="401.42" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌵</text>
+<text x="147.06" y="305.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🏜️</text>
+<text x="270" y="280.18" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌵</text>
+<rect x="140.84" y="203" width="168.33" height="30" rx="15" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="225" y="224" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Zone 2 · Wüste</text>
+<text x="225" y="251" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ressource: Kaktusfrüchte</text>
+<text x="673.14" y="298.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🏔️</text>
+<text x="542" y="316.72" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">❄️</text>
+<text x="506.86" y="236.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">⛄</text>
+<text x="638" y="214.88" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">❄️</text>
+<rect x="522.38" y="148" width="135.25" height="30" rx="15" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="590" y="169" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Zone 3 · Eis</text>
+<text x="590" y="196" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ressource: Eiskristalle</text>
+<text x="1032.94" y="349.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">🌋</text>
+<text x="910" y="371.42" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🔥</text>
+<text x="877.06" y="275.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🪨</text>
+<text x="1000" y="250.18" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🔥</text>
+<rect x="868.47" y="173" width="173.06" height="30" rx="15" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="955" y="194" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Zone 4 · Vulkan</text>
+<text x="955" y="221" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ressource: Lavasteine</text>
+<text x="1067.55" y="670.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">💎</text>
+<text x="961" y="687.3" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">✨</text>
+<text x="932.45" y="610.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🔮</text>
+<text x="1039" y="590.3" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">💎</text>
+<rect x="911.77" y="526" width="176.45" height="30" rx="15" fill="#ffffff" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1000" y="547" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Zone 5 · Kristall</text>
+<text x="1000" y="574" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Ressource: Sternkristalle</text>
+<path d="M600,600 L590,300" fill="none" stroke="#ffc93c" stroke-width="4" opacity="0.95" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 10"/>
+<path d="M660,620 L950,630" fill="none" stroke="#ffc93c" stroke-width="4" opacity="0.95" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 10"/>
+<text x="600" y="479.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">👁️</text>
+<rect x="612" y="430" width="86.41" height="25" rx="12.5" fill="#d99a0b" opacity="0.92"/>
+<text x="655.2" y="447.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sichtlinie</text>
+<rect x="390" y="626" width="60" height="48" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="402" y="638" width="36" height="36" rx="8" fill="#2ecc71" stroke="#1b2440" stroke-width="2.5"/>
+<text x="420" y="662.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">✅</text>
+<rect x="393" y="680" width="54" height="28" rx="14" fill="#1e9e55" stroke="#ffffff" stroke-width="2"/>
+<text x="420" y="699" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Frei</text>
+<rect x="208" y="452" width="60" height="48" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="220" y="464" width="36" height="36" rx="8" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<text x="238" y="488.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🔒</text>
+<rect x="215.97" y="506" width="44.06" height="28" rx="14" fill="#1b2440" stroke="#ffffff" stroke-width="2"/>
+<text x="238" y="525" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">1K</text>
+<rect x="375" y="266" width="60" height="48" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="387" y="278" width="36" height="36" rx="8" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<text x="405" y="302.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🔒</text>
+<rect x="377.75" y="320" width="54.5" height="28" rx="14" fill="#1b2440" stroke="#ffffff" stroke-width="2"/>
+<text x="405" y="339" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">10K</text>
+<rect x="745" y="256" width="60" height="48" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="757" y="268" width="36" height="36" rx="8" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<text x="775" y="292.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🔒</text>
+<rect x="742.53" y="310" width="64.94" height="28" rx="14" fill="#1b2440" stroke="#ffffff" stroke-width="2"/>
+<text x="775" y="329" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">100K</text>
+<rect x="950" y="416" width="60" height="48" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="962" y="428" width="36" height="36" rx="8" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<text x="980" y="452.92" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="22" text-anchor="middle">🔒</text>
+<rect x="956.32" y="470" width="47.36" height="28" rx="14" fill="#1b2440" stroke="#ffffff" stroke-width="2"/>
+<text x="980" y="489" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">1M</text>
+<circle cx="600" cy="640" r="112" fill="#e6e9f2" stroke="#1b2440" stroke-width="4"/>
+<circle cx="600" cy="640" r="88" fill="none" stroke="#c3c9d8" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="600" y="643.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="70" text-anchor="middle">🗼</text>
+<rect x="540.36" y="668" width="119.28" height="26" rx="13" fill="#1b2440" opacity="0.92"/>
+<text x="600" y="686.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">HUB · Spawn</text>
+<circle cx="668" cy="590" r="26" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="668" cy="590" r="20" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="668" cy="590" r="11" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="532" cy="590" r="26" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="532" cy="590" r="20" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="532" cy="590" r="11" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="305" cy="690" r="22" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="305" cy="690" r="16" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="305" cy="690" r="8.8" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="175" cy="380" r="22" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="175" cy="380" r="16" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="175" cy="380" r="8.8" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="650" cy="215" r="22" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="650" cy="215" r="16" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="650" cy="215" r="8.8" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="900" cy="350" r="22" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="900" cy="350" r="16" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="900" cy="350" r="8.8" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<circle cx="1065" cy="665" r="22" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="1065" cy="665" r="16" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="1065" cy="665" r="8.8" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="440" y="768" width="46" height="46" rx="6" fill="#d9c7a5" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="446" y1="778" x2="480" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="446" y1="793" x2="480" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="446" y1="808" x2="480" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="496" y="768" width="46" height="46" rx="6" fill="#d9c7a5" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="502" y1="778" x2="536" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="502" y1="793" x2="536" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="502" y1="808" x2="536" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="552" y="768" width="46" height="46" rx="6" fill="#c9a26b" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="558" y1="778" x2="592" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="558" y1="793" x2="592" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="558" y1="808" x2="592" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="608" y="768" width="46" height="46" rx="6" fill="#d9c7a5" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="614" y1="778" x2="648" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="614" y1="793" x2="648" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="614" y1="808" x2="648" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="664" y="768" width="46" height="46" rx="6" fill="#d9c7a5" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="670" y1="778" x2="704" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="793" x2="704" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="808" x2="704" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="720" y="768" width="46" height="46" rx="6" fill="#d9c7a5" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="726" y1="778" x2="760" y2="778" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="726" y1="793" x2="760" y2="793" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="726" y1="808" x2="760" y2="808" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<rect x="544.06" y="740" width="111.88" height="25" rx="12.5" fill="#8a6a3e" opacity="0.92"/>
+<text x="600" y="757.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Spieler-Plots</text>
+</g>
+<rect x="1196" y="122" width="374" height="712" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="1218" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Legende</text>
+<circle cx="1240" cy="200" r="16" fill="#e6e9f2" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1240" y="205.2" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="20" text-anchor="middle">🗼</text>
+<text x="1276" y="207" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Hub/Spawn mit Landmarke</text>
+<path d="M1258.5,241.3 Q1261.0,244.0 1259.9,247.2 Q1258.9,250.4 1255.8,252.8 Q1252.8,255.2 1248.6,256.3 Q1244.4,257.4 1240.2,256.8 Q1236.0,256.2 1231.5,255.8 Q1227.0,255.4 1223.5,253.1 Q1220.0,250.7 1220.5,247.4 Q1221.0,244.0 1221.9,241.1 Q1222.8,238.2 1225.3,235.8 Q1227.8,233.3 1231.6,231.7 Q1235.5,230.1 1240.2,229.5 Q1244.9,228.9 1248.4,231.2 Q1251.9,233.6 1254.0,236.1 Q1256.1,238.6 1258.5,241.3 Z" fill="#c9a8ff" stroke="#1b2440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1276" y="251" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Zone mit eigener Farbwelt</text>
+<rect x="1224" y="276" width="32" height="26" rx="6" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<text x="1240" y="294.76" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="16" text-anchor="middle">🔒</text>
+<text x="1276" y="295" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Tor mit Preis (Ziel!)</text>
+<line x1="1220" y1="333" x2="1260" y2="333" stroke="#8a6a3e" stroke-width="14" stroke-linecap="round"/>
+<line x1="1220" y1="333" x2="1260" y2="333" stroke="#e9d29a" stroke-width="9" stroke-linecap="round"/>
+<text x="1276" y="339" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Weg / Pfad</text>
+<line x1="1220" y1="377" x2="1260" y2="377" stroke="#ffc93c" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 8"/>
+<text x="1276" y="383" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Sichtlinie zur nächsten Zone</text>
+<circle cx="1240" cy="421" r="19" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="1240" cy="421" r="13" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="1240" cy="421" r="7.15" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="1276" y="427" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Teleporter (ab Mittelspiel)</text>
+<rect x="1225" y="450" width="30" height="30" rx="6" fill="#c9a26b" stroke="#1b2440" stroke-width="2.5"/>
+<line x1="1231" y1="460" x2="1249" y2="460" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="1231" y1="467" x2="1249" y2="467" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<line x1="1231" y1="474" x2="1249" y2="474" stroke="#8a6a3e" stroke-width="2" stroke-linecap="round"/>
+<text x="1276" y="471" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Spieler-Plot (Besitzgefühl)</text>
+<rect x="1214" y="506" width="338" height="310" rx="16" fill="#fff8dc" stroke="#d99a0b" stroke-width="2.5"/>
+<text x="1232" y="538" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">Regeln</text>
+<text x="1232" y="565" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">• Nächste Zone vom Hub aus sichtbar</text>
+<text x="1232" y="584.8" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">(Tor, Leuchten, Berg).</text>
+<text x="1232" y="611.6" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">• Preis/Level steht direkt am Tor.</text>
+<text x="1232" y="638.4" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">• Jede Zone: eigene Farbe, Ressource,</text>
+<text x="1232" y="658.2" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Merkmal – nicht nur umgefärbt.</text>
+<text x="1232" y="685" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">• Schwierigkeit sanft, Belohnung</text>
+<text x="1232" y="704.8" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">sichtbar steigend.</text>
+<text x="1232" y="731.6" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">• Lange Wege ohne Inhalt vermeiden.</text>
+</svg>

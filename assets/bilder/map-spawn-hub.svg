@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><clipPath id="hub"><rect x="40" y="122" width="1110" height="712" rx="26"/></clipPath><marker id="pfeild99a0b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#d99a0b"/></marker></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Spawn und Hub im Detail</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Erste Interaktion direkt am Spawn, Shop, Rangliste, Teleporter, Schutzzone und klarer Weg zur ersten Zone</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Spawn nahe der ersten Aktion, keine Gefahr am Spawn  ·  map-spawn-hub.png</text>
+<rect x="35" y="117" width="1120" height="722" rx="30" fill="#1b2440" filter="url(#schatten)"/>
+<g clip-path="url(#hub)">
+<rect x="40" y="122" width="1110" height="712" rx="0" fill="#8fd47c"/>
+<circle cx="40" cy="122" r="3" fill="#6fbf5c"/>
+<circle cx="213" cy="219" r="3" fill="#6fbf5c"/>
+<circle cx="386" cy="316" r="3" fill="#6fbf5c"/>
+<circle cx="559" cy="413" r="3" fill="#6fbf5c"/>
+<circle cx="732" cy="510" r="3" fill="#6fbf5c"/>
+<circle cx="905" cy="607" r="3" fill="#6fbf5c"/>
+<circle cx="1078" cy="704" r="3" fill="#6fbf5c"/>
+<circle cx="141" cy="801" r="3" fill="#6fbf5c"/>
+<circle cx="314" cy="186" r="3" fill="#6fbf5c"/>
+<circle cx="487" cy="283" r="3" fill="#6fbf5c"/>
+<circle cx="660" cy="380" r="3" fill="#6fbf5c"/>
+<circle cx="833" cy="477" r="3" fill="#6fbf5c"/>
+<circle cx="1006" cy="574" r="3" fill="#6fbf5c"/>
+<circle cx="69" cy="671" r="3" fill="#6fbf5c"/>
+<circle cx="242" cy="768" r="3" fill="#6fbf5c"/>
+<circle cx="415" cy="153" r="3" fill="#6fbf5c"/>
+<circle cx="588" cy="250" r="3" fill="#6fbf5c"/>
+<circle cx="761" cy="347" r="3" fill="#6fbf5c"/>
+<circle cx="934" cy="444" r="3" fill="#6fbf5c"/>
+<circle cx="1107" cy="541" r="3" fill="#6fbf5c"/>
+<circle cx="170" cy="638" r="3" fill="#6fbf5c"/>
+<circle cx="343" cy="735" r="3" fill="#6fbf5c"/>
+<circle cx="516" cy="832" r="3" fill="#6fbf5c"/>
+<circle cx="689" cy="217" r="3" fill="#6fbf5c"/>
+<circle cx="862" cy="314" r="3" fill="#6fbf5c"/>
+<circle cx="1035" cy="411" r="3" fill="#6fbf5c"/>
+<circle cx="98" cy="508" r="3" fill="#6fbf5c"/>
+<circle cx="271" cy="605" r="3" fill="#6fbf5c"/>
+<circle cx="444" cy="702" r="3" fill="#6fbf5c"/>
+<circle cx="617" cy="799" r="3" fill="#6fbf5c"/>
+<circle cx="790" cy="184" r="3" fill="#6fbf5c"/>
+<circle cx="963" cy="281" r="3" fill="#6fbf5c"/>
+<circle cx="1136" cy="378" r="3" fill="#6fbf5c"/>
+<circle cx="199" cy="475" r="3" fill="#6fbf5c"/>
+<circle cx="372" cy="572" r="3" fill="#6fbf5c"/>
+<circle cx="545" cy="669" r="3" fill="#6fbf5c"/>
+<circle cx="718" cy="766" r="3" fill="#6fbf5c"/>
+<circle cx="891" cy="151" r="3" fill="#6fbf5c"/>
+<circle cx="1064" cy="248" r="3" fill="#6fbf5c"/>
+<circle cx="127" cy="345" r="3" fill="#6fbf5c"/>
+<path d="M560,502 Q860,622 1170,754" fill="none" stroke="#8a6a3e" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560,502 Q860,622 1170,754" fill="none" stroke="#e9d29a" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="560" cy="502" r="300" fill="#2ecc71" opacity="0.12"/>
+<circle cx="560" cy="502" r="300" fill="none" stroke="#1e9e55" stroke-width="4" stroke-dasharray="14 10"/>
+<rect x="430.7" y="788" width="258.59" height="26" rx="13" fill="#1e9e55" opacity="0.92"/>
+<text x="560" y="806.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Schutzzone: keine Gegner/PvP</text>
+<circle cx="560" cy="502" r="200" fill="#e6e9f2" stroke="#1b2440" stroke-width="4"/>
+<line x1="680" y1="502" x2="760" y2="502" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="663.92" y1="562" x2="733.21" y2="602" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="620" y1="605.92" x2="660" y2="675.21" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="622" x2="560" y2="702" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="605.92" x2="460" y2="675.21" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="456.08" y1="562" x2="386.79" y2="602" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="440" y1="502" x2="360" y2="502" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="456.08" y1="442" x2="386.79" y2="402" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="398.08" x2="460" y2="328.79" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="382" x2="560" y2="302" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="620" y1="398.08" x2="660" y2="328.79" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<line x1="663.92" y1="442" x2="733.21" y2="402" stroke="#cfd5e3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="560" cy="502" r="120" fill="#f3f5fa" stroke="#cfd5e3" stroke-width="3"/>
+<circle cx="560" cy="492" r="56" fill="#7fd0ff" stroke="#1b2440" stroke-width="4"/>
+<text x="560" y="507.04" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="64" text-anchor="middle">⛲</text>
+<ellipse cx="490" cy="622" rx="62" ry="26" fill="#c9d3ee" stroke="#1b2440" stroke-width="3"/>
+<ellipse cx="490" cy="616" rx="62" ry="26" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<ellipse cx="490" cy="616" rx="27.2" ry="7.65" fill="#000" opacity="0.18"/>
+<rect x="473" y="582" width="16.15" height="34" rx="3.4" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="490.85" y="582" width="16.15" height="34" rx="3.4" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="456.85" y="548" width="15.3" height="34" rx="3.4" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="507.85" y="548" width="15.3" height="34" rx="3.4" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="473" y="548" width="34" height="34.85" rx="3.4" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="478.1" y="523.35" width="23.8" height="23.8" rx="5.95" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="485.32" cy="533.55" r="1.87" fill="#1b2440"/>
+<circle cx="494.68" cy="533.55" r="1.87" fill="#1b2440"/>
+<path d="M484.9,539.5 Q490,542.9 495.1,539.5" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="616" cy="648" r="28" fill="#3fae47" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="662" cy="642" r="30" fill="#3fae47" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="640" cy="622" r="30" fill="#3fae47" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="614" cy="638" r="7" fill="#e8334a" stroke="#1b2440" stroke-width="1.5"/>
+<circle cx="636" cy="612" r="7" fill="#e8334a" stroke="#1b2440" stroke-width="1.5"/>
+<circle cx="658" cy="630" r="7" fill="#e8334a" stroke="#1b2440" stroke-width="1.5"/>
+<circle cx="668" cy="652" r="7" fill="#e8334a" stroke="#1b2440" stroke-width="1.5"/>
+<circle cx="630" cy="654" r="7" fill="#e8334a" stroke="#1b2440" stroke-width="1.5"/>
+<circle cx="640" cy="642" r="60" fill="none" stroke="#ffc93c" stroke-width="4" stroke-dasharray="6 6"/>
+<path d="M530,602 Q568.23,600.46 584.86,634.91" fill="none" stroke="#d99a0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeild99a0b)"/>
+<rect x="130" y="372" width="140" height="110" rx="12" fill="#ffd9a0" stroke="#1b2440" stroke-width="3"/>
+<rect x="120" y="352" width="160" height="30" rx="8" fill="#ff4d5e" stroke="#1b2440" stroke-width="3"/>
+<rect x="120" y="352" width="16" height="30" rx="0" fill="#ffffff" opacity="0.7"/>
+<rect x="152" y="352" width="16" height="30" rx="0" fill="#ffffff" opacity="0.7"/>
+<rect x="184" y="352" width="16" height="30" rx="0" fill="#ffffff" opacity="0.7"/>
+<rect x="216" y="352" width="16" height="30" rx="0" fill="#ffffff" opacity="0.7"/>
+<rect x="248" y="352" width="16" height="30" rx="0" fill="#ffffff" opacity="0.7"/>
+<text x="200" y="444.56" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="46" text-anchor="middle">🛒</text>
+<rect x="171.16" y="492" width="57.69" height="26" rx="13" fill="#1b2440" opacity="0.92"/>
+<text x="200" y="510.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Shop</text>
+<rect x="250" y="632" width="100" height="80" rx="14" fill="#ffc93c" stroke="#1b2440" stroke-width="3"/>
+<text x="300" y="682.4" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="40" text-anchor="middle">💰</text>
+<rect x="250.62" y="720" width="98.77" height="26" rx="13" fill="#1b2440" opacity="0.92"/>
+<text x="300" y="738.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Verkaufen</text>
+<rect x="490" y="172" width="220" height="120" rx="10" fill="#3d4d68" stroke="#1b2440" stroke-width="3"/>
+<text x="600" y="200" fill="#ffc93c" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle">🏆 RANGLISTE</text>
+<text x="506" y="226" fill="#ffffff" font-family="'DejaVu Sans Mono', monospace" font-size="14" font-weight="700" text-anchor="start">1. Nova  12,4M</text>
+<text x="506" y="248" fill="#ffffff" font-family="'DejaVu Sans Mono', monospace" font-size="14" font-weight="700" text-anchor="start">2. Kiko   9,8M</text>
+<text x="506" y="270" fill="#ffffff" font-family="'DejaVu Sans Mono', monospace" font-size="14" font-weight="700" text-anchor="start">3. Pixl   7,1M</text>
+<rect x="594" y="292" width="12" height="30" rx="2" fill="#6b4a2b"/>
+<circle cx="830" cy="342" r="34" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="830" cy="342" r="28" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="830" cy="342" r="15" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="870" y="330" width="80.33" height="25" rx="12.5" fill="#1f6fd1" opacity="0.92"/>
+<text x="910.16" y="347.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Zone 2 🔒</text>
+<circle cx="890" cy="442" r="34" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="890" cy="442" r="28" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="890" cy="442" r="15" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="930" y="430" width="80.33" height="25" rx="12.5" fill="#1f6fd1" opacity="0.92"/>
+<text x="970.16" y="447.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Zone 3 🔒</text>
+<circle cx="910" cy="552" r="34" fill="#3d9bff" opacity="0.3" filter="url(#glow)"/>
+<circle cx="910" cy="552" r="28" fill="#bfe3ff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="910" cy="552" r="15" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="950" y="540" width="80.33" height="25" rx="12.5" fill="#1f6fd1" opacity="0.92"/>
+<text x="990.16" y="557.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Zone 4 🔒</text>
+<text x="390" y="318.56" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="46" text-anchor="middle">🎁</text>
+<rect x="321.17" y="334" width="137.66" height="25" rx="12.5" fill="#7428d1" opacity="0.92"/>
+<text x="390" y="351.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Tagesbelohnung</text>
+<rect x="1000" y="680" width="80" height="68" rx="10" fill="#6b4a2b" stroke="#1b2440" stroke-width="3"/>
+<rect x="1016" y="696" width="48" height="48" rx="8" fill="#2ecc71" stroke="#1b2440" stroke-width="3"/>
+<text x="1040" y="730.8" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="30" text-anchor="middle">🌳</text>
+<rect x="981.58" y="756" width="116.84" height="26" rx="13" fill="#1e9e55" opacity="0.92"/>
+<text x="1040" y="774.04" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Zone 1 (frei)</text>
+</g>
+<circle cx="416" cy="562" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="416" y="568.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">1</text>
+<circle cx="696" cy="598" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="696" y="604.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">2</text>
+<circle cx="610" cy="432" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="610" y="438.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">3</text>
+<circle cx="718" cy="182" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="718" y="188.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">4</text>
+<circle cx="800" cy="297" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="800" y="303.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">5</text>
+<circle cx="980" cy="674" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="980" y="680.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">6</text>
+<circle cx="276" cy="358" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="276" y="364.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">7</text>
+<circle cx="710" cy="800" r="16" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="710" y="806.08" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16.8" font-weight="700" text-anchor="middle">8</text>
+<rect x="1176" y="122" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="122" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="145" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="150.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">1</text>
+<text x="1220" y="153.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Spawn</text>
+<text x="1190" y="178.75" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Sicher landen, erste Aufgabe sofort sichtbar.</text>
+<rect x="1176" y="205.3" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="205.3" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="228.3" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="233.62" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">2</text>
+<text x="1220" y="236.4" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Erste Interaktion</text>
+<text x="1190" y="262.05" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Wenige Schritte entfernt: Aktion in &lt; 10 s.</text>
+<rect x="1176" y="288.6" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="288.6" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="311.6" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="316.92" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">3</text>
+<text x="1220" y="319.7" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Landmarke in der Mitte</text>
+<text x="1190" y="345.35" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Brunnen/Turm = Orientierung.</text>
+<rect x="1176" y="371.9" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="371.9" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="394.9" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="400.22" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">4</text>
+<text x="1220" y="403" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Rangliste</text>
+<text x="1190" y="428.65" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Social Proof: zeigt, was möglich ist.</text>
+<rect x="1176" y="455.2" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="455.2" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="478.2" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="483.52" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">5</text>
+<text x="1220" y="486.3" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Teleporter</text>
+<text x="1190" y="511.95" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Gesperrte Ziele sichtbar = Neugier.</text>
+<rect x="1176" y="538.5" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="538.5" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="561.5" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="566.82" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">6</text>
+<text x="1220" y="569.6" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Weg zur Zone 1</text>
+<text x="1190" y="595.25" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Breit, hell, führt aus dem Hub heraus.</text>
+<rect x="1176" y="621.8" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="621.8" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="644.8" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="650.12" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">7</text>
+<text x="1220" y="652.9" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Shop + Verkaufen</text>
+<text x="1190" y="678.55" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Am Hub-Rand, nicht im Weg.</text>
+<rect x="1176" y="705.1" width="394" height="74.3" rx="14" fill="#ffffff" stroke="#3d9bff" stroke-width="3" filter="url(#schattenK)"/>
+<rect x="1176" y="705.1" width="8" height="74.3" rx="4" fill="#3d9bff"/>
+<circle cx="1202" cy="728.1" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1202" y="733.42" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">8</text>
+<text x="1220" y="736.2" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">Schutzzone</text>
+<text x="1190" y="761.85" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Keine Gefahr für Neulinge am Spawn.</text>
+</svg>

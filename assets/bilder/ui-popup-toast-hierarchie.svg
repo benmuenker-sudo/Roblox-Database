@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><clipPath id="mini3"><rect x="62.0" y="202" width="446.6666666666667" height="240" rx="18"/></clipPath><linearGradient id="verlauf4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fc8ff"/><stop offset="1" stop-color="#cdefff"/></linearGradient><linearGradient id="verlauf5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ad35f"/><stop offset="1" stop-color="#43ad45"/></linearGradient><clipPath id="mini6"><rect x="576.6666666666667" y="202" width="446.6666666666667" height="240" rx="18"/></clipPath><linearGradient id="verlauf7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fc8ff"/><stop offset="1" stop-color="#cdefff"/></linearGradient><linearGradient id="verlauf8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ad35f"/><stop offset="1" stop-color="#43ad45"/></linearGradient><linearGradient id="verlauf9" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff9a1f"/><stop offset="1" stop-color="#ff3d7f"/></linearGradient><clipPath id="mini10"><rect x="1091.3333333333335" y="202" width="446.6666666666667" height="240" rx="18"/></clipPath><linearGradient id="verlauf11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fc8ff"/><stop offset="1" stop-color="#cdefff"/></linearGradient><linearGradient id="verlauf12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ad35f"/><stop offset="1" stop-color="#43ad45"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Toast, Banner, Modal: Popup-Hierarchie</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Welche Meldung wofür, wo sie erscheint, wie lange sie bleibt – und warum Meldungen in eine Warteschlange gehören</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Modal nur für Wichtiges, Toasts 2–4 s, nacheinander  ·  ui-popup-toast-hierarchie.png</text>
+<rect x="40" y="122" width="490.67" height="466" rx="22" fill="#ffffff" stroke="#2ecc71" stroke-width="4" filter="url(#schatten)"/>
+<rect x="40" y="122" width="490.67" height="60" rx="22" fill="#2ecc71" stroke="#1b2440" stroke-width="4"/>
+<text x="62" y="163" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="28" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Toast</text>
+<text x="508.67" y="161" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end" stroke="#1b2440" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">Kurze Info</text>
+<g clip-path="url(#mini3)">
+<rect x="62" y="202" width="446.67" height="240" rx="0" fill="url(#verlauf4)"/>
+<circle cx="99" cy="236.8" r="22" fill="#ffffff" opacity="0.85"/>
+<circle cx="129" cy="230.8" r="30" fill="#ffffff" opacity="0.85"/>
+<circle cx="161" cy="238.8" r="20" fill="#ffffff" opacity="0.85"/>
+<circle cx="268.67" cy="229" r="28.6" fill="#ffffff" opacity="0.85"/>
+<circle cx="307.67" cy="221.2" r="39" fill="#ffffff" opacity="0.85"/>
+<circle cx="349.27" cy="231.6" r="26" fill="#ffffff" opacity="0.85"/>
+<circle cx="401.27" cy="250.6" r="19.8" fill="#ffffff" opacity="0.85"/>
+<circle cx="428.27" cy="245.2" r="27" fill="#ffffff" opacity="0.85"/>
+<circle cx="457.07" cy="252.4" r="18" fill="#ffffff" opacity="0.85"/>
+<path d="M62,320 Q151.33,281.2 263,310 T508.67,298 L508.67,330 L62,330 Z" fill="#58b860" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="62" y="310" width="446.67" height="132" rx="0" fill="url(#verlauf5)"/>
+<ellipse cx="285.33" cy="402" rx="28.8" ry="8.1" fill="#000" opacity="0.18"/>
+<rect x="267.33" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="286.23" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="250.23" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="304.23" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="267.33" y="330" width="36" height="36.9" rx="3.6" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="272.73" y="303.9" width="25.2" height="25.2" rx="6.3" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="280.38" cy="314.7" r="1.98" fill="#1b2440"/>
+<circle cx="290.28" cy="314.7" r="1.98" fill="#1b2440"/>
+<path d="M279.93,321 Q285.33,324.6 290.73,321" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="288.67" y="218" width="204" height="50" rx="14" fill="#ffffff" stroke="#2ecc71" stroke-width="3" filter="url(#schattenK)"/>
+<circle cx="314.67" cy="245" r="13" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="314.67" cy="243" r="13" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<circle cx="314.67" cy="243" r="8.84" fill="none" stroke="#e8a817" stroke-width="1.56"/>
+<polygon points="314.67,237.54 316.11,241.01 319.86,241.31 317,243.76 317.88,247.42 314.67,245.46 311.46,247.42 312.33,243.76 309.47,241.31 313.22,241.01" fill="#e8a817" stroke-linejoin="round" />
+<text x="336.67" y="250" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">+50 Münzen</text>
+<rect x="288.67" y="276" width="204" height="40" rx="14" fill="#ffffff" stroke="#2ecc71" stroke-width="2" opacity="0.45"/>
+<text x="390.67" y="302" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">wartet …</text>
+</g>
+<rect x="62" y="202" width="446.67" height="240" rx="18" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="66" y="474" fill="#2ecc71" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="84" y="474" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Wo: Rand/oben rechts, klein</text>
+<text x="66" y="502" fill="#2ecc71" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="84" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Dauer: 2–4 s, dann weg</text>
+<text x="66" y="530" fill="#2ecc71" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="84" y="530" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Interaktion: keine nötig</text>
+<text x="66" y="558" fill="#2ecc71" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="84" y="558" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Für: Belohnung, Fortschritt</text>
+<rect x="554.67" y="122" width="490.67" height="466" rx="22" fill="#ffffff" stroke="#ff9a1f" stroke-width="4" filter="url(#schatten)"/>
+<rect x="554.67" y="122" width="490.67" height="60" rx="22" fill="#ff9a1f" stroke="#1b2440" stroke-width="4"/>
+<text x="576.67" y="163" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="28" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Banner</text>
+<text x="1023.33" y="161" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end" stroke="#1b2440" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">Hinweis mit Zeitbezug</text>
+<g clip-path="url(#mini6)">
+<rect x="576.67" y="202" width="446.67" height="240" rx="0" fill="url(#verlauf7)"/>
+<circle cx="613.67" cy="236.8" r="22" fill="#ffffff" opacity="0.85"/>
+<circle cx="643.67" cy="230.8" r="30" fill="#ffffff" opacity="0.85"/>
+<circle cx="675.67" cy="238.8" r="20" fill="#ffffff" opacity="0.85"/>
+<circle cx="783.33" cy="229" r="28.6" fill="#ffffff" opacity="0.85"/>
+<circle cx="822.33" cy="221.2" r="39" fill="#ffffff" opacity="0.85"/>
+<circle cx="863.93" cy="231.6" r="26" fill="#ffffff" opacity="0.85"/>
+<circle cx="915.93" cy="250.6" r="19.8" fill="#ffffff" opacity="0.85"/>
+<circle cx="942.93" cy="245.2" r="27" fill="#ffffff" opacity="0.85"/>
+<circle cx="971.73" cy="252.4" r="18" fill="#ffffff" opacity="0.85"/>
+<path d="M576.67,320 Q666,281.2 777.67,310 T1023.33,298 L1023.33,330 L576.67,330 Z" fill="#58b860" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="576.67" y="310" width="446.67" height="132" rx="0" fill="url(#verlauf8)"/>
+<ellipse cx="800" cy="402" rx="28.8" ry="8.1" fill="#000" opacity="0.18"/>
+<rect x="782" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="800.9" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="764.9" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="818.9" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="782" y="330" width="36" height="36.9" rx="3.6" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="787.4" y="303.9" width="25.2" height="25.2" rx="6.3" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="795.05" cy="314.7" r="1.98" fill="#1b2440"/>
+<circle cx="804.95" cy="314.7" r="1.98" fill="#1b2440"/>
+<path d="M794.6,321 Q800,324.6 805.4,321" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="576.67" y="216" width="446.67" height="58" rx="0" fill="url(#verlauf9)" stroke="#1b2440" stroke-width="3"/>
+<text x="610.67" y="255.08" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="28" text-anchor="middle">🎉</text>
+<text x="638.67" y="243" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Event: Doppelte Drops</text>
+<text x="638.67" y="264" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">noch 2 Std · Tippen für Details</text>
+</g>
+<rect x="576.67" y="202" width="446.67" height="240" rx="18" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="580.67" y="474" fill="#ff9a1f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="598.67" y="474" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Wo: breites Band oben</text>
+<text x="580.67" y="502" fill="#ff9a1f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="598.67" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Dauer: 5–8 s, dann einklappen</text>
+<text x="580.67" y="530" fill="#ff9a1f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="598.67" y="530" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Interaktion: antippbar → Details</text>
+<text x="580.67" y="558" fill="#ff9a1f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="598.67" y="558" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Für: Event, Server-Meldung</text>
+<rect x="1069.33" y="122" width="490.67" height="466" rx="22" fill="#ffffff" stroke="#ff4d5e" stroke-width="4" filter="url(#schatten)"/>
+<rect x="1069.33" y="122" width="490.67" height="60" rx="22" fill="#ff4d5e" stroke="#1b2440" stroke-width="4"/>
+<text x="1091.33" y="163" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="28" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Modal</text>
+<text x="1538" y="161" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="end" stroke="#1b2440" stroke-width="3.5" paint-order="stroke" stroke-linejoin="round">Entscheidung nötig</text>
+<g clip-path="url(#mini10)">
+<rect x="1091.33" y="202" width="446.67" height="240" rx="0" fill="url(#verlauf11)"/>
+<circle cx="1128.33" cy="236.8" r="22" fill="#ffffff" opacity="0.85"/>
+<circle cx="1158.33" cy="230.8" r="30" fill="#ffffff" opacity="0.85"/>
+<circle cx="1190.33" cy="238.8" r="20" fill="#ffffff" opacity="0.85"/>
+<circle cx="1298" cy="229" r="28.6" fill="#ffffff" opacity="0.85"/>
+<circle cx="1337" cy="221.2" r="39" fill="#ffffff" opacity="0.85"/>
+<circle cx="1378.6" cy="231.6" r="26" fill="#ffffff" opacity="0.85"/>
+<circle cx="1430.6" cy="250.6" r="19.8" fill="#ffffff" opacity="0.85"/>
+<circle cx="1457.6" cy="245.2" r="27" fill="#ffffff" opacity="0.85"/>
+<circle cx="1486.4" cy="252.4" r="18" fill="#ffffff" opacity="0.85"/>
+<path d="M1091.33,320 Q1180.67,281.2 1292.33,310 T1538,298 L1538,330 L1091.33,330 Z" fill="#58b860" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1091.33" y="310" width="446.67" height="132" rx="0" fill="url(#verlauf12)"/>
+<ellipse cx="1314.67" cy="402" rx="28.8" ry="8.1" fill="#000" opacity="0.18"/>
+<rect x="1296.67" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="1315.57" y="366" width="17.1" height="36" rx="3.6" fill="#3ea84a" stroke="#1b2440" stroke-width="2"/>
+<rect x="1279.57" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="1333.57" y="330" width="16.2" height="36" rx="3.6" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<rect x="1296.67" y="330" width="36" height="36.9" rx="3.6" fill="#2f7fd6" stroke="#1b2440" stroke-width="2"/>
+<rect x="1302.07" y="303.9" width="25.2" height="25.2" rx="6.3" fill="#f5cd30" stroke="#1b2440" stroke-width="2"/>
+<circle cx="1309.72" cy="314.7" r="1.98" fill="#1b2440"/>
+<circle cx="1319.62" cy="314.7" r="1.98" fill="#1b2440"/>
+<path d="M1309.27,321 Q1314.67,324.6 1320.07,321" fill="none" stroke="#1b2440" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1091.33" y="202" width="446.67" height="240" rx="0" fill="#0b1330" opacity="0.55"/>
+<rect x="1141.33" y="236" width="346.67" height="172" rx="16" fill="#ffffff" stroke="#1b2440" stroke-width="3"/>
+<text x="1314.67" y="272" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Haustier löschen?</text>
+<text x="1314.67" y="298" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Legendär – geht für immer verloren.</text>
+<rect x="1161.33" y="327" width="143.33" height="40" rx="13.33" fill="#a8b3cc" stroke="#1b2440" stroke-width="3"/>
+<rect x="1161.33" y="322" width="143.33" height="40" rx="13.33" fill="#dfe5f2" stroke="#1b2440" stroke-width="3"/>
+<rect x="1167.33" y="326" width="131.33" height="15.2" rx="9.33" fill="#ffffff" opacity="0.28"/>
+<text x="1233" y="347.4" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Abbrechen</text>
+<rect x="1324.67" y="327" width="143.33" height="40" rx="13.33" fill="#c9303f" stroke="#1b2440" stroke-width="3"/>
+<rect x="1324.67" y="322" width="143.33" height="40" rx="13.33" fill="#ff4d5e" stroke="#1b2440" stroke-width="3"/>
+<rect x="1330.67" y="326" width="131.33" height="15.2" rx="9.33" fill="#ffffff" opacity="0.28"/>
+<text x="1396.33" y="347.76" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3.2" paint-order="stroke" stroke-linejoin="round">Löschen</text>
+</g>
+<rect x="1091.33" y="202" width="446.67" height="240" rx="18" fill="none" stroke="#1b2440" stroke-width="3"/>
+<text x="1095.33" y="474" fill="#ff4d5e" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="1113.33" y="474" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Wo: Mitte, Hintergrund abgedunkelt</text>
+<text x="1095.33" y="502" fill="#ff4d5e" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="1113.33" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Dauer: bis Entscheidung</text>
+<text x="1095.33" y="530" fill="#ff4d5e" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="1113.33" y="530" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Interaktion: blockiert das Spiel</text>
+<text x="1095.33" y="558" fill="#ff4d5e" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start">•</text>
+<text x="1113.33" y="558" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Für: Kauf, Löschen, Fehler</text>
+<rect x="40" y="610" width="1000" height="232" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="64" y="646" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start">Warteschlange statt Stapel</text>
+<line x1="210" y1="806" x2="210" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="210" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">0 s</text>
+<line x1="341.67" y1="806" x2="341.67" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="341.67" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">2 s</text>
+<line x1="473.33" y1="806" x2="473.33" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="473.33" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">4 s</text>
+<line x1="605" y1="806" x2="605" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="605" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">6 s</text>
+<line x1="736.67" y1="806" x2="736.67" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="736.67" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">8 s</text>
+<line x1="868.33" y1="806" x2="868.33" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="868.33" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">10 s</text>
+<line x1="1000" y1="806" x2="1000" y2="814" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="1000" y="834" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="400" text-anchor="middle">12 s</text>
+<line x1="210" y1="806" x2="1000" y2="806" stroke="#6b7694" stroke-width="2" stroke-linecap="round"/>
+<text x="64" y="702" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">✔ richtig:</text>
+<text x="64" y="722" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">nacheinander</text>
+<rect x="210" y="684" width="197.5" height="40" rx="12" fill="#2ecc71" stroke="#1b2440" stroke-width="2.5"/>
+<text x="308.75" y="710" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">+50 Münzen</text>
+<rect x="433.83" y="684" width="197.5" height="40" rx="12" fill="#2ecc71" stroke="#1b2440" stroke-width="2.5"/>
+<text x="532.58" y="710" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Quest fertig!</text>
+<rect x="657.67" y="684" width="197.5" height="40" rx="12" fill="#2ecc71" stroke="#1b2440" stroke-width="2.5"/>
+<text x="756.42" y="710" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Neues Ei</text>
+<text x="64" y="768" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">✘ falsch:</text>
+<text x="64" y="788" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="400" text-anchor="start">übereinander</text>
+<rect x="210" y="746" width="197.5" height="40" rx="12" fill="#ff4d5e" stroke="#1b2440" stroke-width="2.5" opacity="0.9"/>
+<text x="308.75" y="772" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">+50 Münzen</text>
+<rect x="224" y="754" width="197.5" height="40" rx="12" fill="#ff4d5e" stroke="#1b2440" stroke-width="2.5" opacity="0.9"/>
+<text x="322.75" y="780" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Quest fertig!</text>
+<rect x="238" y="762" width="197.5" height="40" rx="12" fill="#ff4d5e" stroke="#1b2440" stroke-width="2.5" opacity="0.9"/>
+<text x="336.75" y="788" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Neues Ei</text>
+<text x="447" y="776" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">→ unlesbar, verdeckt Spiel</text>
+<rect x="1064" y="610" width="496" height="232" rx="22" fill="#fff8dc" stroke="#d99a0b" stroke-width="4" filter="url(#schatten)"/>
+<text x="1088" y="646" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">Priorität und Regeln</text>
+<rect x="1088" y="664" width="300" height="28" rx="10" fill="#ff4d5e" stroke="#1b2440" stroke-width="2"/>
+<text x="1100" y="684" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Modal (blockiert)</text>
+<rect x="1088" y="698" width="260" height="28" rx="10" fill="#ff9a1f" stroke="#1b2440" stroke-width="2"/>
+<text x="1100" y="718" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Warnung / Gefahr</text>
+<rect x="1088" y="732" width="220" height="28" rx="10" fill="#d99a0b" stroke="#1b2440" stroke-width="2"/>
+<text x="1100" y="752" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Banner</text>
+<rect x="1088" y="766" width="180" height="28" rx="10" fill="#2ecc71" stroke="#1b2440" stroke-width="2"/>
+<text x="1100" y="786" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Toast</text>
+<text x="1404" y="677" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Nie mitten im</text>
+<text x="1404" y="696.8" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Kampf mit</text>
+<text x="1404" y="716.6" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Kauf-Werbung</text>
+<text x="1404" y="736.4" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">unterbrechen.</text>
+<text x="1088" y="820" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="start">Ein Fenster zur Zeit, große Schließen-Fläche.</text>
+</svg>
