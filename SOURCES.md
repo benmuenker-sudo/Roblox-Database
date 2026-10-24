@@ -1,6 +1,14 @@
 # Quellenverzeichnis
 
 > Stand: 2026-10-24. ✅ offiziell · 🟡 gut dokumentiert/Presse · 🟠 Blog/SEO/Community
+>
+> Dieses Verzeichnis listet die Hauptquellen. Die vollständigen Quellen (mehrere hundert Links) stehen inline in den Themendateien und in `research_notes/Roblox Markt und Game Design/`.
+
+## Wichtigste Primärquelle (Version 2)
+- **[Roblox/creator-docs auf GitHub](https://github.com/Roblox/creator-docs)**: der Markdown-Quelltext von create.roblox.com/docs. Inhalte unter CC BY 4.0, Code unter MIT. Geprüfter Stand: Commit 4e795e6 (24.10.2026). Alle ✅-Aussagen der Version 2 wurden dagegen abgeglichen. Tipp für Updates: Dieses Repo lässt sich klonen, auch wenn create.roblox.com selbst nicht erreichbar ist.
+- **Roblox Investor Relations**: Quartalsbriefe Q3 2025–Q2 2026, 10-K 2025 (Plattformzahlen, DevEx-Auszahlungen)
+- **Roblox DevForum-Ankündigungen** und **Roblox Newsroom** (Discovery-Änderung Juni 2026, Veröffentlichungsregeln Mai 2026, Alterschecks, DevEx-Änderungen)
+- **GameAnalytics 2026 Benchmarks** (Retention-Mediane und Top-1-%-Werte)
 
 ## Offiziell (✅)
 - [Roblox Newsroom: Optimizing Discovery (Juni 2026)](https://about.roblox.com/newsroom/2026/06/optimizing-discovery-great-games-reach-millions-players-roblox)
@@ -44,8 +52,17 @@
 - [games.gg: Ride a Pet](https://games.gg/roblox/guides/ride-a-pet-all-eggs-and-how-to-get-them/)
 
 ## Bekannte Lücken (beim nächsten Update schließen)
-- Direkter Abruf offizieller Seiten war in der Erstellungs-Sandbox blockiert; Inhalte stammen aus Suchzusammenfassungen. Wichtige ✅-Aussagen gegen die Originalseiten prüfen.
-- Offizielle Werte zu DevEx (Kurs, Mindestbetrag), Marketplace-Gebühr und Richtlinie zu Zufallsbelohnungen fehlen.
-- Fundierte Quellen zu Leveldesign, Sound-Mixing, Luau-Performance (offizielle Doku verlinken).
-- Echte, aktuelle Top-20-Daten (7-Tage-Durchschnitt) und Mobile/PC-Anteile.
-- Psychologie-/Industriequellen zu Zufalls-Belohnungen.
+**Geschlossen in Version 2:** offizielle DevEx-Werte, Marketplace-Anteile, Regeln zu Zufallsitems, Leveldesign-/Audio-/Performance-Doku, Mobile-Anteil (2024), Discovery-Signale.
+
+**Noch offen:**
+- Numerische Gewichte der RFY-Signale (Roblox veröffentlicht nur Stufen)
+- Offizielle Dokumentation des Such-Rankings
+- Offizielle Werbe-Preise (CPM, Kosten pro Play) und Auszahlungsraten für Rewarded Video
+- Offizielle Liste der Länder mit Einschränkungen für Zufallsitems
+- Aktueller Geräte-Mix 2025/2026 (neuester offizieller Wert: 2024)
+- Genre-Retention-Werte (Roblox veröffentlicht keine)
+- Q3-2026-Ergebnisse (Veröffentlichung Ende Oktober/Anfang November 2026)
+- EU-/deutsches Recht zu Lootboxen und Kinderschutz
+- Voice-Chat-Regeln 2025/2026, KI-Inhalte in den Community Standards
+- Zahlen pro Spiel stammen von Trackern (RoMonitor, Rolimons, RoWatcher u. a.), die sich um 5–30 % unterscheiden
+- Die Web-Suche war im Recherche-Lauf auf ca. 200 Anfragen begrenzt; mehrere Teilthemen (z. B. Dress to Impress, Fisch, Doors) wurden nicht vertieft

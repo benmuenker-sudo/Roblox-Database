@@ -35,10 +35,16 @@ Jede Aussage über Zahlen oder Marktdaten trägt einen Vertrauensgrad:
 Stand-Datum steht in jeder Datei. Marktdaten veralten innerhalb von Wochen.
 
 ## Bilder und Audio
-Siehe `assets/`. Die Datenbank enthält keine urheberrechtlich geschützten Original-Screenshots oder Audiodateien. Stattdessen:
-- **Referenzlisten** mit Links zu Spielseiten, Trailern und offiziellen Doku-Seiten
-- **Beschreibungen**, woran man ein Muster im Bild oder Ton erkennt
-- **Slots**, in die du eigene Screenshots und Audio-Notizen ablegst (`assets/eigene-referenzen/`)
+Siehe `assets/`:
+- **23 selbst erstellte Referenzbilder** (`assets/bilder/`): beschriftete Mockups und Diagramme (HUD, Shop, Inventar, Sammelbuch, Map-Zonen, Loops, Gacha, Live-Ops-Kalender …). Frei nutzbar.
+- **121 offizielle Bilder** aus der Roblox Creator Documentation (`assets/bilder/offiziell/`), lizenziert unter CC BY 4.0. Bei Weitergabe Quelle nennen.
+- **26 selbst synthetisierte Sounds** (`assets/audio/`, WAV + OGG): Münz-Pling, UI-Klicks, Fanfaren, Mythic-Drop, Warnungen, Loops. Frei nutzbar, auch zum Hochladen in deine Spiele.
+- Screenshots und Musik **fremder Spiele** sind urheberrechtlich geschützt und deshalb nur als Link und Beschreibung enthalten. Eigene Screenshots kommen in `assets/eigene-referenzen/`.
+- Claude Projects liest Bilder, aber keine Audiodateien. Lade für Sounds `assets/audio/README.md` und `assets/audio/audio-wellenformen.png` hoch.
+- Bilder und Sounds lassen sich mit `tools/` neu erzeugen.
+
+## Größe und Auswahl für Claude Projects
+Die Datenbank hat rund 100.000 Wörter und ca. 75 MB Assets. Lade für ein Projekt gezielt hoch: `INDEX.md`, die relevanten Themenordner, die passenden Checklisten und die wichtigsten PNGs.
 
 ## Struktur
 Siehe `INDEX.md`.

@@ -16,6 +16,11 @@ Du pflegst die Roblox Database in diesem Repo. Aktualisiere sie auf den heutigen
 7. **Protokoll:** Trage in `CHANGELOG.md` ein: Datum, geänderte Dateien, was neu/geändert/entfernt, offene Fragen.
 8. Aktualisiere das Stand-Datum in jeder geänderten Datei.
 
+**Offizielle Doku abgleichen**
+- Klone `https://github.com/Roblox/creator-docs` (flach, `--depth 1`) in ein temporäres Verzeichnis. Das ist der Quelltext von create.roblox.com/docs und funktioniert auch, wenn die Website selbst blockiert ist.
+- Vergleiche die Änderungen gegenüber dem letzten geprüften Commit (siehe `SOURCES.md`) und aktualisiere betroffene Dateien. Neuen Commit in `SOURCES.md` eintragen.
+- Bilder der Doku liegen dort als Git-LFS-Zeiger; einzelne Bilder sind über media.githubusercontent.com abrufbar. Lizenz CC BY 4.0, Quellenangabe in `assets/bilder/offiziell/README.md` pflegen.
+
 **Regeln**
 - Keine erfundenen Zahlen oder API-Namen. Unbelegtes als 🟠 oder 🧠 markieren oder weglassen.
 - Keine urheberrechtlich geschützten Bilder/Audios einfügen; nur Links und Beschreibungen.
