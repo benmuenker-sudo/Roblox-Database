@@ -44,7 +44,7 @@ Siehe `assets/`:
 - Bilder und Sounds lassen sich mit `tools/` neu erzeugen.
 
 ## Größe und Auswahl für Claude Projects
-Die Datenbank hat rund 100.000 Wörter und ca. 75 MB Assets. Lade für ein Projekt gezielt hoch: `INDEX.md`, die relevanten Themenordner, die passenden Checklisten und die wichtigsten PNGs.
+Die Datenbank hat rund 100.000 Wörter und ca. 45 MB Assets. Lade für ein Projekt gezielt hoch: `INDEX.md`, die relevanten Themenordner, die passenden Checklisten und die wichtigsten PNGs.
 
 ## Struktur
 Siehe `INDEX.md`.
