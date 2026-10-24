@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bilder_ui  # noqa: E402
 
 MODULE = [bilder_ui]
-for name in ("bilder_loops", "bilder_map", "bilder_technik"):
+for name in ("bilder_loops", "bilder_map", "bilder_technik", "bilder_konzept"):
     if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), name + ".py")):
         MODULE.append(__import__(name))
 

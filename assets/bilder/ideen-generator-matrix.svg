@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient><marker id="pfeild99a0b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 L2.5,5 z" fill="#d99a0b"/></marker></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Ideen-Generator: Fantasie × Loop × Spannung × Meta</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Je ein Baustein pro Spalte wählen, Ein-Satz-Test machen, dann die 7 Filterfragen (aus ideen-methodik.md)</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Hits in Bausteine zerlegen, neu kombinieren, früh testen  ·  ideen-generator-matrix.png</text>
+<rect x="40" y="122" width="248" height="590" rx="22" fill="#ffffff" stroke="#3d9bff" stroke-width="4" filter="url(#schatten)"/>
+<rect x="40" y="122" width="248" height="56" rx="20" fill="#3d9bff" stroke="#1b2440" stroke-width="4"/>
+<text x="72" y="159.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🎭</text>
+<text x="96" y="159" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Fantasie</text>
+<rect x="56" y="196" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="222" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Bäcker</text>
+<rect x="56" y="252" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="278" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Archäologe</text>
+<rect x="52" y="304" width="224" height="48" rx="24" fill="#ffc93c" opacity="0.5" filter="url(#glow)"/>
+<rect x="56" y="313" width="216" height="40" rx="20" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="56" y="308" width="216" height="40" rx="20" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="62" y="312" width="204" height="15.2" rx="16" fill="#ffffff" opacity="0.28"/>
+<text x="164" y="333.4" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Fischer</text>
+<rect x="56" y="364" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Hacker</text>
+<rect x="56" y="420" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="446" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Hausmeister</text>
+<rect x="56" y="476" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Tierarzt</text>
+<rect x="56" y="532" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="558" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Geisterjäger</text>
+<rect x="56" y="588" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="614" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Wetterforscher</text>
+<rect x="56" y="644" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#3d9bff" stroke-width="2"/>
+<text x="164" y="670" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Pirat</text>
+<rect x="306" y="122" width="248" height="590" rx="22" fill="#ffffff" stroke="#2ecc71" stroke-width="4" filter="url(#schatten)"/>
+<rect x="306" y="122" width="248" height="56" rx="20" fill="#2ecc71" stroke="#1b2440" stroke-width="4"/>
+<text x="338" y="159.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🔁</text>
+<text x="362" y="159" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Loop</text>
+<rect x="318" y="192" width="224" height="48" rx="24" fill="#ffc93c" opacity="0.5" filter="url(#glow)"/>
+<rect x="322" y="201" width="216" height="40" rx="20" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="322" y="196" width="216" height="40" rx="20" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="328" y="200" width="204" height="15.2" rx="16" fill="#ffffff" opacity="0.28"/>
+<text x="430" y="220.86" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="2.7" paint-order="stroke" stroke-linejoin="round">Farmen und Verkaufen</text>
+<rect x="322" y="252" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#2ecc71" stroke-width="2"/>
+<text x="430" y="278" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle">Erkunden und Sammeln</text>
+<rect x="322" y="308" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#2ecc71" stroke-width="2"/>
+<text x="430" y="334" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle">Bauen und Verteidigen</text>
+<rect x="322" y="364" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#2ecc71" stroke-width="2"/>
+<text x="430" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Craften und Liefern</text>
+<rect x="322" y="420" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#2ecc71" stroke-width="2"/>
+<text x="430" y="446" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle">Aufziehen und Kämpfen</text>
+<rect x="572" y="122" width="248" height="590" rx="22" fill="#ffffff" stroke="#ff9a1f" stroke-width="4" filter="url(#schatten)"/>
+<rect x="572" y="122" width="248" height="56" rx="20" fill="#ff9a1f" stroke="#1b2440" stroke-width="4"/>
+<text x="604" y="159.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">⚡</text>
+<text x="628" y="159" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Spannung</text>
+<rect x="588" y="196" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#ff9a1f" stroke-width="2"/>
+<text x="696" y="222" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Nachtgefahr</text>
+<rect x="588" y="252" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#ff9a1f" stroke-width="2"/>
+<text x="696" y="278" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle">Diebstahl durch andere</text>
+<rect x="588" y="308" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#ff9a1f" stroke-width="2"/>
+<text x="696" y="334" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Zeitlimit</text>
+<rect x="588" y="364" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#ff9a1f" stroke-width="2"/>
+<text x="696" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Zufalls-Mutation</text>
+<rect x="584" y="416" width="224" height="48" rx="24" fill="#ffc93c" opacity="0.5" filter="url(#glow)"/>
+<rect x="588" y="425" width="216" height="40" rx="20" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="588" y="420" width="216" height="40" rx="20" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="594" y="424" width="204" height="15.2" rx="16" fill="#ffffff" opacity="0.28"/>
+<text x="696" y="445.4" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Wetter-Events</text>
+<rect x="588" y="476" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#ff9a1f" stroke-width="2"/>
+<text x="696" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle">Konkurrenz-Rangliste</text>
+<rect x="838" y="122" width="248" height="590" rx="22" fill="#ffffff" stroke="#a24dff" stroke-width="4" filter="url(#schatten)"/>
+<rect x="838" y="122" width="248" height="56" rx="20" fill="#a24dff" stroke="#1b2440" stroke-width="4"/>
+<text x="870" y="159.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">📖</text>
+<text x="894" y="159" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="22" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Meta</text>
+<rect x="850" y="192" width="224" height="48" rx="24" fill="#ffc93c" opacity="0.5" filter="url(#glow)"/>
+<rect x="854" y="201" width="216" height="40" rx="20" fill="#d99a0b" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="854" y="196" width="216" height="40" rx="20" fill="#ffc93c" stroke="#1b2440" stroke-width="2.5"/>
+<rect x="860" y="200" width="204" height="15.2" rx="16" fill="#ffffff" opacity="0.28"/>
+<text x="962" y="221.4" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle" stroke="#1b2440" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Sammelbuch</text>
+<rect x="854" y="252" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#a24dff" stroke-width="2"/>
+<text x="962" y="278" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Rebirth</text>
+<rect x="854" y="308" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#a24dff" stroke-width="2"/>
+<text x="962" y="334" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Saisonpass</text>
+<rect x="854" y="364" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#a24dff" stroke-width="2"/>
+<text x="962" y="390" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Gilden</text>
+<rect x="854" y="420" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#a24dff" stroke-width="2"/>
+<text x="962" y="446" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Museum</text>
+<rect x="854" y="476" width="216" height="40" rx="20" fill="#f3f6fc" stroke="#a24dff" stroke-width="2"/>
+<text x="962" y="502" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="middle">Handelsmarkt</text>
+<path d="M264,328 C304,328 290,216 326,216" fill="none" stroke="#d99a0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeild99a0b)" stroke-dasharray="2 9"/>
+<path d="M530,216 C570,216 556,440 592,440" fill="none" stroke="#d99a0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeild99a0b)" stroke-dasharray="2 9"/>
+<path d="M796,440 C836,440 822,216 858,216" fill="none" stroke="#d99a0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeild99a0b)" stroke-dasharray="2 9"/>
+<rect x="1120" y="122" width="440" height="250" rx="22" fill="#fff8dc" stroke="#d99a0b" stroke-width="4" filter="url(#schatten)"/>
+<text x="1142" y="162" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">Rohidee (noch ungeprüft)</text>
+<text x="1142" y="192" fill="#d99a0b" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Fischer × Farmen × Wetter × Sammelbuch</text>
+<text x="1142" y="222" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Jeder Teich hat eigenes Wetter; seltene Fische</text>
+<text x="1142" y="243.12" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">erscheinen nur bei Sturm; ein Fischbuch zeigt die</text>
+<text x="1142" y="264.24" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Vollständigkeit.</text>
+<rect x="1138" y="298" width="404" height="56" rx="14" fill="#ffffff" stroke="#d99a0b" stroke-width="2"/>
+<text x="1152" y="321" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="start">Ein-Satz-Test:</text>
+<text x="1152" y="343" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="700" text-anchor="start">„Du fängst Fische, um das Fischbuch zu füllen.“</text>
+<rect x="1120" y="392" width="440" height="442" rx="22" fill="#ffffff" stroke="#1b2440" stroke-width="4" filter="url(#schatten)"/>
+<text x="1142" y="430" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="21" font-weight="700" text-anchor="start">Die 7 Filterfragen</text>
+<circle cx="1156" cy="466" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="471.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">1</text>
+<text x="1180" y="464" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Ein-Satz</text>
+<text x="1180" y="484" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">In einem Satz erklärbar?</text>
+<circle cx="1156" cy="514" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="519.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">2</text>
+<text x="1180" y="512" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">10 Sekunden</text>
+<text x="1180" y="532" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Klare erste Aktion?</text>
+<circle cx="1156" cy="562" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="567.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">3</text>
+<text x="1180" y="560" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Wiederholung</text>
+<text x="1180" y="580" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Nach 30 Min noch Spaß?</text>
+<circle cx="1156" cy="610" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="615.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">4</text>
+<text x="1180" y="608" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Rückkehr</text>
+<text x="1180" y="628" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Warum morgen wieder?</text>
+<circle cx="1156" cy="658" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="663.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">5</text>
+<text x="1180" y="656" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Social</text>
+<text x="1180" y="676" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Warum erzählt man es Freunden?</text>
+<circle cx="1156" cy="706" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="711.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">6</text>
+<text x="1180" y="704" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Content</text>
+<text x="1180" y="724" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">8 Wochen Updates ohne Umbau?</text>
+<circle cx="1156" cy="754" r="14" fill="#3d9bff" stroke="#ffffff" stroke-width="3" filter="url(#schattenK)"/>
+<text x="1156" y="759.32" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.7" font-weight="700" text-anchor="middle">7</text>
+<text x="1180" y="752" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start">Monetarisierung</text>
+<text x="1180" y="772" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Fairer Kauf, der beschleunigt?</text>
+<rect x="1138" y="790" width="404" height="32" rx="12" fill="#ffe8ea" stroke="#ff4d5e" stroke-width="2"/>
+<text x="1152" y="812" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="700" text-anchor="start">≥ 3 durchgefallen → verwerfen oder umbauen</text>
+<rect x="40" y="722" width="1046" height="112" rx="18" fill="#ffffff" stroke="#c9d3ee" stroke-width="2.5"/>
+<text x="60" y="750" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">Weitere Rohideen aus der Datenbank:</text>
+<rect x="60" y="760" width="390.09" height="32" rx="16" fill="#f3f6fc" stroke="#4a5578" stroke-width="2"/>
+<text x="255.05" y="781" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Archäologe × Erkunden × Mutation × Museum</text>
+<rect x="460.09" y="760" width="426.7" height="32" rx="16" fill="#f3f6fc" stroke="#4a5578" stroke-width="2"/>
+<text x="673.45" y="781" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Geisterjäger × Verteidigen × Nachtgefahr × Gilden</text>
+<rect x="60" y="798" width="364.66" height="32" rx="16" fill="#f3f6fc" stroke="#4a5578" stroke-width="2"/>
+<text x="242.33" y="819" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Bäcker × Craften × Diebstahl × Saisonpass</text>
+</svg>

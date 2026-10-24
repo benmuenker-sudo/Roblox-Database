@@ -314,12 +314,12 @@ def level_up():
     buf = silence(2.2)
     seq = [(67, 0.0, 0.12), (72, 0.12, 0.12), (76, 0.24, 0.12), (79, 0.36, 0.3)]
     for m, st, d in seq:
-        buf = place(buf, 0.5 * brass(hz(m), d + 0.1, a=0.02, r=0.08, vib=False), st)
+        buf = place(buf, 1.1 * brass(hz(m), d + 0.1, a=0.02, r=0.08, vib=False), st)
     for m in (72, 76, 79, 84):
-        buf = place(buf, 0.32 * brass(hz(m), 1.5, a=0.03, r=0.6), 0.62)
+        buf = place(buf, 0.26 * brass(hz(m), 1.5, a=0.03, r=0.6), 0.62)
     t = T(0.5)
     kick, _ = sweep(110, 45, t)
-    buf = place(buf, 0.9 * kick * env_exp(t, 0.12), 0.62)
+    buf = place(buf, 0.6 * kick * env_exp(t, 0.12), 0.62)
     cym = fft_filter(noise(1.5), lo=5000) * env_exp(T(1.5), 0.4) * 0.25
     buf = place(buf, cym, 0.62)
     for k in range(8):
@@ -332,10 +332,12 @@ def mythic_drop():
     # 1) Aufbau: Riser (Rauschen + steigender Ton), 1,3 s
     rd = 1.3
     t = T(rd)
-    fc = 300 * (12000 / 300) ** (t / rd)
-    riser = svf(noise(rd) * 0.6, fc, q=2.0) * (t / rd) ** 2
+    fc = 250 * (5000 / 250) ** (t / rd)
+    riser = svf(noise(rd), fc, q=1.5)
+    riser = 0.3 * riser / np.max(np.abs(riser)) * (t / rd) ** 2
     tone, _ = sweep(hz(48), hz(72), t)
-    riser += 0.25 * tone * (t / rd) ** 1.5
+    tone2, _ = sweep(hz(55), hz(79), t)
+    riser += (0.3 * tone + 0.2 * tone2) * (t / rd) ** 1.5
     buf = riser
     # 2) Stille vor dem Impact: 0,28 s
     imp = rd + 0.28
@@ -346,7 +348,7 @@ def mythic_drop():
     buf = place(buf, 0.5 * fft_filter(noise(0.4), lo=600, hi=9000) * env_exp(T(0.4), 0.06, 0.0005), imp)
     # 4) Grosser Akkord (C-Dur add9, Pad + Brass)
     for m in (48, 60, 64, 67, 74, 79):
-        buf = place(buf, 0.18 * saw_pad(hz(m), 2.6, a=0.02, r=1.6, cutoff_h=14), imp)
+        buf = place(buf, 0.24 * saw_pad(hz(m), 2.6, a=0.02, r=1.6, cutoff_h=12), imp)
         if m >= 60:
             buf = place(buf, 0.12 * brass(hz(m), 1.4, a=0.02, r=0.8), imp)
     # 5) Funkeln
@@ -472,19 +474,19 @@ def lofi_loop():
     for b, ch in enumerate(chords):
         st = b * bar
         for m in ch:
-            buf = place(buf, 0.16 * epiano(hz(m), bar * 0.95, 0.8), st + RNG.uniform(0, 0.012))
+            buf = place(buf, 0.2 * epiano(hz(m), bar * 0.95, 0.8), st + RNG.uniform(0, 0.012))
         for m in ch[1:]:
             buf = place(buf, 0.07 * epiano(hz(m + 12), beat, 0.5), st + 2.5 * beat)
         tb = T(bar * 0.9)
         bass = (np.sin(2 * np.pi * hz(roots[b]) * tb) + 0.2 * np.sin(2 * np.pi * hz(roots[b]) * 2 * tb))
-        buf = place(buf, 0.35 * bass * env_adsr(bar * 0.9, 0.01, 0.3, 0.6, 0.3), st)
+        buf = place(buf, 0.25 * bass * env_adsr(bar * 0.9, 0.01, 0.3, 0.6, 0.3), st)
     swing = 0.06
     for k in range(int(L / beat)):
         st = k * beat
         if k % 4 in (0, 2) or (k % 4 == 1 and k % 8 == 5):
             tk = T(0.4)
             kk, _ = sweep(105, 42, tk)
-            buf = place(buf, 0.55 * kk * env_exp(tk, 0.13, 0.002), st if k % 4 != 1 else st + beat / 2)
+            buf = place(buf, 0.45 * kk * env_exp(tk, 0.13, 0.002), st if k % 4 != 1 else st + beat / 2)
         if k % 4 in (1, 3):
             tn = T(0.25)
             sn = fft_filter(noise(0.25), lo=700, hi=5000) * env_exp(tn, 0.07, 0.001) * 0.25
@@ -606,7 +608,10 @@ def main():
         if nur and name not in nur:
             continue
         x = fn()
-        x = x - np.mean(x) if name in LOOPS else x
+        if name in LOOPS:
+            x = fft_filter(x, lo=25, circular=True)  # DC/Subbass entfernen, bleibt nahtlos
+        else:
+            x = fades(fft_filter(x, lo=25), 0.0005, 0.01)
         x = norm(x)
         wav = os.path.join(ZIEL, name + ".wav")
         write_wav(wav, x)

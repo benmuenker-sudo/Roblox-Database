@@ -5,6 +5,11 @@
 ## Kurzfassung
 Die Top-Spiele sind **Live-Spiele**: Sie bekommen regelmäßig Updates und zeitlich begrenzte Events, die Spieler zurückholen und Clips erzeugen. Der „Update → Event → Hype"-Zyklus prägt Roblox-Hits. 🟡 Gefahr: Wenn Events die *einzige* Retention sind, bricht die Aktivität dazwischen ein. Baue Systemtiefe darunter.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Live-Ops-Kalender 8 Wochen](../assets/bilder/live-ops-kalender-8-wochen.png)
+
 ## Arten von Live-Ops
 | Art | Dauer | Zweck | Beispiel |
 |---|---|---|---|

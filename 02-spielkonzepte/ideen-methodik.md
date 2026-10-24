@@ -5,6 +5,11 @@
 ## Kurzfassung
 Gute Ideen entstehen selten aus dem Nichts. Sie entstehen aus **Beobachtung (Markt) → Zerlegung (Bausteine) → Neukombination (Twist) → schnellem Test**. Diese Datei gibt dir einen Ablauf, den du in jedem Projekt wiederholen kannst.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Ideen-Generator](../assets/bilder/ideen-generator-matrix.png)
+
 ## Schritt 1 – Markt beobachten (30–60 Minuten)
 - Top-Charts ansehen, nicht nur Platz 1: auch **Aufsteiger** der letzten 7–30 Tage.
 - Für jedes interessante Spiel notieren: Genre, Core Loop in einem Satz, Session-Länge, Monetarisierung, Event-Takt.

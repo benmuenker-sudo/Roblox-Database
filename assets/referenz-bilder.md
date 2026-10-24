@@ -1,6 +1,25 @@
 # Referenzbilder: Was man sich ansehen soll
 
-> Stand: 2026-10-24 · Hinweis: Hier stehen **Beschreibungen und Links**, keine Bilddateien (siehe `assets/README.md`). Öffne die Links und mache bei Bedarf eigene Screenshots für `eigene-referenzen/`.
+> Stand: 2026-10-24 · Hinweis: Für **echte Spiele** stehen hier Beschreibungen und Links (Screenshots fremder Spiele sind urheberrechtlich geschützt, siehe `assets/README.md`). Öffne die Links und mache bei Bedarf eigene Screenshots für `eigene-referenzen/`. **Selbst erstellte Referenzbilder** zu allen Mustern findest du in `bilder/` (Übersicht: `bilder/README.md`).
+
+## Eigene Referenzbilder (selbst erstellt, frei nutzbar)
+Beschriftete Mockups und Diagramme zu den Designregeln der Datenbank, je als `.svg` und `.png`:
+
+| Muster | Bild |
+|---|---|
+| HUD-Layout auf dem Handy, Safe Area, Daumen-Zonen | [ui-hud-layout-mobile.png](bilder/ui-hud-layout-mobile.png) |
+| Komplettes Simulator-HUD (Währung 1,2K, Boosts, Aufgaben, Verkaufen) | [ui-hud-beispiel-simulator.png](bilder/ui-hud-beispiel-simulator.png) |
+| Shop-Karten, Tabs, „Beliebt“, Kauf-Bestätigung | [ui-shop-layout.png](bilder/ui-shop-layout.png) |
+| Seltenheitsrahmen im Inventar | [ui-inventar-seltenheit.png](bilder/ui-inventar-seltenheit.png) |
+| Sammelbuch mit Silhouetten und Meilensteinen | [ui-sammelbuch.png](bilder/ui-sammelbuch.png) |
+| Farbbedeutung und Farbenblind-Tipp | [ui-farbpalette-bedeutung.png](bilder/ui-farbpalette-bedeutung.png) |
+| Touch-Größen und Schriftgrößen | [ui-touch-groessen.png](bilder/ui-touch-groessen.png) |
+| Tutorial-Pfeil und leuchtender Pfad | [ui-tutorial-pfeil.png](bilder/ui-tutorial-pfeil.png) |
+| Toast, Banner, Modal | [ui-popup-toast-hierarchie.png](bilder/ui-popup-toast-hierarchie.png) |
+| Map-Zonen, Tore, Sichtlinien | [map-zonen-layout.png](bilder/map-zonen-layout.png) |
+| Wegführung ohne Text | [map-wegfuehrung.png](bilder/map-wegfuehrung.png) |
+| Spawn und Hub | [map-spawn-hub.png](bilder/map-spawn-hub.png) |
+| Weitere: Core Loop, Loop-Muster, Onboarding, Rebirth, Gacha, Live-Ops, Audio-Mix, Client-Server, Monetarisierung | siehe `bilder/README.md` |
 
 ## Wie man ein Referenzbild analysiert (Raster)
 1. **Erste Sekunde:** Was fällt zuerst auf? (Hierarchie)

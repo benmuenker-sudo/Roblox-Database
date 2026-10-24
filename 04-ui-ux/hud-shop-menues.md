@@ -5,6 +5,16 @@
 ## Kurzfassung
 Das **HUD** zeigt dauerhaft das Wichtigste, **Menüs** halten alles Weitere, der **Shop** muss klar, fair und schnell bedienbar sein. Auf Mobile gilt: wenige Elemente, große Flächen, kurze Wege.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![HUD-Beispiel Simulator](../assets/bilder/ui-hud-beispiel-simulator.png)
+![Shop-Layout](../assets/bilder/ui-shop-layout.png)
+![Inventar mit Seltenheitsrahmen](../assets/bilder/ui-inventar-seltenheit.png)
+![Sammelbuch](../assets/bilder/ui-sammelbuch.png)
+![Toast, Banner, Modal](../assets/bilder/ui-popup-toast-hierarchie.png)
+![Tutorial-Pfeil](../assets/bilder/ui-tutorial-pfeil.png)
+
 ## HUD (Heads-up-Display)
 
 ### Was gehört hinein

@@ -5,6 +5,11 @@
 ## Kurzfassung
 Auf Roblox gewinnen Genres, die **sofort verständlich**, **mobil spielbar** und **in Sitzungen teilbar** sind. Simulatoren sind die Basis, Survival wächst schnell, Fighting wird als schnell wachsend genannt, Tycoons und Horror kommen zurück. Chancen liegen bei **Genre-Mischungen** (z. B. Farming + Tower Defense) und **Nischen mit treuer Community**.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Genre-Übersicht](../assets/bilder/genre-uebersicht.png)
+
 ## Genre-Überblick
 
 | Genre | Kern-Fantasie | Typische Loop | Stärken | Risiken | Beispiele |

@@ -5,6 +5,12 @@
 ## Kurzfassung
 Roblox-Spiele verdienen über **Gamepasses**, **Developer Products**, **Abos**, **Premium-Engagement** und **Werbung/Creator Rewards**. Discovery misst seit 2026 auch Ausgaben als positives Signal ✅, aber aggressive Monetarisierung senkt Retention. Ziel: **fairer Mehrwert, der den Loop beschleunigt oder verschönert, ohne ihn zu brechen**.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Monetarisierung: Produkte und Fairness](../assets/bilder/monetarisierung-produkte.png)
+![Shop-Layout](../assets/bilder/ui-shop-layout.png)
+
 ## Produkttypen (Roblox) ✅/🟡
 | Typ | Was | Typische Nutzung |
 |---|---|---|

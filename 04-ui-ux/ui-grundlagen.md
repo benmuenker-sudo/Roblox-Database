@@ -5,6 +5,13 @@
 ## Kurzfassung
 Gutes Roblox-UI ist **lesbar auf dem Handy**, **zeigt das Wichtigste zuerst**, **reagiert sofort auf Eingaben** und **passt sich jeder Bildschirmgröße an**. Die meisten Spieler sind mobil (🧠, Plattform-Beobachtung; genaue Quote bei Update prüfen), deshalb wird zuerst für Touch entworfen.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Farben und ihre Bedeutung](../assets/bilder/ui-farbpalette-bedeutung.png)
+![Touch-Größen und Schriftgrößen](../assets/bilder/ui-touch-groessen.png)
+![HUD-Layout Mobile](../assets/bilder/ui-hud-layout-mobile.png)
+
 ## Prinzipien (🧠)
 1. **Hierarchie:** Was ist am wichtigsten? Größe, Kontrast, Position, Farbe lenken den Blick.
 2. **Weniger ist mehr:** Jedes Element muss Zweck haben. Verstecke Seltenes in Menüs.

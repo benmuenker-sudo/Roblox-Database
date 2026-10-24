@@ -5,6 +5,12 @@
 ## Kurzfassung
 Retention misst, wie viele Spieler **nach 1, 7 und 30 Tagen** zurückkommen. Roblox rät, **D1 und Sitzungsdauer zuerst** zu verbessern, bevor man Traffic einkauft. Der Onboarding-Teil (die ersten Minuten) entscheidet D1. Discovery misst inzwischen über 28 Tage (siehe `01-markt-trends/discovery-algorithmus.md`).
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Onboarding-Trichter](../assets/bilder/retention-funnel-onboarding.png)
+![Tutorial-Pfeil](../assets/bilder/ui-tutorial-pfeil.png)
+
 ## Definitionen ✅
 - **D1:** Anteil der Spieler, die am Tag nach ihrem ersten Besuch zurückkehren.
 - **D7, D30:** analog nach 7 bzw. 30 Tagen.

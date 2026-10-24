@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><filter id="schatten" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b1330" flood-opacity="0.22"/></filter><filter id="schattenK" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0b1330" flood-opacity="0.25"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="silhouette"><feColorMatrix type="matrix" values="0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0 0.3  0 0 0 1 0"/></filter><filter id="grau"><feColorMatrix type="saturate" values="0"/></filter><pattern id="schraffur" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#ff4d5e" fill-opacity="0.10"/><line x1="0" y1="0" x2="0" y2="12" stroke="#ff4d5e" stroke-width="4" stroke-opacity="0.45"/></pattern><pattern id="schraffurGrau" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#1b2440" fill-opacity="0.18"/><line x1="0" y1="0" x2="0" y2="12" stroke="#1b2440" stroke-width="4" stroke-opacity="0.35"/></pattern><pattern id="punkte" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#1b2440" fill-opacity="0.07"/></pattern><linearGradient id="verlauf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fe"/><stop offset="1" stop-color="#e4ecf9"/></linearGradient><linearGradient id="verlauf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d9bff"/><stop offset="1" stop-color="#a24dff"/></linearGradient></defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#verlauf1)"/>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#punkte)"/>
+<rect x="40" y="34" width="12" height="62" rx="6" fill="url(#verlauf2)"/>
+<text x="68" y="72" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="40" font-weight="700" text-anchor="start">Genre-Übersicht: Fantasie, Loop, Stärken, Risiken</text>
+<text x="70" y="100" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="400" text-anchor="start">Zehn Roblox-Genres auf einen Blick (aus genre-analyse.md) – Hits sind oft Mischungen aus zwei Genres plus Meta-Schicht</text>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1b2440"/>
+<text x="24" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="start">Eigenes Referenzbild (selbst erstellt, frei nutzbar) · Roblox-Datenbank</text>
+<text x="1576" y="889" fill="#c9d3ee" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="400" text-anchor="end">Regel: Genre A (Loop) × Genre B (Spannung) × Meta-Schicht  ·  genre-uebersicht.png</text>
+<rect x="40" y="122" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#3d9bff" stroke-width="4" filter="url(#schatten)"/>
+<rect x="40" y="122" width="291.2" height="52" rx="20" fill="#3d9bff" stroke="#1b2440" stroke-width="3.5"/>
+<text x="68" y="157.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🧺</text>
+<text x="90" y="156" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Simulator</text>
+<text x="56" y="199.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich werde stärker/reicher“</text>
+<rect x="52" y="214.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="56" y="237.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="56" y="254.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Aktion → Währung → Upgrade →</text>
+<text x="56" y="274.1" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Rebirth</text>
+<text x="56" y="308.74" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="74" y="307.24" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Einfach, Fortschritt,</text>
+<text x="74" y="326.38" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Monetarisierung</text>
+<text x="56" y="355.02" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="74" y="353.52" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Austauschbar, viele Klone</text>
+<rect x="347.2" y="122" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#ff9a1f" stroke-width="4" filter="url(#schatten)"/>
+<rect x="347.2" y="122" width="291.2" height="52" rx="20" fill="#ff9a1f" stroke="#1b2440" stroke-width="3.5"/>
+<text x="375.2" y="157.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🔥</text>
+<text x="397.2" y="156" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Survival</text>
+<text x="363.2" y="199.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich überlebe gegen Druck“</text>
+<rect x="359.2" y="214.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="363.2" y="237.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="363.2" y="254.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Tag sammeln → Nacht verteidigen</text>
+<text x="363.2" y="289.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="381.2" y="288.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Lange Sessions, Spannung, Koop</text>
+<text x="363.2" y="316.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="381.2" y="315.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Content-Hunger, Balancing</text>
+<rect x="654.4" y="122" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#ff3d7f" stroke-width="4" filter="url(#schatten)"/>
+<rect x="654.4" y="122" width="291.2" height="52" rx="20" fill="#ff3d7f" stroke="#1b2440" stroke-width="3.5"/>
+<text x="682.4" y="157.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">⚔️</text>
+<text x="704.4" y="156" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Anime-Kampf</text>
+<text x="670.4" y="199.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich werde ein starker</text>
+<text x="670.4" y="219.96" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">Kämpfer“</text>
+<rect x="666.4" y="234.92" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="670.4" y="257.92" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="670.4" y="275.42" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Trainieren → Boss → Fähigkeit</text>
+<text x="670.4" y="310.06" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="688.4" y="308.56" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Loyale Community, Sammeln</text>
+<text x="670.4" y="337.2" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="688.4" y="335.7" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Komplexes Balancing, Cheater</text>
+<rect x="961.6" y="122" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#22c7c7" stroke-width="4" filter="url(#schatten)"/>
+<rect x="961.6" y="122" width="291.2" height="52" rx="20" fill="#22c7c7" stroke="#1b2440" stroke-width="3.5"/>
+<text x="989.6" y="157.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🏠</text>
+<text x="1011.6" y="156" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Roleplay / Social</text>
+<text x="977.6" y="199.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich spiele eine Rolle“</text>
+<rect x="973.6" y="214.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="977.6" y="237.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="977.6" y="254.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Frei spielen, Häuser, Autos</text>
+<text x="977.6" y="289.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="995.6" y="288.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Sehr lange Verweildauer</text>
+<text x="977.6" y="316.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="995.6" y="315.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Wenig Umsatz pro Kopf,</text>
+<text x="995.6" y="334.38" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Moderation</text>
+<rect x="1268.8" y="122" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#d99a0b" stroke-width="4" filter="url(#schatten)"/>
+<rect x="1268.8" y="122" width="291.2" height="52" rx="20" fill="#d99a0b" stroke="#1b2440" stroke-width="3.5"/>
+<text x="1296.8" y="157.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🏭</text>
+<text x="1318.8" y="156" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Tycoon</text>
+<text x="1284.8" y="199.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich baue ein Imperium“</text>
+<rect x="1280.8" y="214.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="1284.8" y="237.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="1284.8" y="254.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Geld → Maschinen → mehr Geld</text>
+<text x="1284.8" y="289.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="1302.8" y="288.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Klarer Fortschritt</text>
+<text x="1284.8" y="316.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="1302.8" y="315.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Kurze Halbwertszeit ohne Updates</text>
+<rect x="40" y="438" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#a24dff" stroke-width="4" filter="url(#schatten)"/>
+<rect x="40" y="438" width="291.2" height="52" rx="20" fill="#a24dff" stroke="#1b2440" stroke-width="3.5"/>
+<text x="68" y="473.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">👻</text>
+<text x="90" y="472" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Horror</text>
+<text x="56" y="515.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich überstehe die Angst“</text>
+<rect x="52" y="530.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="56" y="553.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="56" y="570.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Erkunden → Gefahr → Flucht</text>
+<text x="56" y="605.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="74" y="604.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Teilbar (Streams), Koop</text>
+<text x="56" y="632.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="74" y="631.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Hoher Content-Bedarf,</text>
+<text x="74" y="650.38" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Altersfreigabe</text>
+<rect x="347.2" y="438" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#2ecc71" stroke-width="4" filter="url(#schatten)"/>
+<rect x="347.2" y="438" width="291.2" height="52" rx="20" fill="#2ecc71" stroke="#1b2440" stroke-width="3.5"/>
+<text x="375.2" y="473.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🏃</text>
+<text x="397.2" y="472" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Obby / Parkour</text>
+<text x="363.2" y="515.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich schaffe die Strecke“</text>
+<rect x="359.2" y="530.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="363.2" y="553.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="363.2" y="570.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Strecke → Checkpoint → Belohnung</text>
+<text x="363.2" y="605.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="381.2" y="604.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Günstig, schneller Einstieg</text>
+<text x="363.2" y="632.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="381.2" y="631.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Kurze Sessions, niedrige</text>
+<text x="381.2" y="650.38" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Retention</text>
+<rect x="654.4" y="438" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#ff4d5e" stroke-width="4" filter="url(#schatten)"/>
+<rect x="654.4" y="438" width="291.2" height="52" rx="20" fill="#ff4d5e" stroke="#1b2440" stroke-width="3.5"/>
+<text x="682.4" y="473.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🕵️</text>
+<text x="704.4" y="472" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Social Deduction</text>
+<text x="670.4" y="515.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich durchschaue die</text>
+<text x="670.4" y="535.96" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">anderen“</text>
+<rect x="666.4" y="550.92" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="670.4" y="573.92" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="670.4" y="591.42" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Runden mit Rollen</text>
+<text x="670.4" y="626.06" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="688.4" y="624.56" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Natürliche Wiederholung,</text>
+<text x="688.4" y="643.7" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Streamer</text>
+<text x="670.4" y="672.34" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="688.4" y="670.84" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Braucht viele Spieler</text>
+<rect x="961.6" y="438" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#d4730a" stroke-width="4" filter="url(#schatten)"/>
+<rect x="961.6" y="438" width="291.2" height="52" rx="20" fill="#d4730a" stroke="#1b2440" stroke-width="3.5"/>
+<text x="989.6" y="473.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🏰</text>
+<text x="1011.6" y="472" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="18" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Tower Defense</text>
+<text x="977.6" y="515.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich plane die</text>
+<text x="977.6" y="535.96" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">Verteidigung“</text>
+<rect x="973.6" y="550.92" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="977.6" y="573.92" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="977.6" y="591.42" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Wellen → Upgrades → Boss</text>
+<text x="977.6" y="626.06" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="995.6" y="624.56" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Strategische Tiefe, Sammel-Meta</text>
+<text x="977.6" y="653.2" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="995.6" y="651.7" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Balancing, Content</text>
+<rect x="1268.8" y="438" width="291.2" height="300" rx="22" fill="#ffffff" stroke="#6f7a90" stroke-width="4" filter="url(#schatten)"/>
+<rect x="1268.8" y="438" width="291.2" height="52" rx="20" fill="#6f7a90" stroke="#1b2440" stroke-width="3.5"/>
+<text x="1296.8" y="473.36" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="26" text-anchor="middle">🎯</text>
+<text x="1318.8" y="472" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="700" text-anchor="start" stroke="#1b2440" stroke-width="4" paint-order="stroke" stroke-linejoin="round">Shooter / Waffen</text>
+<text x="1284.8" y="515.5" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15.5" font-weight="700" text-anchor="start">„Ich gewinne den Kampf“</text>
+<rect x="1280.8" y="530.46" width="267.2" height="2" rx="1" fill="#e3e8f3"/>
+<text x="1284.8" y="553.46" fill="#6b7694" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="start">Loop</text>
+<text x="1284.8" y="570.96" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Runde → Level → Loadout</text>
+<text x="1284.8" y="605.6" fill="#1e9e55" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">+</text>
+<text x="1302.8" y="604.1" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Hohes Skill-Ceiling</text>
+<text x="1284.8" y="632.74" fill="#c9303f" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="start">–</text>
+<text x="1302.8" y="631.24" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14.5" font-weight="400" text-anchor="start">Hohe Qualitätsanforderung</text>
+<rect x="40" y="754" width="1520" height="82" rx="18" fill="#fff8dc" stroke="#d99a0b" stroke-width="3"/>
+<text x="62" y="788" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="19" font-weight="700" text-anchor="start">Hits sind oft Mischungen:</text>
+<rect x="330" y="766" width="395.3" height="34" rx="17" fill="#ffffff" stroke="#d99a0b" stroke-width="2"/>
+<text x="527.65" y="789" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Farming + Meme-Ästhetik + Tower Defense</text>
+<rect x="737.3" y="766" width="353.47" height="34" rx="17" fill="#ffffff" stroke="#d99a0b" stroke-width="2"/>
+<text x="914.03" y="789" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Sammeln + Stehlen (Besitz mit Risiko)</text>
+<rect x="1102.77" y="766" width="240.89" height="34" rx="17" fill="#ffffff" stroke="#d99a0b" stroke-width="2"/>
+<text x="1223.21" y="789" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Survival + Horror + Koop</text>
+<text x="62" y="828" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="16" font-weight="400" text-anchor="start">Auswahl-Hilfe: Team-Kapazität, Content-Pipeline, Monetarisierungs-Fit, Streamer-Tauglichkeit, Sättigung prüfen.</text>
+</svg>

@@ -5,6 +5,12 @@
 ## Kurzfassung
 Progression ist der Eindruck, dass der Spieler ständig besser, stärker oder reicher wird. Gute Progression hat **kurze Sprünge (Minuten)**, **mittlere Ziele (Tage)** und **ein Langzeit-System (Rebirth/Prestige/Saison)**. Sie muss sich **verdient** anfühlen, aber nicht zäh.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Progression: Wand und Rebirth](../assets/bilder/progression-kurve-rebirth.png)
+![Sammelbuch mit Meilensteinen](../assets/bilder/ui-sammelbuch.png)
+
 ## Progression-Typen
 | Typ | Beispiel | Wirkung |
 |---|---|---|

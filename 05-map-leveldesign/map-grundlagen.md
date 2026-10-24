@@ -5,6 +5,13 @@
 ## Kurzfassung
 Eine gute Roblox-Map **führt den Spieler ohne Text**, zeigt **sofort, wo es Aktion gibt**, hat **klare Zonen** mit steigendem Reiz und läuft **flüssig auf Handys**. Der Spawn ist die wichtigste Fläche der ganzen Map: Hier entscheidet sich D1.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Map-Zonen-Layout](../assets/bilder/map-zonen-layout.png)
+![Wegführung ohne Text](../assets/bilder/map-wegfuehrung.png)
+![Spawn und Hub](../assets/bilder/map-spawn-hub.png)
+
 ## Prinzipien
 1. **Lesbarkeit:** Auf einen Blick erkennbar, was begehbar, interaktiv, gefährlich ist.
 2. **Führung:** Licht, Farbe, Linien, Wege, Höhe lenken den Blick und die Schritte.

@@ -5,6 +5,12 @@
 ## Kurzfassung
 Der Großteil der Roblox-Spieler nutzt Handy oder Tablet (🧠; aktuelle Quote bei Update aus Roblox-Quellen prüfen). Teste **zuerst auf dem Handy**: Safe Area, Daumen-Reichweite, Bildschirmgrößen, Performance.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![HUD-Layout Mobile](../assets/bilder/ui-hud-layout-mobile.png)
+![Touch-Größen](../assets/bilder/ui-touch-groessen.png)
+
 ## Safe Area und Insets ✅
 - `ScreenGui.ScreenInsets` bestimmt, wie weit UI vom Bildschirmrand (Notch, Top-Bar, Roblox-UI) entfernt bleibt.
 - **Standard `CoreUISafeInsets`:** hält UI frei von Roblox-UI und Gerätesperrungen. Sicher, nutzt aber weniger Platz.

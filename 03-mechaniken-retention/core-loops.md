@@ -5,6 +5,12 @@
 ## Kurzfassung
 Der Core Loop ist die kleinste Handlungsschleife, die der Spieler ständig wiederholt: **Aktion → Belohnung → Verbesserung → neue (bessere) Aktion**. Ein Roblox-Spiel steht und fällt damit, ob dieser Loop in den ersten 10 Sekunden verständlich, in den ersten 5 Minuten befriedigend und nach 30 Minuten noch frisch ist.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Core Loop und Zeitebenen](../assets/bilder/core-loop-diagramm.png)
+![Loop-Muster](../assets/bilder/loop-muster-uebersicht.png)
+
 ## Anatomie eines Loops
 1. **Aktion:** Was tut der Spieler? (klicken, pflanzen, kämpfen, bauen, laufen)
 2. **Feedback:** Sofortige Reaktion (Ton, Partikel, Zahl, Animation) → siehe `04-ui-ux/` und `06-sound-audio/`.

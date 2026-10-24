@@ -5,6 +5,26 @@
 ## Kurzfassung
 Sound macht Aktionen **befriedigend** (Feedback), gibt Zonen **Stimmung** und lenkt **Aufmerksamkeit**. Auf Roblox ist Ton ein günstiger Hebel: Ein gutes „Ding!" bei jeder Belohnung verbessert das Spielgefühl mehr als viele Grafik-Updates. Aber: Lautstärke, Wiederholung und Mobile-Performance beachten.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Audio-Mix-Prioritäten und SoundGroups](../assets/bilder/audio-mix-prioritaeten.png)
+![Wellenformen der Referenz-Sounds](../assets/audio/audio-wellenformen.png)
+
+## Referenz-Sounds
+Selbst synthetisierte Beispiel-Sounds (frei nutzbar, auch zum Hochladen in eigene Spiele; Roblox-Upload-Regeln beachten). Beschreibung nach Hör-Raster und empfohlene SoundGroup/Lautstärke: `assets/audio/README.md`. Jede Datei gibt es als `.ogg` und `.wav`.
+
+| Rolle | Sounds |
+|---|---|
+| Feedback/Belohnung | [muenze-pling](../assets/audio/muenze-pling.ogg) · [Variante 1](../assets/audio/muenze-pling-variante-1.ogg) · [Variante 2](../assets/audio/muenze-pling-variante-2.ogg) · [Variante 3](../assets/audio/muenze-pling-variante-3.ogg) · [pling-leiter](../assets/audio/pling-leiter.ogg) · [kauf-erfolg](../assets/audio/kauf-erfolg.ogg) · [checkpoint](../assets/audio/checkpoint.ogg) |
+| Belohnungs-Fanfare | [level-up-fanfare](../assets/audio/level-up-fanfare.ogg) · [seltener-drop-mythic](../assets/audio/seltener-drop-mythic.ogg) (Stille vor dem Impact) |
+| UI-Sounds | [ui-klick](../assets/audio/ui-klick.ogg) · [ui-oeffnen](../assets/audio/ui-oeffnen.ogg) · [ui-schliessen](../assets/audio/ui-schliessen.ogg) · [ui-fehler](../assets/audio/ui-fehler.ogg) · [pop-klein](../assets/audio/pop-klein.ogg) · [countdown-tick](../assets/audio/countdown-tick.ogg) |
+| Kampf/Bewegung | [whoosh-impact](../assets/audio/whoosh-impact.ogg) · [treffer-schwer](../assets/audio/treffer-schwer.ogg) · [sprung](../assets/audio/sprung.ogg) |
+| Farming/Cozy | [ernte-weich](../assets/audio/ernte-weich.ogg) · [wachstum-sparkle](../assets/audio/wachstum-sparkle.ogg) |
+| Warnsignale | [nacht-beginnt-warnung](../assets/audio/nacht-beginnt-warnung.ogg) · [alarm-diebstahl](../assets/audio/alarm-diebstahl.ogg) |
+| Musik (Loop) | [lofi-loop-menue](../assets/audio/lofi-loop-menue.ogg) (12 s, nahtlos) |
+| Ambiente (Loop) | [horror-drone-loop](../assets/audio/horror-drone-loop.ogg) · [ambiente-wind-loop](../assets/audio/ambiente-wind-loop.ogg) · [ambiente-wasser-loop](../assets/audio/ambiente-wasser-loop.ogg) |
+
 ## Technische Grundlagen (Roblox) ✅
 - **`Sound`-Objekt:** spielt eine Audiodatei ab. Der Ort bestimmt Ausgabe und Lautstärkeverlauf.
   - In **`SoundService`** oder direkt im Client: globaler Sound (Musik, UI) ohne Raumposition. Offizielle Doku nennt `SoundService` für Musik/Soundtracks aus mehreren Dateien.

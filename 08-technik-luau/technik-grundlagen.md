@@ -5,6 +5,11 @@
 ## Kurzfassung
 Roblox-Spiele sind **Client-Server**: Der Server ist die Wahrheit, der Client ist nicht vertrauenswürdig. Alles, was Wert hat (Währung, Items, Käufe, Fortschritt), wird **serverseitig** berechnet und gespeichert. Der Client zeigt nur an und sendet Wünsche.
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Client-Server-Architektur](../assets/bilder/client-server-architektur.png)
+
 ## Architektur
 - **Server (Script in ServerScriptService):** Spiellogik, Ökonomie, Speichern, Validierung.
 - **Client (LocalScript):** UI, Eingabe, visuelle Effekte.

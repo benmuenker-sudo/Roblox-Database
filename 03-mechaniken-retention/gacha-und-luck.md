@@ -5,6 +5,12 @@
 ## Kurzfassung
 Zufallsbelohnungen (Eier, Kisten, Mutationen, Drops) erzeugen Spannung und Geschichten. Sie sind auf Roblox weit verbreitet, aber sensibel: Das Publikum ist jung. Baue Zufall **transparent, fair und nie als Zwang**, und prüfe die aktuellen Roblox-Regeln (insbesondere zur Offenlegung von Wahrscheinlichkeiten bei bezahltem Zufall).
 
+## Referenzbilder
+Selbst erstellte, beschriftete Referenzbilder (frei nutzbar, Übersicht: `assets/bilder/README.md`).
+
+![Gacha: Wahrscheinlichkeiten und Pity](../assets/bilder/gacha-wahrscheinlichkeiten-pity.png)
+![Seltenheitsrahmen](../assets/bilder/ui-inventar-seltenheit.png)
+
 ## Wie Roblox-Spiele Zufall aufbauen
 Beispiel *Ride a Pet* (Guide, 🟠): 22 Eier in 7 Seltenheitsstufen; vom einfachen Ei mit 1× Luck bis zu extremen Stufen (Billionen-Luck im Guide); Luck wird durch Pets, Mutationen und Rebirths gestapelt; Mutations-Multiplikatoren von 2× bis 100×.
 Beispiel *Adopt Me* (Guide, 🟠): Seltenheit wird beim Schlüpfen zufällig bestimmt; Gamepasses können die Chancen erhöhen.
