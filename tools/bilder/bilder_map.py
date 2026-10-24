@@ -411,6 +411,9 @@ def liveops_kalender(out):
            stroke=GREEN_D, sw=3, dash="8 6")
     tag(s, pts[-1][0] - 4, base_y - 0.51 * (gh - 60) + 10, "Basis (Meta-Systeme)", GREEN_D, 12, anchor="end")
     s.line(pts[0][0], base_y, pts[-1][0], base_y, stroke=INK, sw=2)
+    for k in range(8):
+        wx = pts[0][0] + (pts[-1][0] - pts[0][0]) * (k + 0.5) / 8
+        s.text(wx, base_y + 18, "W%d" % (k + 1), 12, MUTED, anchor="middle")
     # Regeln
     rx = X + 1020
     s.rect(rx, gy, 500, gh + 50, 22, fill=NOTE, stroke=GOLD_D, sw=3)

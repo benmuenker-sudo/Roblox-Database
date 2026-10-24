@@ -506,7 +506,7 @@ def sammelbuch(out):
         if done:
             s.circle(mx + 20, my + 40, 11, fill=GREEN_D, stroke=WHITE, sw=2)
             s.text(mx + 20, my + 45, "✔", 12, WHITE, anchor="middle")
-    tag(s, x0 + (x1 - x0) * 50 / 120 + 36, my + 20, "nächstes Ziel: 34/50", GOLD_D, 13)
+    tag(s, x0 + (x1 - x0) * 50 / 120, my + 4, "nächstes Ziel: 34/50", GOLD_D, 13, anchor="middle")
     # Erklaerungen
     cx = 1218
     callout(s, cx, 122, 350, "Fortschritt X/Y", "Zahl + Balken oben. Prozent hilft bei großen Büchern.", target=(X + 900, Y + 59),

@@ -157,8 +157,8 @@
 <text x="1070" y="727.08" font-family="'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif" font-size="28" text-anchor="middle">🏆</text>
 <text x="1070" y="774" fill="#1b2440" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="17" font-weight="700" text-anchor="middle">120</text>
 <text x="1070" y="796" fill="#4a5578" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Goldrahmen</text>
-<rect x="639.33" y="676" width="165.81" height="25" rx="12.5" fill="#d99a0b" opacity="0.92"/>
-<text x="722.24" y="693.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">nächstes Ziel: 34/50</text>
+<rect x="520.43" y="660" width="165.81" height="25" rx="12.5" fill="#d99a0b" opacity="0.92"/>
+<text x="603.33" y="677.18" fill="#ffffff" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="13" font-weight="700" text-anchor="middle">nächstes Ziel: 34/50</text>
 <path d="M1218,175.67 Q1081.2,136.58 946,180.88" fill="none" stroke="#2ecc71" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#pfeil2ecc71)"/>
 <circle cx="940" cy="181" r="5" fill="#2ecc71" stroke="#ffffff" stroke-width="2"/>
 <rect x="1218" y="122" width="350" height="100.63" rx="14" fill="#ffffff" stroke="#2ecc71" stroke-width="3" filter="url(#schattenK)"/>
