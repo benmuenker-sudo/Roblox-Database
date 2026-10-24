@@ -12,6 +12,8 @@
 - WAV: 44,1 kHz, 16 Bit, **mono** (mono ist richtig für 3D-Sounds an Parts; für 2D-UI/Musik egal).
 - OGG: Vorbis, Qualität 5 (ca. 100–160 kbit/s).
 - Pegel: Spitze auf ca. **−1 dBFS** normalisiert. Die Lautstärke im Spiel regelst du über `Sound.Volume` und `SoundGroup.Volume`.
+
+> **Hinweis (2026):** Roblox empfiehlt inzwischen das neue Audio-API (`AudioPlayer`, `AudioFader`-Busse, `AudioEmitter`, `Wire`) statt `Sound`/`SoundGroup`. Die Spalte „SoundGroup · Volume“ unten entspricht dort einem `AudioFader`-Bus mit dem gleichen Startwert. Rezepte und Migrationstabelle: `06-sound-audio/audio-api-und-upload.md`.
 - One-Shots: weicher Ein- und Ausklang gegen Knackser, Subbass/Gleichanteil unter 25 Hz entfernt.
 - Loops (`*-loop*`): **nahtlos** (Hall und Ausklang werden auf den Anfang zurückgefaltet). In Roblox `Sound.Looped = true` setzen.
 - Angegebene Dauer = Datei-Länge **inklusive Hall-Ausklang**; der hörbare Kern ist bei Glocken/Fanfaren oft deutlich kürzer.
